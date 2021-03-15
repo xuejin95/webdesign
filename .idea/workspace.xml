@@ -2,78 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1860199f-8a38-4e69-ab8b-c19f733d4628" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_11_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_11_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_11_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_activation_jakarta_activation_api_1_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_xml_bind_jakarta_xml_bind_api_2_3_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_20.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_14.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_13_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_13_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_43.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_43.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_18_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jakarta_el_3_0_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_6_28.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_6_28.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_4_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_4_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_4_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_4_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_4_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_4_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_4_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_4_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_4_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_4_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_4_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_12_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_12_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_27.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/servier/RentContextGet" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rentsummary.iml" beforeDir="false" afterPath="$PROJECT_DIR$/rentsummary.iml" afterDir="false" />
@@ -82,6 +10,15 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="package.json" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -108,25 +45,628 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/templates" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.rentsummary.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Users\jake.sai\rentsummary\src\main\resources\templates" />
+      <recent name="E:\Users\jake.sai\rentsummary\src\main\resources\static" />
+    </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="allhomes.com.au" />
+                <option name="name" value="_ah-live-bucket" />
+                <option name="path" value="/" />
+                <option name="value" value="87" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="allhomes.com.au" />
+                <option name="name" value="_cc" />
+                <option name="path" value="/" />
+                <option name="value" value="CN" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="allhomes.com.au" />
+                <option name="name" value="_eu" />
+                <option name="path" value="/" />
+                <option name="value" value="false" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="realestate.com.au" />
+                <option name="name" value="Country" />
+                <option name="path" value="/" />
+                <option name="value" value="CN" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2177452799000" />
+                <option name="domain" value="realestate.com.au" />
+                <option name="name" value="reauid" />
+                <option name="path" value="/" />
+                <option name="value" value="7e061cb8e7200000f8e44c606b02000032880200" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="www.realestate.com.au" />
+                <option name="name" value="AWSELB" />
+                <option name="path" value="/" />
+                <option name="value" value="E32BC90112C9C0CF56D4194ABA698EBC86B542A11EBB76C2CF6CA3492090D9AFC471C5859721B354ED4597E5AD1484076B115A4A27F33EC203F34E722C3CE30B0F93A511A1" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="www.realestate.com.au" />
+                <option name="name" value="AWSELBCORS" />
+                <option name="path" value="/" />
+                <option name="value" value="E32BC90112C9C0CF56D4194ABA698EBC86B542A11EBB76C2CF6CA3492090D9AFC471C5859721B354ED4597E5AD1484076B115A4A27F33EC203F34E722C3CE30B0F93A511A1" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="www.realestate.com.au" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="9D6EC9B63A9EBE7B38DA0EE8DF252518" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1615655688000" />
+                <option name="domain" value="www.realestate.com.au" />
+                <option name="name" value="_readc" />
+                <option name="path" value="/" />
+                <option name="value" value="ap-southeast-2" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="www.realestate.com.au" />
+                <option name="name" value="_stc" />
+                <option name="path" value="/" />
+                <option name="value" value="typedBookmarked" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="https://zango.com.au" />
+          <option name="urlPath" value="/api/pages/70/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="bedrooms" />
+                <option name="value" value="2-any" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="excludedeposittaken" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="maxBeds" />
+                <option name="value" value="2" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="property_class" />
+                <option name="value" value="rental" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="listing_type" />
+                <option name="value" value="lease" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="surrounding" />
+                <option name="value" value="true" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="bedrooms__gte" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="price__gte" />
+                <option name="value" value="50" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="price__lte" />
+                <option name="value" value="10000" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="order_by" />
+                <option name="value" value="price" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="property_status_groups" />
+                <option name="value" value="current,underOffer,includePrivate" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="bedrooms__lte" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="filters" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="page" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="allhomes.com.au" />
+                <option name="name" value="_ah-live-bucket" />
+                <option name="path" value="/" />
+                <option name="value" value="87" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="allhomes.com.au" />
+                <option name="name" value="_cc" />
+                <option name="path" value="/" />
+                <option name="value" value="CN" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="allhomes.com.au" />
+                <option name="name" value="_eu" />
+                <option name="path" value="/" />
+                <option name="value" value="false" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="realestate.com.au" />
+                <option name="name" value="Country" />
+                <option name="path" value="/" />
+                <option name="value" value="CN" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2177452799000" />
+                <option name="domain" value="realestate.com.au" />
+                <option name="name" value="reauid" />
+                <option name="path" value="/" />
+                <option name="value" value="7e061cb8e720000058e44c6064020000ee860200" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="https://www.realestate.com.au" />
+          <option name="urlPath" value="/rent/with-1-bedroom-between-0-5000" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="bedrooms" />
+                <option name="value" value="2-any" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="excludedeposittaken" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="maxBeds" />
+                <option name="value" value="2" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="allhomes.com.au" />
+                <option name="name" value="_ah-live-bucket" />
+                <option name="path" value="/" />
+                <option name="value" value="87" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="allhomes.com.au" />
+                <option name="name" value="_cc" />
+                <option name="path" value="/" />
+                <option name="value" value="CN" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="allhomes.com.au" />
+                <option name="name" value="_eu" />
+                <option name="path" value="/" />
+                <option name="value" value="false" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="realestate.com.au" />
+                <option name="name" value="Country" />
+                <option name="path" value="/" />
+                <option name="value" value="CN" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2177452799000" />
+                <option name="domain" value="realestate.com.au" />
+                <option name="name" value="reauid" />
+                <option name="path" value="/" />
+                <option name="value" value="7e061cb8e72000001ce44c60780300009a860200" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="https://www.realestate.com.au" />
+          <option name="urlPath" value="/rent/with-1-bedroom-between-0-5000/list-1" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="bedrooms" />
+                <option name="value" value="2-any" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="excludedeposittaken" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="maxBeds" />
+                <option name="value" value="2" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="allhomes.com.au" />
+                <option name="name" value="_ah-live-bucket" />
+                <option name="path" value="/" />
+                <option name="value" value="87" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="allhomes.com.au" />
+                <option name="name" value="_cc" />
+                <option name="path" value="/" />
+                <option name="value" value="CN" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="allhomes.com.au" />
+                <option name="name" value="_eu" />
+                <option name="path" value="/" />
+                <option name="value" value="false" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="https://www.realestate.com.au" />
+          <option name="urlPath" value="/rent/with-1-bedroom-between-0-5000/list-1" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="bedrooms" />
+                <option name="value" value="2-any" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="excludedeposittaken" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="maxBeds" />
+                <option name="value" value="2" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="allhomes.com.au" />
+                <option name="name" value="_ah-live-bucket" />
+                <option name="path" value="/" />
+                <option name="value" value="87" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="allhomes.com.au" />
+                <option name="name" value="_cc" />
+                <option name="path" value="/" />
+                <option name="value" value="CN" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="allhomes.com.au" />
+                <option name="name" value="_eu" />
+                <option name="path" value="/" />
+                <option name="value" value="false" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="https://www.domain.com.au" />
+          <option name="urlPath" value="/rent/indented-head-vic-3223/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="bedrooms" />
+                <option name="value" value="2-any" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="excludedeposittaken" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="allhomes.com.au" />
+                <option name="name" value="_ah-live-bucket" />
+                <option name="path" value="/" />
+                <option name="value" value="87" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="allhomes.com.au" />
+                <option name="name" value="_cc" />
+                <option name="path" value="/" />
+                <option name="value" value="CN" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="allhomes.com.au" />
+                <option name="name" value="_eu" />
+                <option name="path" value="/" />
+                <option name="value" value="false" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://www.allhomes.com.au" />
+          <option name="urlPath" value="/wsvc/search/rent-residential" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&quot;page&quot;:1,&quot;pageSize&quot;:50,&quot;sort&quot;:{&quot;criteria&quot;:&quot;PRICE&quot;,&quot;order&quot;:&quot;ASC&quot;},&quot;filters&quot;:{&quot;localities&quot;:[{&quot;type&quot;:&quot;REGION&quot;,&quot;slug&quot;:&quot;canberra-act&quot;},{&quot;type&quot;:&quot;DISTRICT&quot;,&quot;slug&quot;:&quot;greater-queanbeyan-queanbeyan-region-nsw&quot;}],&quot;beds&quot;:{&quot;min&quot;:4,&quot;max&quot;:4}},&quot;results&quot;:{&quot;type&quot;:&quot;LIST&quot;}}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="allhomes.com.au" />
+                <option name="name" value="_ah-live-bucket" />
+                <option name="path" value="/" />
+                <option name="value" value="47" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="allhomes.com.au" />
+                <option name="name" value="_cc" />
+                <option name="path" value="/" />
+                <option name="value" value="CN" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="allhomes.com.au" />
+                <option name="name" value="_eu" />
+                <option name="path" value="/" />
+                <option name="value" value="false" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://www.allhomes.com.au" />
+          <option name="urlPath" value="/wsvc/search/rent-residential" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{'page':1,'pageSize':50,'sort':{'criteria':'PRICE','order':'ASC'},'filters':{'localities':[{'type':'REGION','slug':'canberra-act'},{'type':'DISTRICT','slug':'greater-queanbeyan-queanbeyan-region-nsw'}],'beds':{'min':1,'max':1}},'results':{'type':'LIST'}}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="https://www.allhomes.com.au" />
+          <option name="urlPath" value="/wsvc/search/rent-residential" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.RentsummaryApplication">
+    <configuration name="RentContextGet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.servier.RentContextGet" />
+      <module name="rentsummary" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.servier.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RentContextGet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.rentsummary.server.RentContextGet" />
+      <module name="rentsummary" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.rentsummary.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RentsummaryApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rentsummary" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.rentsummary.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.rentsummary" />
+      <option name="MAIN_CLASS_NAME" value="com.example.rentsummary.RentsummaryApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RentsummaryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="rentsummary" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.rentsummary.RentsummaryApplication" />
@@ -134,6 +674,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.RentContextGet" />
+        <item itemvalue="JUnit.RentsummaryApplicationTests.contextLoads" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -157,7 +703,14 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1615477139653</updated>
-      <workItem from="1615477143654" duration="3646000" />
+      <workItem from="1615477143654" duration="3758000" />
+      <workItem from="1615545973960" duration="1781000" />
+      <workItem from="1615629067986" duration="2798000" />
+      <workItem from="1615631895646" duration="3373000" />
+      <workItem from="1615639118187" duration="11322000" />
+      <workItem from="1615690565348" duration="7554000" />
+      <workItem from="1615772990975" duration="1420000" />
+      <workItem from="1615774437641" duration="1408000" />
     </task>
     <task id="LOCAL-00001" summary="testbyxuejin20210311">
       <created>1615477847855</created>
@@ -166,49 +719,145 @@
       <option name="project" value="LOCAL" />
       <updated>1615477847855</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="testbyxuejin20210312">
+      <created>1615480841494</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1615480841494</updated>
+    </task>
+    <task id="LOCAL-00003" summary="testbyxuejin20210312">
+      <created>1615775846410</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1615775846410</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="testbyxuejin20210311" />
-    <option name="LAST_COMMIT_MESSAGE" value="testbyxuejin20210311" />
+    <MESSAGE value="testbyxuejin20210312" />
+    <option name="LAST_COMMIT_MESSAGE" value="testbyxuejin20210312" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="233" y="4" key="#Servers" timestamp="1615775089777">
+      <screen x="0" y="0" width="1280" height="690" />
+    </state>
+    <state x="233" y="4" key="#Servers/0.0.1280.690@0.0.1280.690" timestamp="1615775089777" />
     <state x="343" y="135" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1615479104076">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
     <state x="343" y="135" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.690@0.0.1280.690" timestamp="1615479104076" />
-    <state x="270" y="0" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1615479144673">
+    <state x="270" y="0" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1615639289071">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state x="270" y="0" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1280.690@0.0.1280.690" timestamp="1615479144673" />
+    <state x="270" y="0" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1280.690@0.0.1280.690" timestamp="1615639289071" />
     <state x="391" y="42" key="#com.intellij.ide.util.MemberChooser" timestamp="1615479272496">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
     <state x="391" y="42" key="#com.intellij.ide.util.MemberChooser/0.0.1280.690@0.0.1280.690" timestamp="1615479272496" />
-    <state x="245" y="0" key="CommitChangelistDialog2" timestamp="1615477846399">
+    <state x="371" y="92" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1615640295774">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state x="245" y="0" key="CommitChangelistDialog2/0.0.1280.690@0.0.1280.690" timestamp="1615477846399" />
-    <state x="422" y="102" key="FileChooserDialogImpl" timestamp="1615478367561">
+    <state x="371" y="92" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.690@0.0.1280.690" timestamp="1615640295774" />
+    <state x="381" y="208" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1615632928601">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state x="422" y="102" key="FileChooserDialogImpl/0.0.1280.690@0.0.1280.690" timestamp="1615478367561" />
-    <state x="171" y="0" key="Maven.ArtifactSearchDialog" timestamp="1615478480831">
+    <state x="381" y="208" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.690@0.0.1280.690" timestamp="1615632928601" />
+    <state x="245" y="0" key="CommitChangelistDialog2" timestamp="1615775845092">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state x="171" y="0" key="Maven.ArtifactSearchDialog/0.0.1280.690@0.0.1280.690" timestamp="1615478480831" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1615479846181">
+    <state x="245" y="0" key="CommitChangelistDialog2/0.0.1280.690@0.0.1280.690" timestamp="1615775845092" />
+    <state width="433" height="618" key="DebuggerActiveHint" timestamp="1615631559745">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.690@0.0.1280.690" timestamp="1615479846181" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1615480627541">
+    <state width="433" height="618" key="DebuggerActiveHint/0.0.1280.690@0.0.1280.690" timestamp="1615631559745" />
+    <state x="93" y="93" width="1093" height="503" key="DiffContextDialog" timestamp="1615775931510">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.690@0.0.1280.690" timestamp="1615480627541" />
+    <state x="93" y="93" width="1093" height="503" key="DiffContextDialog/0.0.1280.690@0.0.1280.690" timestamp="1615775931510" />
+    <state x="422" y="102" key="FileChooserDialogImpl" timestamp="1615633400531">
+      <screen x="0" y="0" width="1280" height="690" />
+    </state>
+    <state x="422" y="102" key="FileChooserDialogImpl/0.0.1280.690@0.0.1280.690" timestamp="1615633400531" />
+    <state width="1238" height="302" key="GridCell.Tab.0.bottom" timestamp="1615773425330">
+      <screen x="0" y="0" width="1280" height="690" />
+    </state>
+    <state width="1238" height="302" key="GridCell.Tab.0.bottom/0.0.1280.690@0.0.1280.690" timestamp="1615773425330" />
+    <state width="1238" height="302" key="GridCell.Tab.0.center" timestamp="1615773425330">
+      <screen x="0" y="0" width="1280" height="690" />
+    </state>
+    <state width="1238" height="302" key="GridCell.Tab.0.center/0.0.1280.690@0.0.1280.690" timestamp="1615773425330" />
+    <state width="1238" height="302" key="GridCell.Tab.0.left" timestamp="1615773425330">
+      <screen x="0" y="0" width="1280" height="690" />
+    </state>
+    <state width="1238" height="302" key="GridCell.Tab.0.left/0.0.1280.690@0.0.1280.690" timestamp="1615773425330" />
+    <state width="1238" height="302" key="GridCell.Tab.0.right" timestamp="1615773425330">
+      <screen x="0" y="0" width="1280" height="690" />
+    </state>
+    <state width="1238" height="302" key="GridCell.Tab.0.right/0.0.1280.690@0.0.1280.690" timestamp="1615773425330" />
+    <state width="1238" height="302" key="GridCell.Tab.1.bottom" timestamp="1615773425331">
+      <screen x="0" y="0" width="1280" height="690" />
+    </state>
+    <state width="1238" height="302" key="GridCell.Tab.1.bottom/0.0.1280.690@0.0.1280.690" timestamp="1615773425331" />
+    <state width="1238" height="302" key="GridCell.Tab.1.center" timestamp="1615773425331">
+      <screen x="0" y="0" width="1280" height="690" />
+    </state>
+    <state width="1238" height="302" key="GridCell.Tab.1.center/0.0.1280.690@0.0.1280.690" timestamp="1615773425331" />
+    <state width="1238" height="302" key="GridCell.Tab.1.left" timestamp="1615773425331">
+      <screen x="0" y="0" width="1280" height="690" />
+    </state>
+    <state width="1238" height="302" key="GridCell.Tab.1.left/0.0.1280.690@0.0.1280.690" timestamp="1615773425331" />
+    <state width="1238" height="302" key="GridCell.Tab.1.right" timestamp="1615773425331">
+      <screen x="0" y="0" width="1280" height="690" />
+    </state>
+    <state width="1238" height="302" key="GridCell.Tab.1.right/0.0.1280.690@0.0.1280.690" timestamp="1615773425331" />
+    <state width="1238" height="258" key="GridCell.Tab.2.bottom" timestamp="1615650837590">
+      <screen x="0" y="0" width="1280" height="690" />
+    </state>
+    <state width="1238" height="258" key="GridCell.Tab.2.bottom/0.0.1280.690@0.0.1280.690" timestamp="1615650837590" />
+    <state width="1238" height="258" key="GridCell.Tab.2.center" timestamp="1615650837590">
+      <screen x="0" y="0" width="1280" height="690" />
+    </state>
+    <state width="1238" height="258" key="GridCell.Tab.2.center/0.0.1280.690@0.0.1280.690" timestamp="1615650837590" />
+    <state width="1238" height="258" key="GridCell.Tab.2.left" timestamp="1615650837590">
+      <screen x="0" y="0" width="1280" height="690" />
+    </state>
+    <state width="1238" height="258" key="GridCell.Tab.2.left/0.0.1280.690@0.0.1280.690" timestamp="1615650837590" />
+    <state width="1238" height="258" key="GridCell.Tab.2.right" timestamp="1615650837590">
+      <screen x="0" y="0" width="1280" height="690" />
+    </state>
+    <state width="1238" height="258" key="GridCell.Tab.2.right/0.0.1280.690@0.0.1280.690" timestamp="1615650837590" />
+    <state x="171" y="0" key="Maven.ArtifactSearchDialog" timestamp="1615649550562">
+      <screen x="0" y="0" width="1280" height="690" />
+    </state>
+    <state x="171" y="0" key="Maven.ArtifactSearchDialog/0.0.1280.690@0.0.1280.690" timestamp="1615649550562" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1615775287467">
+      <screen x="0" y="0" width="1280" height="690" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.690@0.0.1280.690" timestamp="1615775287467" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1615775941884">
+      <screen x="0" y="0" width="1280" height="690" />
+    </state>
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.690@0.0.1280.690" timestamp="1615775941884" />
     <state x="360" y="235" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1615478362012">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
@@ -221,9 +870,35 @@
       <screen x="0" y="0" width="1280" height="690" />
     </state>
     <state x="412" y="36" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.690@0.0.1280.690" timestamp="1615479265317" />
+    <state x="192" y="0" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1615645603882">
+      <screen x="0" y="0" width="1280" height="690" />
+    </state>
+    <state x="192" y="0" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1280.690@0.0.1280.690" timestamp="1615645603882" />
     <state x="355" y="118" key="git4idea.merge.GitPullDialog" timestamp="1615480560769">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
     <state x="355" y="118" key="git4idea.merge.GitPullDialog/0.0.1280.690@0.0.1280.690" timestamp="1615480560769" />
+    <state x="299" y="155" key="run.anything.popup" timestamp="1615774129991">
+      <screen x="0" y="0" width="1280" height="690" />
+    </state>
+    <state x="299" y="155" key="run.anything.popup/0.0.1280.690@0.0.1280.690" timestamp="1615774129991" />
+    <state x="303" y="12" width="672" height="678" key="search.everywhere.popup" timestamp="1615713446974">
+      <screen x="0" y="0" width="1280" height="690" />
+    </state>
+    <state x="303" y="12" width="672" height="678" key="search.everywhere.popup/0.0.1280.690@0.0.1280.690" timestamp="1615713446974" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/rentsummary/server/RentContextGet.java</url>
+          <line>156</line>
+          <properties class="com.example.rentsummary.RentContextGet" method="getRentFromzango">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
