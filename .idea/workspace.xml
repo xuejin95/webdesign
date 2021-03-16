@@ -3,8 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="1860199f-8a38-4e69-ab8b-c19f733d4628" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rentsummary.iml" beforeDir="false" afterPath="$PROJECT_DIR$/rentsummary.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/rentsummary/controller/RentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/rentsummary/controller/RentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/rentsummary/model/AllHomesEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/rentsummary/model/AllHomesEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/rentsummary/server/RentContextGet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/rentsummary/server/RentContextGet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/domain.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/domain.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/realestate.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/realestate.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/rentsummary.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/rentsummary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/test.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="package.json" />
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -27,6 +33,9 @@
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="dummy://restClient/response21.json" root0="SKIP_INSPECTION" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -82,6 +91,1290 @@
   <component name="RestClientSettings">
     <option name="REQUEST_HISTORY">
       <list>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="allhomes.com.au" />
+                <option name="name" value="_ah-live-bucket" />
+                <option name="path" value="/" />
+                <option name="value" value="87" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="allhomes.com.au" />
+                <option name="name" value="_cc" />
+                <option name="path" value="/" />
+                <option name="value" value="CN" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="allhomes.com.au" />
+                <option name="name" value="_eu" />
+                <option name="path" value="/" />
+                <option name="value" value="false" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="realestate.com.au" />
+                <option name="name" value="Country" />
+                <option name="path" value="/" />
+                <option name="value" value="CN" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2177452799000" />
+                <option name="domain" value="realestate.com.au" />
+                <option name="name" value="reauid" />
+                <option name="path" value="/" />
+                <option name="value" value="43010f1773630000f4a54f607302000009090100" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="www.realestate.com.au" />
+                <option name="name" value="AWSELB" />
+                <option name="path" value="/" />
+                <option name="value" value="E32BC90112C9C0CF56D4194ABA698EBC86B542A11EBB76C2CF6CA3492090D9AFC471C5859721B354ED4597E5AD1484076B115A4A27F33EC203F34E722C3CE30B0F93A511A1" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="www.realestate.com.au" />
+                <option name="name" value="AWSELBCORS" />
+                <option name="path" value="/" />
+                <option name="value" value="E32BC90112C9C0CF56D4194ABA698EBC86B542A11EBB76C2CF6CA3492090D9AFC471C5859721B354ED4597E5AD1484076B115A4A27F33EC203F34E722C3CE30B0F93A511A1" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="www.realestate.com.au" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="9D6EC9B63A9EBE7B38DA0EE8DF252518" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1615655688000" />
+                <option name="domain" value="www.realestate.com.au" />
+                <option name="name" value="_readc" />
+                <option name="path" value="/" />
+                <option name="value" value="ap-southeast-2" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="www.realestate.com.au" />
+                <option name="name" value="_stc" />
+                <option name="path" value="/" />
+                <option name="value" value="typedBookmarked" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1618424859000" />
+                <option name="domain" value="zango.com.au" />
+                <option name="name" value="__cfduid" />
+                <option name="path" value="/" />
+                <option name="value" value="da9321d38bdc5eace1ea6dd8122fa50af1615832859" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="https://zango.com.au" />
+          <option name="urlPath" value="/api/pages/70/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="property_class" />
+                <option name="value" value="rental" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="listing_type" />
+                <option name="value" value="lease" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="surrounding" />
+                <option name="value" value="true" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="bedrooms__gte" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="price__gte" />
+                <option name="value" value="50" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="price__lte" />
+                <option name="value" value="10000" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="order_by" />
+                <option name="value" value="price" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="property_status_groups" />
+                <option name="value" value="current,underOffer,includePrivate" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="bedrooms__lte" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="filters" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="page" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="allhomes.com.au" />
+                <option name="name" value="_ah-live-bucket" />
+                <option name="path" value="/" />
+                <option name="value" value="87" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="allhomes.com.au" />
+                <option name="name" value="_cc" />
+                <option name="path" value="/" />
+                <option name="value" value="CN" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="allhomes.com.au" />
+                <option name="name" value="_eu" />
+                <option name="path" value="/" />
+                <option name="value" value="false" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="realestate.com.au" />
+                <option name="name" value="Country" />
+                <option name="path" value="/" />
+                <option name="value" value="CN" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2177452799000" />
+                <option name="domain" value="realestate.com.au" />
+                <option name="name" value="reauid" />
+                <option name="path" value="/" />
+                <option name="value" value="43010f1773630000f4a54f607302000009090100" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="www.realestate.com.au" />
+                <option name="name" value="AWSELB" />
+                <option name="path" value="/" />
+                <option name="value" value="E32BC90112C9C0CF56D4194ABA698EBC86B542A11EBB76C2CF6CA3492090D9AFC471C5859721B354ED4597E5AD1484076B115A4A27F33EC203F34E722C3CE30B0F93A511A1" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="www.realestate.com.au" />
+                <option name="name" value="AWSELBCORS" />
+                <option name="path" value="/" />
+                <option name="value" value="E32BC90112C9C0CF56D4194ABA698EBC86B542A11EBB76C2CF6CA3492090D9AFC471C5859721B354ED4597E5AD1484076B115A4A27F33EC203F34E722C3CE30B0F93A511A1" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="www.realestate.com.au" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="9D6EC9B63A9EBE7B38DA0EE8DF252518" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1615655688000" />
+                <option name="domain" value="www.realestate.com.au" />
+                <option name="name" value="_readc" />
+                <option name="path" value="/" />
+                <option name="value" value="ap-southeast-2" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="www.realestate.com.au" />
+                <option name="name" value="_stc" />
+                <option name="path" value="/" />
+                <option name="value" value="typedBookmarked" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="https://zango.com.au" />
+          <option name="urlPath" value="/api/pages/70/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="property_class" />
+                <option name="value" value="rental" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="listing_type" />
+                <option name="value" value="lease" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="surrounding" />
+                <option name="value" value="true" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="bedrooms__gte" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="price__gte" />
+                <option name="value" value="50" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="price__lte" />
+                <option name="value" value="10000" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="order_by" />
+                <option name="value" value="price" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="property_status_groups" />
+                <option name="value" value="current,underOffer,includePrivate" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="bedrooms__lte" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="filters" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="page" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="allhomes.com.au" />
+                <option name="name" value="_ah-live-bucket" />
+                <option name="path" value="/" />
+                <option name="value" value="87" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="allhomes.com.au" />
+                <option name="name" value="_cc" />
+                <option name="path" value="/" />
+                <option name="value" value="CN" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="allhomes.com.au" />
+                <option name="name" value="_eu" />
+                <option name="path" value="/" />
+                <option name="value" value="false" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="realestate.com.au" />
+                <option name="name" value="Country" />
+                <option name="path" value="/" />
+                <option name="value" value="CN" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2177452799000" />
+                <option name="domain" value="realestate.com.au" />
+                <option name="name" value="reauid" />
+                <option name="path" value="/" />
+                <option name="value" value="43010f17736300009fa54f6094010000ee080100" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="www.realestate.com.au" />
+                <option name="name" value="AWSELB" />
+                <option name="path" value="/" />
+                <option name="value" value="E32BC90112C9C0CF56D4194ABA698EBC86B542A11EBB76C2CF6CA3492090D9AFC471C5859721B354ED4597E5AD1484076B115A4A27F33EC203F34E722C3CE30B0F93A511A1" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="www.realestate.com.au" />
+                <option name="name" value="AWSELBCORS" />
+                <option name="path" value="/" />
+                <option name="value" value="E32BC90112C9C0CF56D4194ABA698EBC86B542A11EBB76C2CF6CA3492090D9AFC471C5859721B354ED4597E5AD1484076B115A4A27F33EC203F34E722C3CE30B0F93A511A1" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="www.realestate.com.au" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="9D6EC9B63A9EBE7B38DA0EE8DF252518" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1615655688000" />
+                <option name="domain" value="www.realestate.com.au" />
+                <option name="name" value="_readc" />
+                <option name="path" value="/" />
+                <option name="value" value="ap-southeast-2" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="www.realestate.com.au" />
+                <option name="name" value="_stc" />
+                <option name="path" value="/" />
+                <option name="value" value="typedBookmarked" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="https://www.realestate.com.au" />
+          <option name="urlPath" value="/rent/with-2-bedrooms-in-3690/list-1" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="maxBeds" />
+                <option name="value" value="2" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Referer" />
+                <option name="value" value="https://www.realestate.com.au/rent/" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="allhomes.com.au" />
+                <option name="name" value="_ah-live-bucket" />
+                <option name="path" value="/" />
+                <option name="value" value="87" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="allhomes.com.au" />
+                <option name="name" value="_cc" />
+                <option name="path" value="/" />
+                <option name="value" value="CN" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="allhomes.com.au" />
+                <option name="name" value="_eu" />
+                <option name="path" value="/" />
+                <option name="value" value="false" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="realestate.com.au" />
+                <option name="name" value="Country" />
+                <option name="path" value="/" />
+                <option name="value" value="CN" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2177452799000" />
+                <option name="domain" value="realestate.com.au" />
+                <option name="name" value="reauid" />
+                <option name="path" value="/" />
+                <option name="value" value="43010f177363000028a54f60b7030000e1080100" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="www.realestate.com.au" />
+                <option name="name" value="AWSELB" />
+                <option name="path" value="/" />
+                <option name="value" value="E32BC90112C9C0CF56D4194ABA698EBC86B542A11EBB76C2CF6CA3492090D9AFC471C5859721B354ED4597E5AD1484076B115A4A27F33EC203F34E722C3CE30B0F93A511A1" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="www.realestate.com.au" />
+                <option name="name" value="AWSELBCORS" />
+                <option name="path" value="/" />
+                <option name="value" value="E32BC90112C9C0CF56D4194ABA698EBC86B542A11EBB76C2CF6CA3492090D9AFC471C5859721B354ED4597E5AD1484076B115A4A27F33EC203F34E722C3CE30B0F93A511A1" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="www.realestate.com.au" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="9D6EC9B63A9EBE7B38DA0EE8DF252518" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1615655688000" />
+                <option name="domain" value="www.realestate.com.au" />
+                <option name="name" value="_readc" />
+                <option name="path" value="/" />
+                <option name="value" value="ap-southeast-2" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="www.realestate.com.au" />
+                <option name="name" value="_stc" />
+                <option name="path" value="/" />
+                <option name="value" value="typedBookmarked" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="https://www.realestate.com.au" />
+          <option name="urlPath" value="/rent/with-2-bedrooms-in-3690/list-1" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="maxBeds" />
+                <option name="value" value="2" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Referer" />
+                <option name="value" value="https://www.realestate.com.au/rent/" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="allhomes.com.au" />
+                <option name="name" value="_ah-live-bucket" />
+                <option name="path" value="/" />
+                <option name="value" value="87" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="allhomes.com.au" />
+                <option name="name" value="_cc" />
+                <option name="path" value="/" />
+                <option name="value" value="CN" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="allhomes.com.au" />
+                <option name="name" value="_eu" />
+                <option name="path" value="/" />
+                <option name="value" value="false" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="realestate.com.au" />
+                <option name="name" value="Country" />
+                <option name="path" value="/" />
+                <option name="value" value="CN" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2177452799000" />
+                <option name="domain" value="realestate.com.au" />
+                <option name="name" value="reauid" />
+                <option name="path" value="/" />
+                <option name="value" value="43010f17736300001ca54f6026020000df080100" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="www.realestate.com.au" />
+                <option name="name" value="AWSELB" />
+                <option name="path" value="/" />
+                <option name="value" value="E32BC90112C9C0CF56D4194ABA698EBC86B542A11EBB76C2CF6CA3492090D9AFC471C5859721B354ED4597E5AD1484076B115A4A27F33EC203F34E722C3CE30B0F93A511A1" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="www.realestate.com.au" />
+                <option name="name" value="AWSELBCORS" />
+                <option name="path" value="/" />
+                <option name="value" value="E32BC90112C9C0CF56D4194ABA698EBC86B542A11EBB76C2CF6CA3492090D9AFC471C5859721B354ED4597E5AD1484076B115A4A27F33EC203F34E722C3CE30B0F93A511A1" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="www.realestate.com.au" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="9D6EC9B63A9EBE7B38DA0EE8DF252518" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1615655688000" />
+                <option name="domain" value="www.realestate.com.au" />
+                <option name="name" value="_readc" />
+                <option name="path" value="/" />
+                <option name="value" value="ap-southeast-2" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="www.realestate.com.au" />
+                <option name="name" value="_stc" />
+                <option name="path" value="/" />
+                <option name="value" value="typedBookmarked" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="https://www.realestate.com.au" />
+          <option name="urlPath" value="/rent/with-2-bedrooms-in-3690/list-1" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="maxBeds" />
+                <option name="value" value="2" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="allhomes.com.au" />
+                <option name="name" value="_ah-live-bucket" />
+                <option name="path" value="/" />
+                <option name="value" value="87" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="allhomes.com.au" />
+                <option name="name" value="_cc" />
+                <option name="path" value="/" />
+                <option name="value" value="CN" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="allhomes.com.au" />
+                <option name="name" value="_eu" />
+                <option name="path" value="/" />
+                <option name="value" value="false" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="realestate.com.au" />
+                <option name="name" value="Country" />
+                <option name="path" value="/" />
+                <option name="value" value="CN" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2177452799000" />
+                <option name="domain" value="realestate.com.au" />
+                <option name="name" value="reauid" />
+                <option name="path" value="/" />
+                <option name="value" value="43010f1773630000dca44f60ff010000db080100" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="www.realestate.com.au" />
+                <option name="name" value="AWSELB" />
+                <option name="path" value="/" />
+                <option name="value" value="E32BC90112C9C0CF56D4194ABA698EBC86B542A11EBB76C2CF6CA3492090D9AFC471C5859721B354ED4597E5AD1484076B115A4A27F33EC203F34E722C3CE30B0F93A511A1" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="www.realestate.com.au" />
+                <option name="name" value="AWSELBCORS" />
+                <option name="path" value="/" />
+                <option name="value" value="E32BC90112C9C0CF56D4194ABA698EBC86B542A11EBB76C2CF6CA3492090D9AFC471C5859721B354ED4597E5AD1484076B115A4A27F33EC203F34E722C3CE30B0F93A511A1" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="www.realestate.com.au" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="9D6EC9B63A9EBE7B38DA0EE8DF252518" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1615655688000" />
+                <option name="domain" value="www.realestate.com.au" />
+                <option name="name" value="_readc" />
+                <option name="path" value="/" />
+                <option name="value" value="ap-southeast-2" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="www.realestate.com.au" />
+                <option name="name" value="_stc" />
+                <option name="path" value="/" />
+                <option name="value" value="typedBookmarked" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="https://www.realestate.com.au" />
+          <option name="urlPath" value="/rent/with-2-bedrooms-in-3690/list-1" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="maxBeds" />
+                <option name="value" value="2" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="allhomes.com.au" />
+                <option name="name" value="_ah-live-bucket" />
+                <option name="path" value="/" />
+                <option name="value" value="87" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="allhomes.com.au" />
+                <option name="name" value="_cc" />
+                <option name="path" value="/" />
+                <option name="value" value="CN" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="allhomes.com.au" />
+                <option name="name" value="_eu" />
+                <option name="path" value="/" />
+                <option name="value" value="false" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="realestate.com.au" />
+                <option name="name" value="Country" />
+                <option name="path" value="/" />
+                <option name="value" value="CN" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2177452799000" />
+                <option name="domain" value="realestate.com.au" />
+                <option name="name" value="reauid" />
+                <option name="path" value="/" />
+                <option name="value" value="cd327c686c130000378a4f60f80200007f200200" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="www.realestate.com.au" />
+                <option name="name" value="AWSELB" />
+                <option name="path" value="/" />
+                <option name="value" value="E32BC90112C9C0CF56D4194ABA698EBC86B542A11EBB76C2CF6CA3492090D9AFC471C5859721B354ED4597E5AD1484076B115A4A27F33EC203F34E722C3CE30B0F93A511A1" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="www.realestate.com.au" />
+                <option name="name" value="AWSELBCORS" />
+                <option name="path" value="/" />
+                <option name="value" value="E32BC90112C9C0CF56D4194ABA698EBC86B542A11EBB76C2CF6CA3492090D9AFC471C5859721B354ED4597E5AD1484076B115A4A27F33EC203F34E722C3CE30B0F93A511A1" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="www.realestate.com.au" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="9D6EC9B63A9EBE7B38DA0EE8DF252518" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1615655688000" />
+                <option name="domain" value="www.realestate.com.au" />
+                <option name="name" value="_readc" />
+                <option name="path" value="/" />
+                <option name="value" value="ap-southeast-2" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="www.realestate.com.au" />
+                <option name="name" value="_stc" />
+                <option name="path" value="/" />
+                <option name="value" value="typedBookmarked" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="https://www.realestate.com.au" />
+          <option name="urlPath" value="/rent/with-2-bedrooms-in-3690/list-1" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="maxBeds" />
+                <option name="value" value="2" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="allhomes.com.au" />
+                <option name="name" value="_ah-live-bucket" />
+                <option name="path" value="/" />
+                <option name="value" value="87" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="allhomes.com.au" />
+                <option name="name" value="_cc" />
+                <option name="path" value="/" />
+                <option name="value" value="CN" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="allhomes.com.au" />
+                <option name="name" value="_eu" />
+                <option name="path" value="/" />
+                <option name="value" value="false" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="realestate.com.au" />
+                <option name="name" value="Country" />
+                <option name="path" value="/" />
+                <option name="value" value="CN" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2177452799000" />
+                <option name="domain" value="realestate.com.au" />
+                <option name="name" value="reauid" />
+                <option name="path" value="/" />
+                <option name="value" value="cd327c686c130000378a4f60f80200007f200200" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="www.realestate.com.au" />
+                <option name="name" value="AWSELB" />
+                <option name="path" value="/" />
+                <option name="value" value="E32BC90112C9C0CF56D4194ABA698EBC86B542A11EBB76C2CF6CA3492090D9AFC471C5859721B354ED4597E5AD1484076B115A4A27F33EC203F34E722C3CE30B0F93A511A1" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="www.realestate.com.au" />
+                <option name="name" value="AWSELBCORS" />
+                <option name="path" value="/" />
+                <option name="value" value="E32BC90112C9C0CF56D4194ABA698EBC86B542A11EBB76C2CF6CA3492090D9AFC471C5859721B354ED4597E5AD1484076B115A4A27F33EC203F34E722C3CE30B0F93A511A1" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="www.realestate.com.au" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="9D6EC9B63A9EBE7B38DA0EE8DF252518" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1615655688000" />
+                <option name="domain" value="www.realestate.com.au" />
+                <option name="name" value="_readc" />
+                <option name="path" value="/" />
+                <option name="value" value="ap-southeast-2" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="www.realestate.com.au" />
+                <option name="name" value="_stc" />
+                <option name="path" value="/" />
+                <option name="value" value="typedBookmarked" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="https://www.domain.com.au" />
+          <option name="urlPath" value="/rent/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="bedrooms" />
+                <option name="value" value="2-any" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="bathrooms" />
+                <option name="value" value="2-any" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="excludedeposittaken" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="carspaces" />
+                <option name="value" value="2-any" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="postcode" />
+                <option name="value" value="3690" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="allhomes.com.au" />
+                <option name="name" value="_ah-live-bucket" />
+                <option name="path" value="/" />
+                <option name="value" value="87" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="allhomes.com.au" />
+                <option name="name" value="_cc" />
+                <option name="path" value="/" />
+                <option name="value" value="CN" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="allhomes.com.au" />
+                <option name="name" value="_eu" />
+                <option name="path" value="/" />
+                <option name="value" value="false" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="realestate.com.au" />
+                <option name="name" value="Country" />
+                <option name="path" value="/" />
+                <option name="value" value="CN" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2177452799000" />
+                <option name="domain" value="realestate.com.au" />
+                <option name="name" value="reauid" />
+                <option name="path" value="/" />
+                <option name="value" value="cd327c686c130000db894f60c703000071200200" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="www.realestate.com.au" />
+                <option name="name" value="AWSELB" />
+                <option name="path" value="/" />
+                <option name="value" value="E32BC90112C9C0CF56D4194ABA698EBC86B542A11EBB76C2CF6CA3492090D9AFC471C5859721B354ED4597E5AD1484076B115A4A27F33EC203F34E722C3CE30B0F93A511A1" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="www.realestate.com.au" />
+                <option name="name" value="AWSELBCORS" />
+                <option name="path" value="/" />
+                <option name="value" value="E32BC90112C9C0CF56D4194ABA698EBC86B542A11EBB76C2CF6CA3492090D9AFC471C5859721B354ED4597E5AD1484076B115A4A27F33EC203F34E722C3CE30B0F93A511A1" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="www.realestate.com.au" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="9D6EC9B63A9EBE7B38DA0EE8DF252518" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1615655688000" />
+                <option name="domain" value="www.realestate.com.au" />
+                <option name="name" value="_readc" />
+                <option name="path" value="/" />
+                <option name="value" value="ap-southeast-2" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="www.realestate.com.au" />
+                <option name="name" value="_stc" />
+                <option name="path" value="/" />
+                <option name="value" value="typedBookmarked" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="https://www.realestate.com.au" />
+          <option name="urlPath" value="/rent/with-1-bedroom-between-0-5000/list-1" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="allhomes.com.au" />
+                <option name="name" value="_ah-live-bucket" />
+                <option name="path" value="/" />
+                <option name="value" value="87" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="allhomes.com.au" />
+                <option name="name" value="_cc" />
+                <option name="path" value="/" />
+                <option name="value" value="CN" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="allhomes.com.au" />
+                <option name="name" value="_eu" />
+                <option name="path" value="/" />
+                <option name="value" value="false" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="realestate.com.au" />
+                <option name="name" value="Country" />
+                <option name="path" value="/" />
+                <option name="value" value="CN" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2177452799000" />
+                <option name="domain" value="realestate.com.au" />
+                <option name="name" value="reauid" />
+                <option name="path" value="/" />
+                <option name="value" value="cd327c686c13000090894f603b01000061200200" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="www.realestate.com.au" />
+                <option name="name" value="AWSELB" />
+                <option name="path" value="/" />
+                <option name="value" value="E32BC90112C9C0CF56D4194ABA698EBC86B542A11EBB76C2CF6CA3492090D9AFC471C5859721B354ED4597E5AD1484076B115A4A27F33EC203F34E722C3CE30B0F93A511A1" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="www.realestate.com.au" />
+                <option name="name" value="AWSELBCORS" />
+                <option name="path" value="/" />
+                <option name="value" value="E32BC90112C9C0CF56D4194ABA698EBC86B542A11EBB76C2CF6CA3492090D9AFC471C5859721B354ED4597E5AD1484076B115A4A27F33EC203F34E722C3CE30B0F93A511A1" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="www.realestate.com.au" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="9D6EC9B63A9EBE7B38DA0EE8DF252518" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1615655688000" />
+                <option name="domain" value="www.realestate.com.au" />
+                <option name="name" value="_readc" />
+                <option name="path" value="/" />
+                <option name="value" value="ap-southeast-2" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="www.realestate.com.au" />
+                <option name="name" value="_stc" />
+                <option name="path" value="/" />
+                <option name="value" value="typedBookmarked" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="https://www.realestate.com.au" />
+          <option name="urlPath" value="/rent/with-1-bedroom-between-0-5000/list-1" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="allhomes.com.au" />
+                <option name="name" value="_ah-live-bucket" />
+                <option name="path" value="/" />
+                <option name="value" value="87" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="allhomes.com.au" />
+                <option name="name" value="_cc" />
+                <option name="path" value="/" />
+                <option name="value" value="CN" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="allhomes.com.au" />
+                <option name="name" value="_eu" />
+                <option name="path" value="/" />
+                <option name="value" value="false" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="realestate.com.au" />
+                <option name="name" value="Country" />
+                <option name="path" value="/" />
+                <option name="value" value="CN" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2177452799000" />
+                <option name="domain" value="realestate.com.au" />
+                <option name="name" value="reauid" />
+                <option name="path" value="/" />
+                <option name="value" value="7e061cb8e7200000f8e44c606b02000032880200" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="www.realestate.com.au" />
+                <option name="name" value="AWSELB" />
+                <option name="path" value="/" />
+                <option name="value" value="E32BC90112C9C0CF56D4194ABA698EBC86B542A11EBB76C2CF6CA3492090D9AFC471C5859721B354ED4597E5AD1484076B115A4A27F33EC203F34E722C3CE30B0F93A511A1" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="www.realestate.com.au" />
+                <option name="name" value="AWSELBCORS" />
+                <option name="path" value="/" />
+                <option name="value" value="E32BC90112C9C0CF56D4194ABA698EBC86B542A11EBB76C2CF6CA3492090D9AFC471C5859721B354ED4597E5AD1484076B115A4A27F33EC203F34E722C3CE30B0F93A511A1" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="www.realestate.com.au" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="9D6EC9B63A9EBE7B38DA0EE8DF252518" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1615655688000" />
+                <option name="domain" value="www.realestate.com.au" />
+                <option name="name" value="_readc" />
+                <option name="path" value="/" />
+                <option name="value" value="ap-southeast-2" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="www.realestate.com.au" />
+                <option name="name" value="_stc" />
+                <option name="path" value="/" />
+                <option name="value" value="typedBookmarked" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="https://www.realestate.com.au" />
+          <option name="urlPath" value="/rent/with-1-bedroom-between-0-5000/list-1" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="bedrooms" />
+                <option name="value" value="2-any" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="excludedeposittaken" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="maxBeds" />
+                <option name="value" value="2" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="property_class" />
+                <option name="value" value="rental" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="listing_type" />
+                <option name="value" value="lease" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="surrounding" />
+                <option name="value" value="true" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="bedrooms__gte" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="price__gte" />
+                <option name="value" value="50" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="price__lte" />
+                <option name="value" value="10000" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="order_by" />
+                <option name="value" value="price" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="property_status_groups" />
+                <option name="value" value="current,underOffer,includePrivate" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="bedrooms__lte" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="filters" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="page" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="maxBeds" />
+                <option name="value" value="2" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
         <RestClientRequest>
           <option name="biscuits">
             <list>
@@ -625,6 +1918,19 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.RentsummaryApplication">
+    <configuration name="RentContextGet (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.rentsummary.server.RentContextGet" />
+      <module name="rentsummary" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.rentsummary.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RentContextGet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.servier.RentContextGet" />
       <module name="rentsummary" />
@@ -676,6 +1982,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RentContextGet (1)" />
         <item itemvalue="Application.RentContextGet" />
         <item itemvalue="JUnit.RentsummaryApplicationTests.contextLoads" />
       </list>
@@ -710,7 +2017,9 @@
       <workItem from="1615639118187" duration="11322000" />
       <workItem from="1615690565348" duration="7554000" />
       <workItem from="1615772990975" duration="1420000" />
-      <workItem from="1615774437641" duration="1408000" />
+      <workItem from="1615774437641" duration="1880000" />
+      <workItem from="1615786486688" duration="291000" />
+      <workItem from="1615811746552" duration="19568000" />
     </task>
     <task id="LOCAL-00001" summary="testbyxuejin20210311">
       <created>1615477847855</created>
@@ -733,7 +2042,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615775846410</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="testbyxuejin20210312">
+      <created>1615776298694</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1615776298694</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -758,6 +2074,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="testbyxuejin20210312" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="233" y="4" key="#Notifications" timestamp="1615813051130">
+      <screen x="0" y="0" width="1280" height="690" />
+    </state>
+    <state x="233" y="4" key="#Notifications/0.0.1280.690@0.0.1280.690" timestamp="1615813051130" />
     <state x="233" y="4" key="#Servers" timestamp="1615775089777">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
@@ -770,82 +2090,90 @@
       <screen x="0" y="0" width="1280" height="690" />
     </state>
     <state x="270" y="0" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1280.690@0.0.1280.690" timestamp="1615639289071" />
-    <state x="391" y="42" key="#com.intellij.ide.util.MemberChooser" timestamp="1615479272496">
+    <state x="391" y="42" key="#com.intellij.ide.util.MemberChooser" timestamp="1615839515347">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state x="391" y="42" key="#com.intellij.ide.util.MemberChooser/0.0.1280.690@0.0.1280.690" timestamp="1615479272496" />
-    <state x="371" y="92" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1615640295774">
+    <state x="391" y="42" key="#com.intellij.ide.util.MemberChooser/0.0.1280.690@0.0.1280.690" timestamp="1615839515347" />
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1615830324478">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state x="371" y="92" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.690@0.0.1280.690" timestamp="1615640295774" />
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.690@0.0.1280.690" timestamp="1615830324478" />
+    <state x="371" y="92" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1615813526206">
+      <screen x="0" y="0" width="1280" height="690" />
+    </state>
+    <state x="371" y="92" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.690@0.0.1280.690" timestamp="1615813526206" />
     <state x="381" y="208" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1615632928601">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
     <state x="381" y="208" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.690@0.0.1280.690" timestamp="1615632928601" />
-    <state x="245" y="0" key="CommitChangelistDialog2" timestamp="1615775845092">
+    <state x="245" y="0" key="CommitChangelistDialog2" timestamp="1615776296532">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state x="245" y="0" key="CommitChangelistDialog2/0.0.1280.690@0.0.1280.690" timestamp="1615775845092" />
-    <state width="433" height="618" key="DebuggerActiveHint" timestamp="1615631559745">
+    <state x="245" y="0" key="CommitChangelistDialog2/0.0.1280.690@0.0.1280.690" timestamp="1615776296532" />
+    <state width="438" height="618" key="DebuggerActiveHint" timestamp="1615815062157">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state width="433" height="618" key="DebuggerActiveHint/0.0.1280.690@0.0.1280.690" timestamp="1615631559745" />
-    <state x="93" y="93" width="1093" height="503" key="DiffContextDialog" timestamp="1615775931510">
+    <state width="438" height="618" key="DebuggerActiveHint/0.0.1280.690@0.0.1280.690" timestamp="1615815062157" />
+    <state x="93" y="93" width="1093" height="503" key="DiffContextDialog" timestamp="1615776062780">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state x="93" y="93" width="1093" height="503" key="DiffContextDialog/0.0.1280.690@0.0.1280.690" timestamp="1615775931510" />
+    <state x="93" y="93" width="1093" height="503" key="DiffContextDialog/0.0.1280.690@0.0.1280.690" timestamp="1615776062780" />
     <state x="422" y="102" key="FileChooserDialogImpl" timestamp="1615633400531">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
     <state x="422" y="102" key="FileChooserDialogImpl/0.0.1280.690@0.0.1280.690" timestamp="1615633400531" />
-    <state width="1238" height="302" key="GridCell.Tab.0.bottom" timestamp="1615773425330">
+    <state width="1238" height="377" key="GridCell.Tab.0.bottom" timestamp="1615839817810">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state width="1238" height="302" key="GridCell.Tab.0.bottom/0.0.1280.690@0.0.1280.690" timestamp="1615773425330" />
-    <state width="1238" height="302" key="GridCell.Tab.0.center" timestamp="1615773425330">
+    <state width="1238" height="377" key="GridCell.Tab.0.bottom/0.0.1280.690@0.0.1280.690" timestamp="1615839817810" />
+    <state width="1238" height="377" key="GridCell.Tab.0.center" timestamp="1615839817810">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state width="1238" height="302" key="GridCell.Tab.0.center/0.0.1280.690@0.0.1280.690" timestamp="1615773425330" />
-    <state width="1238" height="302" key="GridCell.Tab.0.left" timestamp="1615773425330">
+    <state width="1238" height="377" key="GridCell.Tab.0.center/0.0.1280.690@0.0.1280.690" timestamp="1615839817810" />
+    <state width="1238" height="377" key="GridCell.Tab.0.left" timestamp="1615839817810">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state width="1238" height="302" key="GridCell.Tab.0.left/0.0.1280.690@0.0.1280.690" timestamp="1615773425330" />
-    <state width="1238" height="302" key="GridCell.Tab.0.right" timestamp="1615773425330">
+    <state width="1238" height="377" key="GridCell.Tab.0.left/0.0.1280.690@0.0.1280.690" timestamp="1615839817810" />
+    <state width="1238" height="377" key="GridCell.Tab.0.right" timestamp="1615839817810">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state width="1238" height="302" key="GridCell.Tab.0.right/0.0.1280.690@0.0.1280.690" timestamp="1615773425330" />
-    <state width="1238" height="302" key="GridCell.Tab.1.bottom" timestamp="1615773425331">
+    <state width="1238" height="377" key="GridCell.Tab.0.right/0.0.1280.690@0.0.1280.690" timestamp="1615839817810" />
+    <state width="1238" height="377" key="GridCell.Tab.1.bottom" timestamp="1615839751719">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state width="1238" height="302" key="GridCell.Tab.1.bottom/0.0.1280.690@0.0.1280.690" timestamp="1615773425331" />
-    <state width="1238" height="302" key="GridCell.Tab.1.center" timestamp="1615773425331">
+    <state width="1238" height="377" key="GridCell.Tab.1.bottom/0.0.1280.690@0.0.1280.690" timestamp="1615839751719" />
+    <state width="1238" height="377" key="GridCell.Tab.1.center" timestamp="1615839751719">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state width="1238" height="302" key="GridCell.Tab.1.center/0.0.1280.690@0.0.1280.690" timestamp="1615773425331" />
-    <state width="1238" height="302" key="GridCell.Tab.1.left" timestamp="1615773425331">
+    <state width="1238" height="377" key="GridCell.Tab.1.center/0.0.1280.690@0.0.1280.690" timestamp="1615839751719" />
+    <state width="1238" height="377" key="GridCell.Tab.1.left" timestamp="1615839751719">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state width="1238" height="302" key="GridCell.Tab.1.left/0.0.1280.690@0.0.1280.690" timestamp="1615773425331" />
-    <state width="1238" height="302" key="GridCell.Tab.1.right" timestamp="1615773425331">
+    <state width="1238" height="377" key="GridCell.Tab.1.left/0.0.1280.690@0.0.1280.690" timestamp="1615839751719" />
+    <state width="1238" height="377" key="GridCell.Tab.1.right" timestamp="1615839751719">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state width="1238" height="302" key="GridCell.Tab.1.right/0.0.1280.690@0.0.1280.690" timestamp="1615773425331" />
-    <state width="1238" height="258" key="GridCell.Tab.2.bottom" timestamp="1615650837590">
+    <state width="1238" height="377" key="GridCell.Tab.1.right/0.0.1280.690@0.0.1280.690" timestamp="1615839751719" />
+    <state width="1238" height="180" key="GridCell.Tab.2.bottom" timestamp="1615835587827">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state width="1238" height="258" key="GridCell.Tab.2.bottom/0.0.1280.690@0.0.1280.690" timestamp="1615650837590" />
-    <state width="1238" height="258" key="GridCell.Tab.2.center" timestamp="1615650837590">
+    <state width="1238" height="180" key="GridCell.Tab.2.bottom/0.0.1280.690@0.0.1280.690" timestamp="1615835587827" />
+    <state width="1238" height="180" key="GridCell.Tab.2.center" timestamp="1615835587827">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state width="1238" height="258" key="GridCell.Tab.2.center/0.0.1280.690@0.0.1280.690" timestamp="1615650837590" />
-    <state width="1238" height="258" key="GridCell.Tab.2.left" timestamp="1615650837590">
+    <state width="1238" height="180" key="GridCell.Tab.2.center/0.0.1280.690@0.0.1280.690" timestamp="1615835587827" />
+    <state width="1238" height="180" key="GridCell.Tab.2.left" timestamp="1615835587827">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state width="1238" height="258" key="GridCell.Tab.2.left/0.0.1280.690@0.0.1280.690" timestamp="1615650837590" />
-    <state width="1238" height="258" key="GridCell.Tab.2.right" timestamp="1615650837590">
+    <state width="1238" height="180" key="GridCell.Tab.2.left/0.0.1280.690@0.0.1280.690" timestamp="1615835587827" />
+    <state width="1238" height="180" key="GridCell.Tab.2.right" timestamp="1615835587827">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state width="1238" height="258" key="GridCell.Tab.2.right/0.0.1280.690@0.0.1280.690" timestamp="1615650837590" />
+    <state width="1238" height="180" key="GridCell.Tab.2.right/0.0.1280.690@0.0.1280.690" timestamp="1615835587827" />
+    <state x="221" y="80" key="IDE.errors.dialog" timestamp="1615832125569">
+      <screen x="0" y="0" width="1280" height="690" />
+    </state>
+    <state x="221" y="80" key="IDE.errors.dialog/0.0.1280.690@0.0.1280.690" timestamp="1615832125569" />
     <state x="171" y="0" key="Maven.ArtifactSearchDialog" timestamp="1615649550562">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
@@ -854,10 +2182,10 @@
       <screen x="0" y="0" width="1280" height="690" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.690@0.0.1280.690" timestamp="1615775287467" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1615775941884">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1615786765313">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.690@0.0.1280.690" timestamp="1615775941884" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.690@0.0.1280.690" timestamp="1615786765313" />
     <state x="360" y="235" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1615478362012">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
@@ -874,6 +2202,10 @@
       <screen x="0" y="0" width="1280" height="690" />
     </state>
     <state x="192" y="0" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1280.690@0.0.1280.690" timestamp="1615645603882" />
+    <state x="371" y="110" key="extract.method.dialog" timestamp="1615832203251">
+      <screen x="0" y="0" width="1280" height="690" />
+    </state>
+    <state x="371" y="110" key="extract.method.dialog/0.0.1280.690@0.0.1280.690" timestamp="1615832203251" />
     <state x="355" y="118" key="git4idea.merge.GitPullDialog" timestamp="1615480560769">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
@@ -890,13 +2222,65 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
+        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/example/rentsummary/server/RentContextGet.java</url>
-          <line>156</line>
-          <properties class="com.example.rentsummary.RentContextGet" method="getRentFromzango">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="1" />
+          <line>101</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/rentsummary/server/RentContextGet.java</url>
+          <line>111</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/rentsummary/server/RentContextGet.java</url>
+          <line>106</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/rentsummary/server/RentContextGet.java</url>
+          <line>155</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/rentsummary/server/RentContextGet.java</url>
+          <line>152</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/rentsummary/server/RentContextGet.java</url>
+          <line>147</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/rentsummary/server/RentContextGet.java</url>
+          <line>197</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/rentsummary/server/RentContextGet.java</url>
+          <line>199</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/rentsummary/server/RentContextGet.java</url>
+          <line>198</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/rentsummary/server/RentContextGet.java</url>
+          <line>196</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/rentsummary/server/RentContextGet.java</url>
+          <line>195</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/rentsummary/server/RentContextGet.java</url>
+          <line>194</line>
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

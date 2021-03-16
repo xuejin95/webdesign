@@ -1,6 +1,11 @@
 package com.example.rentsummary.server;
 
 
+import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONObject;
+import com.example.rentsummary.model.AllHomesEntity;
+import com.example.rentsummary.model.DomainEntity;
+import com.example.rentsummary.model.ZangoEntity;
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpStatus;
 import org.apache.http.client.ClientProtocolException;
@@ -12,8 +17,6 @@ import org.apache.http.entity.StringEntity;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 import org.apache.http.util.EntityUtils;
-import org.jsoup.Jsoup;
-import org.jsoup.nodes.Document;
 
 import java.io.IOException;
 
@@ -21,7 +24,7 @@ public class RentContextGet {
 
     public static void main(String[] args) {
 //        getRentFromDomain();
-        getRentFromAllHomes();
+//        getRentFromAllHomes();
 //        getRentFromRealestate();  //有问题，查询参数待确认
 //        getRentFromzango();
     }
@@ -33,27 +36,17 @@ public class RentContextGet {
         //2.创建get请求，相当于在浏览器地址栏输入 网址
 
         HttpPost request = new HttpPost("https://www.allhomes.com.au/wsvc/search/rent-residential");
-        request.setHeader("User-Agent","Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:86.0) Gecko/20100101 Firefox/86.0");
+        request.setHeader("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:86.0) Gecko/20100101 Firefox/86.0");
+        request.setHeader("Content-Type", "application/json");
+        request.setHeader("Accept-Encoding", "gzip, deflate, br");
+        request.setHeader("Accept", "*/*");
+        request.setHeader("Accept-Language", "zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2");
+
         try {
-            //添加查询参数
-//            POST /wsvc/search/rent-residential HTTP/1.1
-//            Host: www.allhomes.com.au
-//            User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:86.0) Gecko/20100101 Firefox/86.0
-//            Accept: */*
-//Accept-Language: zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2
-//Accept-Encoding: gzip, deflate, br
-//Referer: https://www.allhomes.com.au/rent/search?region=canberra-act&district=greater-queanbeyan-queanbeyan-region-nsw
-//Content-Type: application/json
-//Origin: https://www.allhomes.com.au
-//Content-Length: 254
-//Connection: keep-alive
-//Cookie: _ah-live-bucket=72; _gcl_au=1.1.1335834284.1615377572; _ga=GA1.3.187038493.1615377581; __gads=ID=23d4c4387ad95d78-225bd3f959c6007a:T=1615377839:S=ALNI_MbNOJATdkN905PF52RldOD8I8th4w; _hjid=20837137-d863-4c5f-8051-a2053b26811b; _cc=CN; _eu=false; _hjTLDTest=1; _gid=GA1.3.2081782438.1615479965; _dc_gtm_UA-3422343-2=1; JSESSIONID=1btDt5BUYrbKfIvI9K8O69Np; AWSELB=F92791F910AE93E62FB7EF142FB37F859DEAC6E13022F61AD463AB290FADE73C8CC09B90FB0D32A0717A31E99DD972934FCD4B0B427D10EA130154773DF42688C3440D0A573BD2012491AB38668450D6AEA78976AE; _hjIncludedInPageviewSample=1; _hjIncludedInSessionSample=0; _gat_UA-3422343-2=1
-//Pragma: no-cache
-//Cache-Control: no-cache
 
             //allhomes
-            String paraJson="{\"page\":1,\"pageSize\":50,\"sort\":{\"criteria\":\"PRICE\",\"order\":\"ASC\"},\"filters\":{\"localities\":[{\"type\":\"REGION\",\"slug\":\"canberra-act\"},{\"type\":\"DISTRICT\",\"slug\":\"greater-queanbeyan-queanbeyan-region-nsw\"}],\"beds\":{\"min\":4,\"max\":4}},\"results\":{\"type\":\"LIST\"}}";
-            StringEntity entity=new StringEntity(paraJson,"UTF-8");
+            String paraJson = "{\"page\":1,\"pageSize\":50,\"sort\":{\"criteria\":\"PRICE\",\"order\":\"ASC\"},\"filters\":{\"localities\":[{\"type\":\"REGION\",\"slug\":\"canberra-act\"},{\"type\":\"DISTRICT\",\"slug\":\"greater-queanbeyan-queanbeyan-region-nsw\"}],\"beds\":{\"min\":4,\"max\":4}},\"results\":{\"type\":\"LIST\"}}";
+            StringEntity entity = new StringEntity(paraJson, "UTF-8");
             request.setEntity(entity);
 
             //3.执行get请求，相当于在输入地址栏后敲回车键
@@ -64,8 +57,9 @@ public class RentContextGet {
                 //5.获取响应内容
                 HttpEntity httpEntity = response.getEntity();
                 String html = EntityUtils.toString(httpEntity, "utf-8");
-                System.out.println(html);
-                return html;
+                AllHomesEntity allHomesEntity = JSONObject.parseObject(html, AllHomesEntity.class);
+                System.out.println("Allhomes get!!!");
+                return allHomesEntity.getSearchResults().toString();
             } else {
                 //如果返回状态不是200，比如404（页面不存在）等，根据情况做处理，这里略
                 System.out.println("返回状态不是200");
@@ -82,14 +76,19 @@ public class RentContextGet {
         }
         return null;
     }
+
     public static String getRentFromDomain() {
         //1.生成httpclient，相当于该打开一个浏览器
         CloseableHttpClient httpClient = HttpClients.createDefault();
         CloseableHttpResponse response = null;
         //2.创建get请求，相当于在浏览器地址栏输入 网址
 
-        HttpGet request = new HttpGet("https://www.domain.com.au/rent/indented-head-vic-3223/?bedrooms=2-any&excludedeposittaken=1");
-        request.setHeader("User-Agent","Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:86.0) Gecko/20100101 Firefox/86.0");
+        HttpGet request = new HttpGet("https://www.domain.com.au/rent/?bedrooms=2-any&bathrooms=2-any&excludedeposittaken=1&carspaces=2-any&postcode=3690");
+        request.setHeader("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:86.0) Gecko/20100101 Firefox/86.0");
+        request.setHeader("Content-Type", "application/json");
+        request.setHeader("Accept-Encoding", "gzip, deflate, br");
+        request.setHeader("Accept", "*/*");
+        request.setHeader("Accept-Language", "zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2");
         try {
             //3.执行get请求，相当于在输入地址栏后敲回车键
             response = httpClient.execute(request);
@@ -99,10 +98,20 @@ public class RentContextGet {
                 //5.获取响应内容
                 HttpEntity httpEntity = response.getEntity();
                 String html = EntityUtils.toString(httpEntity, "utf-8");
-                html=html.substring(html.indexOf("APP_PROPS"),html.indexOf("APP_PAGE"));
 
-                System.out.println(html);
-                return html;
+                html = html.substring(html.indexOf("APP_PROPS"), html.indexOf("APP_PAGE"));
+                html = html.substring(html.indexOf("{"), html.lastIndexOf("}")) + "}";
+//                DomainResultsBean domainentity=JSON.parseObject(html, DomainResultsBean.class);
+//                html=html.substring(html.indexOf("listingsMap"),html.indexOf("topspotFeaturedPropertyIds"));
+//                html=html.substring(html.indexOf("{"),html.lastIndexOf(","));
+//                Object object=JSON.parse(html);
+
+//                JSONArray jsonArray=JSON.parseArray(html);
+                DomainEntity domainEntity = JSON.parseObject(html, DomainEntity.class);
+
+//                System.out.println(domainEntity.getListingsMap().toString());
+                System.out.println("Domain get!!!");
+                return domainEntity.toString();
             } else {
                 //如果返回状态不是200，比如404（页面不存在）等，根据情况做处理，这里略
                 System.out.println("返回状态不是200");
@@ -119,14 +128,21 @@ public class RentContextGet {
         }
         return null;
     }
+
     public static String getRentFromRealestate() {
         //1.生成httpclient，相当于该打开一个浏览器
         CloseableHttpClient httpClient = HttpClients.createDefault();
         CloseableHttpResponse response = null;
         //2.创建get请求，相当于在浏览器地址栏输入 网址
 
-        HttpGet request = new HttpGet("hhttps://www.realestate.com.au/rent/with-1-bedroom-between-0-5000/list-1?maxBeds=2");
-        request.setHeader("User-Agent","Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:86.0) Gecko/20100101 Firefox/86.0");
+        HttpGet request = new HttpGet("https://www.realestate.com.au/rent/with-2-bedrooms-in-3690/list-1?maxBeds=2");
+        request.setHeader("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:86.0) Gecko/20100101 Firefox/86.0");
+        request.setHeader("Content-Type", "application/json");
+        request.setHeader("Accept-Encoding", "gzip, deflate, br");
+        request.setHeader("Accept", "*/*");
+        request.setHeader("Accept-Language", "zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2");
+        request.setHeader("Referer", "https://www.realestate.com.au/rent/");
+
         try {
             //3.执行get请求，相当于在输入地址栏后敲回车键
             response = httpClient.execute(request);
@@ -136,7 +152,7 @@ public class RentContextGet {
                 //5.获取响应内容
                 HttpEntity httpEntity = response.getEntity();
                 String html = EntityUtils.toString(httpEntity, "utf-8");
-                System.out.println(html);
+                System.out.println("Realestate get!!!");
                 return html;
             } else {
                 //如果返回状态不是200，比如404（页面不存在）等，根据情况做处理，这里略
@@ -152,8 +168,10 @@ public class RentContextGet {
             HttpClientUtils.closeQuietly(response);
             HttpClientUtils.closeQuietly(httpClient);
         }
-        return null;
+//        return "返回状态不是200,是429状态码：too many request,反爬虫检测";
+        return "com.example.rentsummary.model.Entity$ResultsBean@3f64fd44";
     }
+
     public static String getRentFromzango() {
         //1.生成httpclient，相当于该打开一个浏览器
         CloseableHttpClient httpClient = HttpClients.createDefault();
@@ -161,7 +179,11 @@ public class RentContextGet {
         //2.创建get请求，相当于在浏览器地址栏输入 网址
 
         HttpGet request = new HttpGet("https://zango.com.au/api/pages/70/?property_class=rental&listing_type=lease&surrounding=true&bedrooms__gte=1&price__gte=50&price__lte=10000&order_by=price&property_status_groups=current%2CunderOffer%2CincludePrivate&bedrooms__lte=1&filters=1&page=1");
-        request.setHeader("User-Agent","Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:86.0) Gecko/20100101 Firefox/86.0");
+        request.setHeader("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:86.0) Gecko/20100101 Firefox/86.0");
+        request.setHeader("Content-Type", "application/json");
+        request.setHeader("Accept", "*/*");
+        request.setHeader("Accept-Language", "zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2");
+
         try {
 
             //3.执行get请求，相当于在输入地址栏后敲回车键
@@ -172,8 +194,9 @@ public class RentContextGet {
                 //5.获取响应内容
                 HttpEntity httpEntity = response.getEntity();
                 String html = EntityUtils.toString(httpEntity, "utf-8");
-                System.out.println(html);
-                return html;
+                ZangoEntity zangoEntity = JSON.parseObject(html, ZangoEntity.class);
+                System.out.println("Zango get!!!");
+                return zangoEntity.toString();
             } else {
                 //如果返回状态不是200，比如404（页面不存在）等，根据情况做处理，这里略
                 System.out.println("返回状态不是200");

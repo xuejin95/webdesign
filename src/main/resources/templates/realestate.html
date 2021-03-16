@@ -1106,701 +1106,701 @@
 
 
     <div class="hero-content">
-        <div class="search-form-container">
-            <form action="listsearchview.ds" class="search-form" name="search-form">
-                <h1 id="search-form-title">Search rental properties</h1>
-                <div class="search-container">
+    <div class="search-form-container">
+        <form action="listsearchview.ds" class="search-form" name="search-form">
+            <h1 id="search-form-title">Search rental properties</h1>
+            <div class="search-container">
+                <div class="search-inner-container" style="z-index: 1;">
+                    <nav class="search-channel-container">
+                        <a href="https://www.realestate.com.au/buy" class="rui-search-tab">Buy</a>
+                        <a href="https://www.realestate.com.au/rent/"
+                           class="rui-search-tab rui-search-tab-selected">Rent</a>
+                        <a href="https://www.realestate.com.au/sold/" class="rui-search-tab">Sold</a>
+                        <a href="https://www.realestate.com.au/property/" class="rui-search-tab property-value-tab">Property
+                            value</a>
+                        <a href="https://www.realestate.com.au/find-agent" class="rui-search-tab find-agents-tab">Find
+                            agents</a>
+                    </nav>
+
                     <div class="search-inner-container" style="z-index: 1;">
-                        <nav class="search-channel-container">
-                            <a href="https://www.realestate.com.au/buy" class="rui-search-tab">Buy</a>
-                            <a href="https://www.realestate.com.au/rent/"
-                               class="rui-search-tab rui-search-tab-selected">Rent</a>
-                            <a href="https://www.realestate.com.au/sold/" class="rui-search-tab">Sold</a>
-                            <a href="https://www.realestate.com.au/property/" class="rui-search-tab property-value-tab">Property
-                                value</a>
-                            <a href="https://www.realestate.com.au/find-agent" class="rui-search-tab find-agents-tab">Find
-                                agents</a>
-                        </nav>
-
-                        <div class="search-inner-container" style="z-index: 1;">
 
 
-                            <div class="rui-search-container search-input-container">
-                                <i class="rui-icon rui-icon-search search-icon"></i>
+                        <div class="rui-search-container search-input-container">
+                            <i class="rui-icon rui-icon-search search-icon"></i>
 
-                                <input name="where" id="where" tabindex="2"
-                                       class="rui-input rui-location-box rui-auto-complete-input" data-auto-init="false"
-                                       data-location-source="consumer-suggest" data-max-results="7"
-                                       data-client-source="homepage" autocorrect="off" spellcheck="false"
-                                       placeholder="Search by state, suburb or postcode" data-multi-select="true"
-                                       data-suggest-types="suburb,precinct,region,state,postcode"
-                                       data-auto-submit="false" data-channel-search="" autofocus="" autocomplete="none">
-                                <div class="clear-text-container"><a class="rui-icon rui-icon-cross"
-                                                                     title="Clear text"> </a></div>
-                                <input name="theme" id="theme" type="hidden" value="rea.rent">
-                                <button class="rui-search-button" tabindex="10">
-                                    <span class="rui-visually">Search</span>
-                                </button>
-                                <div class="focus-border" style="display: none;"></div>
-                            </div>
+                            <input name="where" id="where" tabindex="2"
+                                   class="rui-input rui-location-box rui-auto-complete-input" data-auto-init="false"
+                                   data-location-source="consumer-suggest" data-max-results="7"
+                                   data-client-source="homepage" autocorrect="off" spellcheck="false"
+                                   placeholder="Search by state, suburb or postcode" data-multi-select="true"
+                                   data-suggest-types="suburb,precinct,region,state,postcode"
+                                   data-auto-submit="false" data-channel-search="" autofocus="" autocomplete="none">
+                            <div class="clear-text-container"><a class="rui-icon rui-icon-cross"
+                                                                 title="Clear text"> </a></div>
+                            <input name="theme" id="theme" type="hidden" value="rea.rent">
+                            <button class="rui-search-button" tabindex="10">
+                                <span class="rui-visually">Search</span>
+                            </button>
+                            <div class="focus-border" style="display: none;"></div>
                         </div>
-
-                    </div>
-                    <div class="search-refinements-wrapper">
-                        <section class="search-refinements" id="search-refinements">
-
-
-                            <div class="condition property-select-holder">
-                                <div class="select-holder">
-                                    <label>All property types</label>
-                                    <select class="rui-input rui-select resize-select rui-select-rendered"
-                                            id="rui-property-type-select-id" name="propertyType" multiple="multiple"
-                                            style="display: none;">
-                                        <option value="All" selected="selected">All property types</option>
-                                        <option value="House">House</option>
-                                        <option value="unit apartment">Apartment &amp; Unit</option>
-                                        <option value="Townhouse">Townhouse</option>
-                                        <option value="Villa">Villa</option>
-                                    </select>
-                                    <div class="rui-select-wrapper rui-default-selected">
-                                        <div id="rui-sel-rui-property-type-select-id"
-                                             class="rui-select-link rui-input rui-select resize-select"><span>All property types</span><input
-                                                type="text" tabindex="4"><i class="rui-icon rui-icon-arrow-down"></i>
-                                        </div>
-                                        <ul class="rui-select-menu">
-                                            <li class="rui-select-list rui-selected"><span
-                                                    class="rui-checkbox-hide"></span><input tabindex="-1"
-                                                                                            type="checkbox" value="All"
-                                                                                            checked="checked"><span
-                                                    class="rui-label">All property types</span></li>
-                                            <li class="rui-select-list"><span class="rui-checkbox-hide"></span><input
-                                                    tabindex="-1" type="checkbox" value="House"><span class="rui-label">House</span>
-                                            </li>
-                                            <li class="rui-select-list"><span class="rui-checkbox-hide"></span><input
-                                                    tabindex="-1" type="checkbox" value="unit apartment"><span
-                                                    class="rui-label">Apartment &amp; Unit</span></li>
-                                            <li class="rui-select-list"><span class="rui-checkbox-hide"></span><input
-                                                    tabindex="-1" type="checkbox" value="Townhouse"><span
-                                                    class="rui-label">Townhouse</span></li>
-                                            <li class="rui-select-list"><span class="rui-checkbox-hide"></span><input
-                                                    tabindex="-1" type="checkbox" value="Villa"><span class="rui-label">Villa</span>
-                                            </li>
-                                        </ul>
-                                    </div>
-
-                                </div>
-                            </div>
-
-
-                            <div class="condition bed-select-container">
-                                <div class="min beds select-holder">
-                                    <label>Beds (min)</label>
-                                    <select class="rui-input rui-select resize-select rui-select-rendered rui-default-selected"
-                                            id="rui-min-beds-select-id" name="numBeds" style="display: none;">
-                                        <option value="Any" data-all="Any" selected="selected">Beds (min)</option>
-                                        <option value="Studio">Studio</option>
-                                        <option value="1">1 Bed</option>
-                                        <option value="2">2 Beds</option>
-                                        <option value="3">3 Beds</option>
-                                        <option value="4">4 Beds</option>
-                                        <option value="5">5 Beds</option>
-                                    </select>
-                                    <div class="rui-select-wrapper rui-default-selected">
-                                        <div id="rui-sel-rui-min-beds-select-id"
-                                             class="rui-select-link rui-input rui-select resize-select">
-                                            <span>Beds (min)</span><input type="text" tabindex="5"><i
-                                                class="rui-icon rui-icon-arrow-down"></i></div>
-                                        <ul class="rui-select-menu">
-                                            <li class="rui-select-list rui-selected" data-value="Any" data-label="Any">
-                                                Any
-                                            </li>
-                                            <li class="rui-select-list" data-value="Studio" data-label="Studio">Studio
-                                            </li>
-                                            <li class="rui-select-list" data-value="1" data-label="1 Bed">1 Bed</li>
-                                            <li class="rui-select-list" data-value="2" data-label="2 Beds">2 Beds</li>
-                                            <li class="rui-select-list" data-value="3" data-label="3 Beds">3 Beds</li>
-                                            <li class="rui-select-list" data-value="4" data-label="4 Beds">4 Beds</li>
-                                            <li class="rui-select-list" data-value="5" data-label="5 Beds">5 Beds</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="max beds select-holder">
-                                    <label>Beds (max)</label>
-                                    <select class="rui-input rui-select resize-select rui-select-rendered rui-default-selected"
-                                            id="rui-max-beds-select-id" name="maxBeds" style="display: none;">
-                                        <option value="Any" data-all="Any" selected="selected">Beds (max)</option>
-                                        <option value="Studio">Studio</option>
-                                        <option value="1">1 Bed</option>
-                                        <option value="2">2 Beds</option>
-                                        <option value="3">3 Beds</option>
-                                        <option value="4">4 Beds</option>
-                                        <option value="5">5 Beds</option>
-                                    </select>
-                                    <div class="rui-select-wrapper rui-default-selected">
-                                        <div id="rui-sel-rui-max-beds-select-id"
-                                             class="rui-select-link rui-input rui-select resize-select">
-                                            <span>Beds (max)</span><input type="text" tabindex="6"><i
-                                                class="rui-icon rui-icon-arrow-down"></i></div>
-                                        <ul class="rui-select-menu">
-                                            <li class="rui-select-list rui-selected" data-value="Any" data-label="Any">
-                                                Any
-                                            </li>
-                                            <li class="rui-select-list" data-value="Studio" data-label="Studio">Studio
-                                            </li>
-                                            <li class="rui-select-list" data-value="1" data-label="1 Bed">1 Bed</li>
-                                            <li class="rui-select-list" data-value="2" data-label="2 Beds">2 Beds</li>
-                                            <li class="rui-select-list" data-value="3" data-label="3 Beds">3 Beds</li>
-                                            <li class="rui-select-list" data-value="4" data-label="4 Beds">4 Beds</li>
-                                            <li class="rui-select-list" data-value="5" data-label="5 Beds">5 Beds</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <div class="condition price-select-container">
-                                <div class="min price select-holder">
-                                    <label>Price pw (min)</label>
-                                    <select class="rui-input rui-select resize-select rui-select-rendered rui-default-selected"
-                                            id="rui-min-price-select-id" name="minPrice" style="display: none;">
-                                        <option value="Any" data-all="Any" selected="selected">Price pw (min)</option>
-                                        <option value="50">$50pw</option>
-                                        <option value="75">$75pw</option>
-                                        <option value="100">$100pw</option>
-                                        <option value="125">$125pw</option>
-                                        <option value="150">$150pw</option>
-                                        <option value="175">$175pw</option>
-                                        <option value="200">$200pw</option>
-                                        <option value="225">$225pw</option>
-                                        <option value="250">$250pw</option>
-                                        <option value="275">$275pw</option>
-                                        <option value="300">$300pw</option>
-                                        <option value="325">$325pw</option>
-                                        <option value="350">$350pw</option>
-                                        <option value="375">$375pw</option>
-                                        <option value="400">$400pw</option>
-                                        <option value="425">$425pw</option>
-                                        <option value="450">$450pw</option>
-                                        <option value="475">$475pw</option>
-                                        <option value="500">$500pw</option>
-                                        <option value="525">$525pw</option>
-                                        <option value="550">$550pw</option>
-                                        <option value="575">$575pw</option>
-                                        <option value="600">$600pw</option>
-                                        <option value="625">$625pw</option>
-                                        <option value="650">$650pw</option>
-                                        <option value="675">$675pw</option>
-                                        <option value="700">$700pw</option>
-                                        <option value="725">$725pw</option>
-                                        <option value="750">$750pw</option>
-                                        <option value="800">$800pw</option>
-                                        <option value="850">$850pw</option>
-                                        <option value="900">$900pw</option>
-                                        <option value="950">$950pw</option>
-                                        <option value="1000">$1,000pw</option>
-                                        <option value="1100">$1,100pw</option>
-                                        <option value="1200">$1,200pw</option>
-                                        <option value="1300">$1,300pw</option>
-                                        <option value="1400">$1,400pw</option>
-                                        <option value="1500">$1,500pw</option>
-                                        <option value="1600">$1,600pw</option>
-                                        <option value="1700">$1,700pw</option>
-                                        <option value="1800">$1,800pw</option>
-                                        <option value="1900">$1,900pw</option>
-                                        <option value="2000">$2,000pw</option>
-                                        <option value="2500">$2,500pw</option>
-                                        <option value="3000">$3,000pw</option>
-                                        <option value="3500">$3,500pw</option>
-                                        <option value="4000">$4,000pw</option>
-                                        <option value="4500">$4,500pw</option>
-                                        <option value="5000">$5,000pw</option>
-                                    </select>
-                                    <div class="rui-select-wrapper rui-default-selected">
-                                        <div id="rui-sel-rui-min-price-select-id"
-                                             class="rui-select-link rui-input rui-select resize-select"><span>Price pw (min)</span><input
-                                                type="text" tabindex="7"><i class="rui-icon rui-icon-arrow-down"></i>
-                                        </div>
-                                        <ul class="rui-select-menu">
-                                            <li class="rui-select-list rui-selected" data-value="Any" data-label="Any">
-                                                Any
-                                            </li>
-                                            <li class="rui-select-list" data-value="50" data-label="$50pw">$50pw</li>
-                                            <li class="rui-select-list" data-value="75" data-label="$75pw">$75pw</li>
-                                            <li class="rui-select-list" data-value="100" data-label="$100pw">$100pw</li>
-                                            <li class="rui-select-list" data-value="125" data-label="$125pw">$125pw</li>
-                                            <li class="rui-select-list" data-value="150" data-label="$150pw">$150pw</li>
-                                            <li class="rui-select-list" data-value="175" data-label="$175pw">$175pw</li>
-                                            <li class="rui-select-list" data-value="200" data-label="$200pw">$200pw</li>
-                                            <li class="rui-select-list" data-value="225" data-label="$225pw">$225pw</li>
-                                            <li class="rui-select-list" data-value="250" data-label="$250pw">$250pw</li>
-                                            <li class="rui-select-list" data-value="275" data-label="$275pw">$275pw</li>
-                                            <li class="rui-select-list" data-value="300" data-label="$300pw">$300pw</li>
-                                            <li class="rui-select-list" data-value="325" data-label="$325pw">$325pw</li>
-                                            <li class="rui-select-list" data-value="350" data-label="$350pw">$350pw</li>
-                                            <li class="rui-select-list" data-value="375" data-label="$375pw">$375pw</li>
-                                            <li class="rui-select-list" data-value="400" data-label="$400pw">$400pw</li>
-                                            <li class="rui-select-list" data-value="425" data-label="$425pw">$425pw</li>
-                                            <li class="rui-select-list" data-value="450" data-label="$450pw">$450pw</li>
-                                            <li class="rui-select-list" data-value="475" data-label="$475pw">$475pw</li>
-                                            <li class="rui-select-list" data-value="500" data-label="$500pw">$500pw</li>
-                                            <li class="rui-select-list" data-value="525" data-label="$525pw">$525pw</li>
-                                            <li class="rui-select-list" data-value="550" data-label="$550pw">$550pw</li>
-                                            <li class="rui-select-list" data-value="575" data-label="$575pw">$575pw</li>
-                                            <li class="rui-select-list" data-value="600" data-label="$600pw">$600pw</li>
-                                            <li class="rui-select-list" data-value="625" data-label="$625pw">$625pw</li>
-                                            <li class="rui-select-list" data-value="650" data-label="$650pw">$650pw</li>
-                                            <li class="rui-select-list" data-value="675" data-label="$675pw">$675pw</li>
-                                            <li class="rui-select-list" data-value="700" data-label="$700pw">$700pw</li>
-                                            <li class="rui-select-list" data-value="725" data-label="$725pw">$725pw</li>
-                                            <li class="rui-select-list" data-value="750" data-label="$750pw">$750pw</li>
-                                            <li class="rui-select-list" data-value="800" data-label="$800pw">$800pw</li>
-                                            <li class="rui-select-list" data-value="850" data-label="$850pw">$850pw</li>
-                                            <li class="rui-select-list" data-value="900" data-label="$900pw">$900pw</li>
-                                            <li class="rui-select-list" data-value="950" data-label="$950pw">$950pw</li>
-                                            <li class="rui-select-list" data-value="1000" data-label="$1,000pw">
-                                                $1,000pw
-                                            </li>
-                                            <li class="rui-select-list" data-value="1100" data-label="$1,100pw">
-                                                $1,100pw
-                                            </li>
-                                            <li class="rui-select-list" data-value="1200" data-label="$1,200pw">
-                                                $1,200pw
-                                            </li>
-                                            <li class="rui-select-list" data-value="1300" data-label="$1,300pw">
-                                                $1,300pw
-                                            </li>
-                                            <li class="rui-select-list" data-value="1400" data-label="$1,400pw">
-                                                $1,400pw
-                                            </li>
-                                            <li class="rui-select-list" data-value="1500" data-label="$1,500pw">
-                                                $1,500pw
-                                            </li>
-                                            <li class="rui-select-list" data-value="1600" data-label="$1,600pw">
-                                                $1,600pw
-                                            </li>
-                                            <li class="rui-select-list" data-value="1700" data-label="$1,700pw">
-                                                $1,700pw
-                                            </li>
-                                            <li class="rui-select-list" data-value="1800" data-label="$1,800pw">
-                                                $1,800pw
-                                            </li>
-                                            <li class="rui-select-list" data-value="1900" data-label="$1,900pw">
-                                                $1,900pw
-                                            </li>
-                                            <li class="rui-select-list" data-value="2000" data-label="$2,000pw">
-                                                $2,000pw
-                                            </li>
-                                            <li class="rui-select-list" data-value="2500" data-label="$2,500pw">
-                                                $2,500pw
-                                            </li>
-                                            <li class="rui-select-list" data-value="3000" data-label="$3,000pw">
-                                                $3,000pw
-                                            </li>
-                                            <li class="rui-select-list" data-value="3500" data-label="$3,500pw">
-                                                $3,500pw
-                                            </li>
-                                            <li class="rui-select-list" data-value="4000" data-label="$4,000pw">
-                                                $4,000pw
-                                            </li>
-                                            <li class="rui-select-list" data-value="4500" data-label="$4,500pw">
-                                                $4,500pw
-                                            </li>
-                                            <li class="rui-select-list" data-value="5000" data-label="$5,000pw">
-                                                $5,000pw
-                                            </li>
-                                        </ul>
-                                    </div>
-
-                                </div>
-                                <div class="max price select-holder">
-                                    <label>Price pw (max)</label>
-                                    <select class="rui-input rui-select resize-select rui-select-rendered rui-default-selected"
-                                            id="rui-max-price-select-id" name="maxPrice" style="display: none;">
-                                        <option value="Any" data-all="Any" selected="selected">Price pw (max)</option>
-                                        <option value="50">$50pw</option>
-                                        <option value="75">$75pw</option>
-                                        <option value="100">$100pw</option>
-                                        <option value="125">$125pw</option>
-                                        <option value="150">$150pw</option>
-                                        <option value="175">$175pw</option>
-                                        <option value="200">$200pw</option>
-                                        <option value="225">$225pw</option>
-                                        <option value="250">$250pw</option>
-                                        <option value="275">$275pw</option>
-                                        <option value="300">$300pw</option>
-                                        <option value="325">$325pw</option>
-                                        <option value="350">$350pw</option>
-                                        <option value="375">$375pw</option>
-                                        <option value="400">$400pw</option>
-                                        <option value="425">$425pw</option>
-                                        <option value="450">$450pw</option>
-                                        <option value="475">$475pw</option>
-                                        <option value="500">$500pw</option>
-                                        <option value="525">$525pw</option>
-                                        <option value="550">$550pw</option>
-                                        <option value="575">$575pw</option>
-                                        <option value="600">$600pw</option>
-                                        <option value="625">$625pw</option>
-                                        <option value="650">$650pw</option>
-                                        <option value="675">$675pw</option>
-                                        <option value="700">$700pw</option>
-                                        <option value="725">$725pw</option>
-                                        <option value="750">$750pw</option>
-                                        <option value="800">$800pw</option>
-                                        <option value="850">$850pw</option>
-                                        <option value="900">$900pw</option>
-                                        <option value="950">$950pw</option>
-                                        <option value="1000">$1,000pw</option>
-                                        <option value="1100">$1,100pw</option>
-                                        <option value="1200">$1,200pw</option>
-                                        <option value="1300">$1,300pw</option>
-                                        <option value="1400">$1,400pw</option>
-                                        <option value="1500">$1,500pw</option>
-                                        <option value="1600">$1,600pw</option>
-                                        <option value="1700">$1,700pw</option>
-                                        <option value="1800">$1,800pw</option>
-                                        <option value="1900">$1,900pw</option>
-                                        <option value="2000">$2,000pw</option>
-                                        <option value="2500">$2,500pw</option>
-                                        <option value="3000">$3,000pw</option>
-                                        <option value="3500">$3,500pw</option>
-                                        <option value="4000">$4,000pw</option>
-                                        <option value="4500">$4,500pw</option>
-                                        <option value="5000">$5,000pw</option>
-                                    </select>
-                                    <div class="rui-select-wrapper rui-default-selected">
-                                        <div id="rui-sel-rui-max-price-select-id"
-                                             class="rui-select-link rui-input rui-select resize-select"><span>Price pw (max)</span><input
-                                                type="text" tabindex="8"><i class="rui-icon rui-icon-arrow-down"></i>
-                                        </div>
-                                        <ul class="rui-select-menu">
-                                            <li class="rui-select-list rui-selected" data-value="Any" data-label="Any">
-                                                Any
-                                            </li>
-                                            <li class="rui-select-list" data-value="50" data-label="$50pw">$50pw</li>
-                                            <li class="rui-select-list" data-value="75" data-label="$75pw">$75pw</li>
-                                            <li class="rui-select-list" data-value="100" data-label="$100pw">$100pw</li>
-                                            <li class="rui-select-list" data-value="125" data-label="$125pw">$125pw</li>
-                                            <li class="rui-select-list" data-value="150" data-label="$150pw">$150pw</li>
-                                            <li class="rui-select-list" data-value="175" data-label="$175pw">$175pw</li>
-                                            <li class="rui-select-list" data-value="200" data-label="$200pw">$200pw</li>
-                                            <li class="rui-select-list" data-value="225" data-label="$225pw">$225pw</li>
-                                            <li class="rui-select-list" data-value="250" data-label="$250pw">$250pw</li>
-                                            <li class="rui-select-list" data-value="275" data-label="$275pw">$275pw</li>
-                                            <li class="rui-select-list" data-value="300" data-label="$300pw">$300pw</li>
-                                            <li class="rui-select-list" data-value="325" data-label="$325pw">$325pw</li>
-                                            <li class="rui-select-list" data-value="350" data-label="$350pw">$350pw</li>
-                                            <li class="rui-select-list" data-value="375" data-label="$375pw">$375pw</li>
-                                            <li class="rui-select-list" data-value="400" data-label="$400pw">$400pw</li>
-                                            <li class="rui-select-list" data-value="425" data-label="$425pw">$425pw</li>
-                                            <li class="rui-select-list" data-value="450" data-label="$450pw">$450pw</li>
-                                            <li class="rui-select-list" data-value="475" data-label="$475pw">$475pw</li>
-                                            <li class="rui-select-list" data-value="500" data-label="$500pw">$500pw</li>
-                                            <li class="rui-select-list" data-value="525" data-label="$525pw">$525pw</li>
-                                            <li class="rui-select-list" data-value="550" data-label="$550pw">$550pw</li>
-                                            <li class="rui-select-list" data-value="575" data-label="$575pw">$575pw</li>
-                                            <li class="rui-select-list" data-value="600" data-label="$600pw">$600pw</li>
-                                            <li class="rui-select-list" data-value="625" data-label="$625pw">$625pw</li>
-                                            <li class="rui-select-list" data-value="650" data-label="$650pw">$650pw</li>
-                                            <li class="rui-select-list" data-value="675" data-label="$675pw">$675pw</li>
-                                            <li class="rui-select-list" data-value="700" data-label="$700pw">$700pw</li>
-                                            <li class="rui-select-list" data-value="725" data-label="$725pw">$725pw</li>
-                                            <li class="rui-select-list" data-value="750" data-label="$750pw">$750pw</li>
-                                            <li class="rui-select-list" data-value="800" data-label="$800pw">$800pw</li>
-                                            <li class="rui-select-list" data-value="850" data-label="$850pw">$850pw</li>
-                                            <li class="rui-select-list" data-value="900" data-label="$900pw">$900pw</li>
-                                            <li class="rui-select-list" data-value="950" data-label="$950pw">$950pw</li>
-                                            <li class="rui-select-list" data-value="1000" data-label="$1,000pw">
-                                                $1,000pw
-                                            </li>
-                                            <li class="rui-select-list" data-value="1100" data-label="$1,100pw">
-                                                $1,100pw
-                                            </li>
-                                            <li class="rui-select-list" data-value="1200" data-label="$1,200pw">
-                                                $1,200pw
-                                            </li>
-                                            <li class="rui-select-list" data-value="1300" data-label="$1,300pw">
-                                                $1,300pw
-                                            </li>
-                                            <li class="rui-select-list" data-value="1400" data-label="$1,400pw">
-                                                $1,400pw
-                                            </li>
-                                            <li class="rui-select-list" data-value="1500" data-label="$1,500pw">
-                                                $1,500pw
-                                            </li>
-                                            <li class="rui-select-list" data-value="1600" data-label="$1,600pw">
-                                                $1,600pw
-                                            </li>
-                                            <li class="rui-select-list" data-value="1700" data-label="$1,700pw">
-                                                $1,700pw
-                                            </li>
-                                            <li class="rui-select-list" data-value="1800" data-label="$1,800pw">
-                                                $1,800pw
-                                            </li>
-                                            <li class="rui-select-list" data-value="1900" data-label="$1,900pw">
-                                                $1,900pw
-                                            </li>
-                                            <li class="rui-select-list" data-value="2000" data-label="$2,000pw">
-                                                $2,000pw
-                                            </li>
-                                            <li class="rui-select-list" data-value="2500" data-label="$2,500pw">
-                                                $2,500pw
-                                            </li>
-                                            <li class="rui-select-list" data-value="3000" data-label="$3,000pw">
-                                                $3,000pw
-                                            </li>
-                                            <li class="rui-select-list" data-value="3500" data-label="$3,500pw">
-                                                $3,500pw
-                                            </li>
-                                            <li class="rui-select-list" data-value="4000" data-label="$4,000pw">
-                                                $4,000pw
-                                            </li>
-                                            <li class="rui-select-list" data-value="4500" data-label="$4,500pw">
-                                                $4,500pw
-                                            </li>
-                                            <li class="rui-select-list" data-value="5000" data-label="$5,000pw">
-                                                $5,000pw
-                                            </li>
-                                        </ul>
-                                    </div>
-
-                                </div>
-                            </div>
-
-
-                            <div class="condition available-date-container">
-                                <div class="available before select-holder">
-                                    <label>Available date</label>
-                                    <select class="rui-input rui-select resize-select rui-select-rendered rui-default-selected"
-                                            id="rui-available-before-id" name="availableBefore" style="display: none;">
-                                        <option value="Any" data-all="Any date" selected="selected">Available date
-                                        </option>
-                                        <option value="2021-03-10">Avail. now</option>
-                                        <option value="before" disabled="disabled">Before:</option>
-                                        <option value="2021-03-11">Thu 11 Mar</option>
-                                        <option value="2021-03-12">Fri 12 Mar</option>
-                                        <option value="2021-03-13">Sat 13 Mar</option>
-                                        <option value="2021-03-14">Sun 14 Mar</option>
-                                        <option value="2021-03-15">Mon 15 Mar</option>
-                                        <option value="2021-03-16">Tue 16 Mar</option>
-                                        <option value="2021-03-17">Wed 17 Mar</option>
-                                        <option value="2021-03-18">Thu 18 Mar</option>
-                                        <option value="2021-03-19">Fri 19 Mar</option>
-                                        <option value="2021-03-20">Sat 20 Mar</option>
-                                        <option value="2021-03-21">Sun 21 Mar</option>
-                                        <option value="2021-03-22">Mon 22 Mar</option>
-                                        <option value="2021-03-23">Tue 23 Mar</option>
-                                        <option value="2021-03-24">Wed 24 Mar</option>
-                                        <option value="2021-03-25">Thu 25 Mar</option>
-                                        <option value="2021-03-26">Fri 26 Mar</option>
-                                        <option value="2021-03-27">Sat 27 Mar</option>
-                                        <option value="2021-03-28">Sun 28 Mar</option>
-                                        <option value="2021-03-29">Mon 29 Mar</option>
-                                        <option value="2021-03-30">Tue 30 Mar</option>
-                                        <option value="2021-03-31">Wed 31 Mar</option>
-                                        <option value="2021-04-01">Thu 1 Apr</option>
-                                        <option value="2021-04-02">Fri 2 Apr</option>
-                                        <option value="2021-04-03">Sat 3 Apr</option>
-                                        <option value="2021-04-04">Sun 4 Apr</option>
-                                        <option value="2021-04-05">Mon 5 Apr</option>
-                                        <option value="2021-04-06">Tue 6 Apr</option>
-                                        <option value="2021-04-07">Wed 7 Apr</option>
-                                        <option value="2021-04-08">Thu 8 Apr</option>
-                                        <option value="2021-04-09">Fri 9 Apr</option>
-                                        <option value="2021-04-10">Sat 10 Apr</option>
-                                        <option value="2021-04-11">Sun 11 Apr</option>
-                                        <option value="2021-04-12">Mon 12 Apr</option>
-                                        <option value="2021-04-13">Tue 13 Apr</option>
-                                        <option value="2021-04-14">Wed 14 Apr</option>
-                                        <option value="2021-04-15">Thu 15 Apr</option>
-                                        <option value="2021-04-16">Fri 16 Apr</option>
-                                        <option value="2021-04-17">Sat 17 Apr</option>
-                                        <option value="2021-04-18">Sun 18 Apr</option>
-                                        <option value="2021-04-19">Mon 19 Apr</option>
-                                        <option value="2021-04-20">Tue 20 Apr</option>
-                                        <option value="2021-04-21">Wed 21 Apr</option>
-                                    </select>
-                                    <div class="rui-select-wrapper rui-default-selected">
-                                        <div id="rui-sel-rui-available-before-id"
-                                             class="rui-select-link rui-input rui-select resize-select"><span>Available date</span><input
-                                                type="text" tabindex="9"><i class="rui-icon rui-icon-arrow-down"></i>
-                                        </div>
-                                        <ul class="rui-select-menu">
-                                            <li class="rui-select-list rui-selected" data-value="Any"
-                                                data-label="Any date">Any date
-                                            </li>
-                                            <li class="rui-select-list" data-value="2021-03-10" data-label="Avail. now">
-                                                Avail. now
-                                            </li>
-                                            <li class="rui-select-list rui-disabled" data-value="before"
-                                                data-label="Before:">Before:
-                                            </li>
-                                            <li class="rui-select-list" data-value="2021-03-11" data-label="Thu 11 Mar">
-                                                Thu 11 Mar
-                                            </li>
-                                            <li class="rui-select-list" data-value="2021-03-12" data-label="Fri 12 Mar">
-                                                Fri 12 Mar
-                                            </li>
-                                            <li class="rui-select-list" data-value="2021-03-13" data-label="Sat 13 Mar">
-                                                Sat 13 Mar
-                                            </li>
-                                            <li class="rui-select-list" data-value="2021-03-14" data-label="Sun 14 Mar">
-                                                Sun 14 Mar
-                                            </li>
-                                            <li class="rui-select-list" data-value="2021-03-15" data-label="Mon 15 Mar">
-                                                Mon 15 Mar
-                                            </li>
-                                            <li class="rui-select-list" data-value="2021-03-16" data-label="Tue 16 Mar">
-                                                Tue 16 Mar
-                                            </li>
-                                            <li class="rui-select-list" data-value="2021-03-17" data-label="Wed 17 Mar">
-                                                Wed 17 Mar
-                                            </li>
-                                            <li class="rui-select-list" data-value="2021-03-18" data-label="Thu 18 Mar">
-                                                Thu 18 Mar
-                                            </li>
-                                            <li class="rui-select-list" data-value="2021-03-19" data-label="Fri 19 Mar">
-                                                Fri 19 Mar
-                                            </li>
-                                            <li class="rui-select-list" data-value="2021-03-20" data-label="Sat 20 Mar">
-                                                Sat 20 Mar
-                                            </li>
-                                            <li class="rui-select-list" data-value="2021-03-21" data-label="Sun 21 Mar">
-                                                Sun 21 Mar
-                                            </li>
-                                            <li class="rui-select-list" data-value="2021-03-22" data-label="Mon 22 Mar">
-                                                Mon 22 Mar
-                                            </li>
-                                            <li class="rui-select-list" data-value="2021-03-23" data-label="Tue 23 Mar">
-                                                Tue 23 Mar
-                                            </li>
-                                            <li class="rui-select-list" data-value="2021-03-24" data-label="Wed 24 Mar">
-                                                Wed 24 Mar
-                                            </li>
-                                            <li class="rui-select-list" data-value="2021-03-25" data-label="Thu 25 Mar">
-                                                Thu 25 Mar
-                                            </li>
-                                            <li class="rui-select-list" data-value="2021-03-26" data-label="Fri 26 Mar">
-                                                Fri 26 Mar
-                                            </li>
-                                            <li class="rui-select-list" data-value="2021-03-27" data-label="Sat 27 Mar">
-                                                Sat 27 Mar
-                                            </li>
-                                            <li class="rui-select-list" data-value="2021-03-28" data-label="Sun 28 Mar">
-                                                Sun 28 Mar
-                                            </li>
-                                            <li class="rui-select-list" data-value="2021-03-29" data-label="Mon 29 Mar">
-                                                Mon 29 Mar
-                                            </li>
-                                            <li class="rui-select-list" data-value="2021-03-30" data-label="Tue 30 Mar">
-                                                Tue 30 Mar
-                                            </li>
-                                            <li class="rui-select-list" data-value="2021-03-31" data-label="Wed 31 Mar">
-                                                Wed 31 Mar
-                                            </li>
-                                            <li class="rui-select-list" data-value="2021-04-01" data-label="Thu 1 Apr">
-                                                Thu 1 Apr
-                                            </li>
-                                            <li class="rui-select-list" data-value="2021-04-02" data-label="Fri 2 Apr">
-                                                Fri 2 Apr
-                                            </li>
-                                            <li class="rui-select-list" data-value="2021-04-03" data-label="Sat 3 Apr">
-                                                Sat 3 Apr
-                                            </li>
-                                            <li class="rui-select-list" data-value="2021-04-04" data-label="Sun 4 Apr">
-                                                Sun 4 Apr
-                                            </li>
-                                            <li class="rui-select-list" data-value="2021-04-05" data-label="Mon 5 Apr">
-                                                Mon 5 Apr
-                                            </li>
-                                            <li class="rui-select-list" data-value="2021-04-06" data-label="Tue 6 Apr">
-                                                Tue 6 Apr
-                                            </li>
-                                            <li class="rui-select-list" data-value="2021-04-07" data-label="Wed 7 Apr">
-                                                Wed 7 Apr
-                                            </li>
-                                            <li class="rui-select-list" data-value="2021-04-08" data-label="Thu 8 Apr">
-                                                Thu 8 Apr
-                                            </li>
-                                            <li class="rui-select-list" data-value="2021-04-09" data-label="Fri 9 Apr">
-                                                Fri 9 Apr
-                                            </li>
-                                            <li class="rui-select-list" data-value="2021-04-10" data-label="Sat 10 Apr">
-                                                Sat 10 Apr
-                                            </li>
-                                            <li class="rui-select-list" data-value="2021-04-11" data-label="Sun 11 Apr">
-                                                Sun 11 Apr
-                                            </li>
-                                            <li class="rui-select-list" data-value="2021-04-12" data-label="Mon 12 Apr">
-                                                Mon 12 Apr
-                                            </li>
-                                            <li class="rui-select-list" data-value="2021-04-13" data-label="Tue 13 Apr">
-                                                Tue 13 Apr
-                                            </li>
-                                            <li class="rui-select-list" data-value="2021-04-14" data-label="Wed 14 Apr">
-                                                Wed 14 Apr
-                                            </li>
-                                            <li class="rui-select-list" data-value="2021-04-15" data-label="Thu 15 Apr">
-                                                Thu 15 Apr
-                                            </li>
-                                            <li class="rui-select-list" data-value="2021-04-16" data-label="Fri 16 Apr">
-                                                Fri 16 Apr
-                                            </li>
-                                            <li class="rui-select-list" data-value="2021-04-17" data-label="Sat 17 Apr">
-                                                Sat 17 Apr
-                                            </li>
-                                            <li class="rui-select-list" data-value="2021-04-18" data-label="Sun 18 Apr">
-                                                Sun 18 Apr
-                                            </li>
-                                            <li class="rui-select-list" data-value="2021-04-19" data-label="Mon 19 Apr">
-                                                Mon 19 Apr
-                                            </li>
-                                            <li class="rui-select-list" data-value="2021-04-20" data-label="Tue 20 Apr">
-                                                Tue 20 Apr
-                                            </li>
-                                            <li class="rui-select-list" data-value="2021-04-21" data-label="Wed 21 Apr">
-                                                Wed 21 Apr
-                                            </li>
-                                        </ul>
-                                    </div>
-
-                                </div>
-                            </div>
-
-
-                            <div class="rui-clearfix"></div>
-                        </section>
-
-                        <div class="formSuburbSurroundings">
-                            <input type="checkbox" name="includeSurrounding" id="includeSurrounding" checked="checked"
-                                   tabindex="3">
-                            <label for="includeSurrounding">Surrounding suburbs</label>
-                        </div>
-
                     </div>
 
-
-                    <div class="rui-clearfix"></div>
-                    <input id="preferredSort" type="hidden" name="activeSort" value="">
-                    <input id="preferredView" type="hidden" name="display" value="list">
-                    <input id="trace" type="hidden" name="trace" value="">
                 </div>
-            </form>
-        </div>
+                <div class="search-refinements-wrapper">
+                    <section class="search-refinements" id="search-refinements">
 
 
-        <div class="home-loans-container">
-            <div class="home-loans-content fade-in">
-                <h1 class="home-loans-header">Home Loans</h1>
-                <h2 class="home-loans-text">Finally, there’s one place to look for your home and your loan.</h2>
-                <a class="home-loans-link"
-                   href="https://www.realestate.com.au/home-loans/?cid=cid:rent:desktop-homepage:search-box:home-loans-CTA">Learn
-                    more</a>
+                        <div class="condition property-select-holder">
+                            <div class="select-holder">
+                                <label>All property types</label>
+                                <select class="rui-input rui-select resize-select rui-select-rendered"
+                                        id="rui-property-type-select-id" name="propertyType" multiple="multiple"
+                                        style="display: none;">
+                                    <option value="All" selected="selected">All property types</option>
+                                    <option value="House">House</option>
+                                    <option value="unit apartment">Apartment &amp; Unit</option>
+                                    <option value="Townhouse">Townhouse</option>
+                                    <option value="Villa">Villa</option>
+                                </select>
+                                <div class="rui-select-wrapper rui-default-selected">
+                                    <div id="rui-sel-rui-property-type-select-id"
+                                         class="rui-select-link rui-input rui-select resize-select"><span>All property types</span><input
+                                            type="text" tabindex="4"><i class="rui-icon rui-icon-arrow-down"></i>
+                                    </div>
+                                    <ul class="rui-select-menu">
+                                        <li class="rui-select-list rui-selected"><span
+                                                class="rui-checkbox-hide"></span><input tabindex="-1"
+                                                                                        type="checkbox" value="All"
+                                                                                        checked="checked"><span
+                                                class="rui-label">All property types</span></li>
+                                        <li class="rui-select-list"><span class="rui-checkbox-hide"></span><input
+                                                tabindex="-1" type="checkbox" value="House"><span class="rui-label">House</span>
+                                        </li>
+                                        <li class="rui-select-list"><span class="rui-checkbox-hide"></span><input
+                                                tabindex="-1" type="checkbox" value="unit apartment"><span
+                                                class="rui-label">Apartment &amp; Unit</span></li>
+                                        <li class="rui-select-list"><span class="rui-checkbox-hide"></span><input
+                                                tabindex="-1" type="checkbox" value="Townhouse"><span
+                                                class="rui-label">Townhouse</span></li>
+                                        <li class="rui-select-list"><span class="rui-checkbox-hide"></span><input
+                                                tabindex="-1" type="checkbox" value="Villa"><span class="rui-label">Villa</span>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                        <div class="condition bed-select-container">
+                            <div class="min beds select-holder">
+                                <label>Beds (min)</label>
+                                <select class="rui-input rui-select resize-select rui-select-rendered rui-default-selected"
+                                        id="rui-min-beds-select-id" name="numBeds" style="display: none;">
+                                    <option value="Any" data-all="Any" selected="selected">Beds (min)</option>
+                                    <option value="Studio">Studio</option>
+                                    <option value="1">1 Bed</option>
+                                    <option value="2">2 Beds</option>
+                                    <option value="3">3 Beds</option>
+                                    <option value="4">4 Beds</option>
+                                    <option value="5">5 Beds</option>
+                                </select>
+                                <div class="rui-select-wrapper rui-default-selected">
+                                    <div id="rui-sel-rui-min-beds-select-id"
+                                         class="rui-select-link rui-input rui-select resize-select">
+                                        <span>Beds (min)</span><input type="text" tabindex="5"><i
+                                            class="rui-icon rui-icon-arrow-down"></i></div>
+                                    <ul class="rui-select-menu">
+                                        <li class="rui-select-list rui-selected" data-value="Any" data-label="Any">
+                                            Any
+                                        </li>
+                                        <li class="rui-select-list" data-value="Studio" data-label="Studio">Studio
+                                        </li>
+                                        <li class="rui-select-list" data-value="1" data-label="1 Bed">1 Bed</li>
+                                        <li class="rui-select-list" data-value="2" data-label="2 Beds">2 Beds</li>
+                                        <li class="rui-select-list" data-value="3" data-label="3 Beds">3 Beds</li>
+                                        <li class="rui-select-list" data-value="4" data-label="4 Beds">4 Beds</li>
+                                        <li class="rui-select-list" data-value="5" data-label="5 Beds">5 Beds</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="max beds select-holder">
+                                <label>Beds (max)</label>
+                                <select class="rui-input rui-select resize-select rui-select-rendered rui-default-selected"
+                                        id="rui-max-beds-select-id" name="maxBeds" style="display: none;">
+                                    <option value="Any" data-all="Any" selected="selected">Beds (max)</option>
+                                    <option value="Studio">Studio</option>
+                                    <option value="1">1 Bed</option>
+                                    <option value="2">2 Beds</option>
+                                    <option value="3">3 Beds</option>
+                                    <option value="4">4 Beds</option>
+                                    <option value="5">5 Beds</option>
+                                </select>
+                                <div class="rui-select-wrapper rui-default-selected">
+                                    <div id="rui-sel-rui-max-beds-select-id"
+                                         class="rui-select-link rui-input rui-select resize-select">
+                                        <span>Beds (max)</span><input type="text" tabindex="6"><i
+                                            class="rui-icon rui-icon-arrow-down"></i></div>
+                                    <ul class="rui-select-menu">
+                                        <li class="rui-select-list rui-selected" data-value="Any" data-label="Any">
+                                            Any
+                                        </li>
+                                        <li class="rui-select-list" data-value="Studio" data-label="Studio">Studio
+                                        </li>
+                                        <li class="rui-select-list" data-value="1" data-label="1 Bed">1 Bed</li>
+                                        <li class="rui-select-list" data-value="2" data-label="2 Beds">2 Beds</li>
+                                        <li class="rui-select-list" data-value="3" data-label="3 Beds">3 Beds</li>
+                                        <li class="rui-select-list" data-value="4" data-label="4 Beds">4 Beds</li>
+                                        <li class="rui-select-list" data-value="5" data-label="5 Beds">5 Beds</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="condition price-select-container">
+                            <div class="min price select-holder">
+                                <label>Price pw (min)</label>
+                                <select class="rui-input rui-select resize-select rui-select-rendered rui-default-selected"
+                                        id="rui-min-price-select-id" name="minPrice" style="display: none;">
+                                    <option value="Any" data-all="Any" selected="selected">Price pw (min)</option>
+                                    <option value="50">$50pw</option>
+                                    <option value="75">$75pw</option>
+                                    <option value="100">$100pw</option>
+                                    <option value="125">$125pw</option>
+                                    <option value="150">$150pw</option>
+                                    <option value="175">$175pw</option>
+                                    <option value="200">$200pw</option>
+                                    <option value="225">$225pw</option>
+                                    <option value="250">$250pw</option>
+                                    <option value="275">$275pw</option>
+                                    <option value="300">$300pw</option>
+                                    <option value="325">$325pw</option>
+                                    <option value="350">$350pw</option>
+                                    <option value="375">$375pw</option>
+                                    <option value="400">$400pw</option>
+                                    <option value="425">$425pw</option>
+                                    <option value="450">$450pw</option>
+                                    <option value="475">$475pw</option>
+                                    <option value="500">$500pw</option>
+                                    <option value="525">$525pw</option>
+                                    <option value="550">$550pw</option>
+                                    <option value="575">$575pw</option>
+                                    <option value="600">$600pw</option>
+                                    <option value="625">$625pw</option>
+                                    <option value="650">$650pw</option>
+                                    <option value="675">$675pw</option>
+                                    <option value="700">$700pw</option>
+                                    <option value="725">$725pw</option>
+                                    <option value="750">$750pw</option>
+                                    <option value="800">$800pw</option>
+                                    <option value="850">$850pw</option>
+                                    <option value="900">$900pw</option>
+                                    <option value="950">$950pw</option>
+                                    <option value="1000">$1,000pw</option>
+                                    <option value="1100">$1,100pw</option>
+                                    <option value="1200">$1,200pw</option>
+                                    <option value="1300">$1,300pw</option>
+                                    <option value="1400">$1,400pw</option>
+                                    <option value="1500">$1,500pw</option>
+                                    <option value="1600">$1,600pw</option>
+                                    <option value="1700">$1,700pw</option>
+                                    <option value="1800">$1,800pw</option>
+                                    <option value="1900">$1,900pw</option>
+                                    <option value="2000">$2,000pw</option>
+                                    <option value="2500">$2,500pw</option>
+                                    <option value="3000">$3,000pw</option>
+                                    <option value="3500">$3,500pw</option>
+                                    <option value="4000">$4,000pw</option>
+                                    <option value="4500">$4,500pw</option>
+                                    <option value="5000">$5,000pw</option>
+                                </select>
+                                <div class="rui-select-wrapper rui-default-selected">
+                                    <div id="rui-sel-rui-min-price-select-id"
+                                         class="rui-select-link rui-input rui-select resize-select"><span>Price pw (min)</span><input
+                                            type="text" tabindex="7"><i class="rui-icon rui-icon-arrow-down"></i>
+                                    </div>
+                                    <ul class="rui-select-menu">
+                                        <li class="rui-select-list rui-selected" data-value="Any" data-label="Any">
+                                            Any
+                                        </li>
+                                        <li class="rui-select-list" data-value="50" data-label="$50pw">$50pw</li>
+                                        <li class="rui-select-list" data-value="75" data-label="$75pw">$75pw</li>
+                                        <li class="rui-select-list" data-value="100" data-label="$100pw">$100pw</li>
+                                        <li class="rui-select-list" data-value="125" data-label="$125pw">$125pw</li>
+                                        <li class="rui-select-list" data-value="150" data-label="$150pw">$150pw</li>
+                                        <li class="rui-select-list" data-value="175" data-label="$175pw">$175pw</li>
+                                        <li class="rui-select-list" data-value="200" data-label="$200pw">$200pw</li>
+                                        <li class="rui-select-list" data-value="225" data-label="$225pw">$225pw</li>
+                                        <li class="rui-select-list" data-value="250" data-label="$250pw">$250pw</li>
+                                        <li class="rui-select-list" data-value="275" data-label="$275pw">$275pw</li>
+                                        <li class="rui-select-list" data-value="300" data-label="$300pw">$300pw</li>
+                                        <li class="rui-select-list" data-value="325" data-label="$325pw">$325pw</li>
+                                        <li class="rui-select-list" data-value="350" data-label="$350pw">$350pw</li>
+                                        <li class="rui-select-list" data-value="375" data-label="$375pw">$375pw</li>
+                                        <li class="rui-select-list" data-value="400" data-label="$400pw">$400pw</li>
+                                        <li class="rui-select-list" data-value="425" data-label="$425pw">$425pw</li>
+                                        <li class="rui-select-list" data-value="450" data-label="$450pw">$450pw</li>
+                                        <li class="rui-select-list" data-value="475" data-label="$475pw">$475pw</li>
+                                        <li class="rui-select-list" data-value="500" data-label="$500pw">$500pw</li>
+                                        <li class="rui-select-list" data-value="525" data-label="$525pw">$525pw</li>
+                                        <li class="rui-select-list" data-value="550" data-label="$550pw">$550pw</li>
+                                        <li class="rui-select-list" data-value="575" data-label="$575pw">$575pw</li>
+                                        <li class="rui-select-list" data-value="600" data-label="$600pw">$600pw</li>
+                                        <li class="rui-select-list" data-value="625" data-label="$625pw">$625pw</li>
+                                        <li class="rui-select-list" data-value="650" data-label="$650pw">$650pw</li>
+                                        <li class="rui-select-list" data-value="675" data-label="$675pw">$675pw</li>
+                                        <li class="rui-select-list" data-value="700" data-label="$700pw">$700pw</li>
+                                        <li class="rui-select-list" data-value="725" data-label="$725pw">$725pw</li>
+                                        <li class="rui-select-list" data-value="750" data-label="$750pw">$750pw</li>
+                                        <li class="rui-select-list" data-value="800" data-label="$800pw">$800pw</li>
+                                        <li class="rui-select-list" data-value="850" data-label="$850pw">$850pw</li>
+                                        <li class="rui-select-list" data-value="900" data-label="$900pw">$900pw</li>
+                                        <li class="rui-select-list" data-value="950" data-label="$950pw">$950pw</li>
+                                        <li class="rui-select-list" data-value="1000" data-label="$1,000pw">
+                                            $1,000pw
+                                        </li>
+                                        <li class="rui-select-list" data-value="1100" data-label="$1,100pw">
+                                            $1,100pw
+                                        </li>
+                                        <li class="rui-select-list" data-value="1200" data-label="$1,200pw">
+                                            $1,200pw
+                                        </li>
+                                        <li class="rui-select-list" data-value="1300" data-label="$1,300pw">
+                                            $1,300pw
+                                        </li>
+                                        <li class="rui-select-list" data-value="1400" data-label="$1,400pw">
+                                            $1,400pw
+                                        </li>
+                                        <li class="rui-select-list" data-value="1500" data-label="$1,500pw">
+                                            $1,500pw
+                                        </li>
+                                        <li class="rui-select-list" data-value="1600" data-label="$1,600pw">
+                                            $1,600pw
+                                        </li>
+                                        <li class="rui-select-list" data-value="1700" data-label="$1,700pw">
+                                            $1,700pw
+                                        </li>
+                                        <li class="rui-select-list" data-value="1800" data-label="$1,800pw">
+                                            $1,800pw
+                                        </li>
+                                        <li class="rui-select-list" data-value="1900" data-label="$1,900pw">
+                                            $1,900pw
+                                        </li>
+                                        <li class="rui-select-list" data-value="2000" data-label="$2,000pw">
+                                            $2,000pw
+                                        </li>
+                                        <li class="rui-select-list" data-value="2500" data-label="$2,500pw">
+                                            $2,500pw
+                                        </li>
+                                        <li class="rui-select-list" data-value="3000" data-label="$3,000pw">
+                                            $3,000pw
+                                        </li>
+                                        <li class="rui-select-list" data-value="3500" data-label="$3,500pw">
+                                            $3,500pw
+                                        </li>
+                                        <li class="rui-select-list" data-value="4000" data-label="$4,000pw">
+                                            $4,000pw
+                                        </li>
+                                        <li class="rui-select-list" data-value="4500" data-label="$4,500pw">
+                                            $4,500pw
+                                        </li>
+                                        <li class="rui-select-list" data-value="5000" data-label="$5,000pw">
+                                            $5,000pw
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                            <div class="max price select-holder">
+                                <label>Price pw (max)</label>
+                                <select class="rui-input rui-select resize-select rui-select-rendered rui-default-selected"
+                                        id="rui-max-price-select-id" name="maxPrice" style="display: none;">
+                                    <option value="Any" data-all="Any" selected="selected">Price pw (max)</option>
+                                    <option value="50">$50pw</option>
+                                    <option value="75">$75pw</option>
+                                    <option value="100">$100pw</option>
+                                    <option value="125">$125pw</option>
+                                    <option value="150">$150pw</option>
+                                    <option value="175">$175pw</option>
+                                    <option value="200">$200pw</option>
+                                    <option value="225">$225pw</option>
+                                    <option value="250">$250pw</option>
+                                    <option value="275">$275pw</option>
+                                    <option value="300">$300pw</option>
+                                    <option value="325">$325pw</option>
+                                    <option value="350">$350pw</option>
+                                    <option value="375">$375pw</option>
+                                    <option value="400">$400pw</option>
+                                    <option value="425">$425pw</option>
+                                    <option value="450">$450pw</option>
+                                    <option value="475">$475pw</option>
+                                    <option value="500">$500pw</option>
+                                    <option value="525">$525pw</option>
+                                    <option value="550">$550pw</option>
+                                    <option value="575">$575pw</option>
+                                    <option value="600">$600pw</option>
+                                    <option value="625">$625pw</option>
+                                    <option value="650">$650pw</option>
+                                    <option value="675">$675pw</option>
+                                    <option value="700">$700pw</option>
+                                    <option value="725">$725pw</option>
+                                    <option value="750">$750pw</option>
+                                    <option value="800">$800pw</option>
+                                    <option value="850">$850pw</option>
+                                    <option value="900">$900pw</option>
+                                    <option value="950">$950pw</option>
+                                    <option value="1000">$1,000pw</option>
+                                    <option value="1100">$1,100pw</option>
+                                    <option value="1200">$1,200pw</option>
+                                    <option value="1300">$1,300pw</option>
+                                    <option value="1400">$1,400pw</option>
+                                    <option value="1500">$1,500pw</option>
+                                    <option value="1600">$1,600pw</option>
+                                    <option value="1700">$1,700pw</option>
+                                    <option value="1800">$1,800pw</option>
+                                    <option value="1900">$1,900pw</option>
+                                    <option value="2000">$2,000pw</option>
+                                    <option value="2500">$2,500pw</option>
+                                    <option value="3000">$3,000pw</option>
+                                    <option value="3500">$3,500pw</option>
+                                    <option value="4000">$4,000pw</option>
+                                    <option value="4500">$4,500pw</option>
+                                    <option value="5000">$5,000pw</option>
+                                </select>
+                                <div class="rui-select-wrapper rui-default-selected">
+                                    <div id="rui-sel-rui-max-price-select-id"
+                                         class="rui-select-link rui-input rui-select resize-select"><span>Price pw (max)</span><input
+                                            type="text" tabindex="8"><i class="rui-icon rui-icon-arrow-down"></i>
+                                    </div>
+                                    <ul class="rui-select-menu">
+                                        <li class="rui-select-list rui-selected" data-value="Any" data-label="Any">
+                                            Any
+                                        </li>
+                                        <li class="rui-select-list" data-value="50" data-label="$50pw">$50pw</li>
+                                        <li class="rui-select-list" data-value="75" data-label="$75pw">$75pw</li>
+                                        <li class="rui-select-list" data-value="100" data-label="$100pw">$100pw</li>
+                                        <li class="rui-select-list" data-value="125" data-label="$125pw">$125pw</li>
+                                        <li class="rui-select-list" data-value="150" data-label="$150pw">$150pw</li>
+                                        <li class="rui-select-list" data-value="175" data-label="$175pw">$175pw</li>
+                                        <li class="rui-select-list" data-value="200" data-label="$200pw">$200pw</li>
+                                        <li class="rui-select-list" data-value="225" data-label="$225pw">$225pw</li>
+                                        <li class="rui-select-list" data-value="250" data-label="$250pw">$250pw</li>
+                                        <li class="rui-select-list" data-value="275" data-label="$275pw">$275pw</li>
+                                        <li class="rui-select-list" data-value="300" data-label="$300pw">$300pw</li>
+                                        <li class="rui-select-list" data-value="325" data-label="$325pw">$325pw</li>
+                                        <li class="rui-select-list" data-value="350" data-label="$350pw">$350pw</li>
+                                        <li class="rui-select-list" data-value="375" data-label="$375pw">$375pw</li>
+                                        <li class="rui-select-list" data-value="400" data-label="$400pw">$400pw</li>
+                                        <li class="rui-select-list" data-value="425" data-label="$425pw">$425pw</li>
+                                        <li class="rui-select-list" data-value="450" data-label="$450pw">$450pw</li>
+                                        <li class="rui-select-list" data-value="475" data-label="$475pw">$475pw</li>
+                                        <li class="rui-select-list" data-value="500" data-label="$500pw">$500pw</li>
+                                        <li class="rui-select-list" data-value="525" data-label="$525pw">$525pw</li>
+                                        <li class="rui-select-list" data-value="550" data-label="$550pw">$550pw</li>
+                                        <li class="rui-select-list" data-value="575" data-label="$575pw">$575pw</li>
+                                        <li class="rui-select-list" data-value="600" data-label="$600pw">$600pw</li>
+                                        <li class="rui-select-list" data-value="625" data-label="$625pw">$625pw</li>
+                                        <li class="rui-select-list" data-value="650" data-label="$650pw">$650pw</li>
+                                        <li class="rui-select-list" data-value="675" data-label="$675pw">$675pw</li>
+                                        <li class="rui-select-list" data-value="700" data-label="$700pw">$700pw</li>
+                                        <li class="rui-select-list" data-value="725" data-label="$725pw">$725pw</li>
+                                        <li class="rui-select-list" data-value="750" data-label="$750pw">$750pw</li>
+                                        <li class="rui-select-list" data-value="800" data-label="$800pw">$800pw</li>
+                                        <li class="rui-select-list" data-value="850" data-label="$850pw">$850pw</li>
+                                        <li class="rui-select-list" data-value="900" data-label="$900pw">$900pw</li>
+                                        <li class="rui-select-list" data-value="950" data-label="$950pw">$950pw</li>
+                                        <li class="rui-select-list" data-value="1000" data-label="$1,000pw">
+                                            $1,000pw
+                                        </li>
+                                        <li class="rui-select-list" data-value="1100" data-label="$1,100pw">
+                                            $1,100pw
+                                        </li>
+                                        <li class="rui-select-list" data-value="1200" data-label="$1,200pw">
+                                            $1,200pw
+                                        </li>
+                                        <li class="rui-select-list" data-value="1300" data-label="$1,300pw">
+                                            $1,300pw
+                                        </li>
+                                        <li class="rui-select-list" data-value="1400" data-label="$1,400pw">
+                                            $1,400pw
+                                        </li>
+                                        <li class="rui-select-list" data-value="1500" data-label="$1,500pw">
+                                            $1,500pw
+                                        </li>
+                                        <li class="rui-select-list" data-value="1600" data-label="$1,600pw">
+                                            $1,600pw
+                                        </li>
+                                        <li class="rui-select-list" data-value="1700" data-label="$1,700pw">
+                                            $1,700pw
+                                        </li>
+                                        <li class="rui-select-list" data-value="1800" data-label="$1,800pw">
+                                            $1,800pw
+                                        </li>
+                                        <li class="rui-select-list" data-value="1900" data-label="$1,900pw">
+                                            $1,900pw
+                                        </li>
+                                        <li class="rui-select-list" data-value="2000" data-label="$2,000pw">
+                                            $2,000pw
+                                        </li>
+                                        <li class="rui-select-list" data-value="2500" data-label="$2,500pw">
+                                            $2,500pw
+                                        </li>
+                                        <li class="rui-select-list" data-value="3000" data-label="$3,000pw">
+                                            $3,000pw
+                                        </li>
+                                        <li class="rui-select-list" data-value="3500" data-label="$3,500pw">
+                                            $3,500pw
+                                        </li>
+                                        <li class="rui-select-list" data-value="4000" data-label="$4,000pw">
+                                            $4,000pw
+                                        </li>
+                                        <li class="rui-select-list" data-value="4500" data-label="$4,500pw">
+                                            $4,500pw
+                                        </li>
+                                        <li class="rui-select-list" data-value="5000" data-label="$5,000pw">
+                                            $5,000pw
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                        <div class="condition available-date-container">
+                            <div class="available before select-holder">
+                                <label>Available date</label>
+                                <select class="rui-input rui-select resize-select rui-select-rendered rui-default-selected"
+                                        id="rui-available-before-id" name="availableBefore" style="display: none;">
+                                    <option value="Any" data-all="Any date" selected="selected">Available date
+                                    </option>
+                                    <option value="2021-03-10">Avail. now</option>
+                                    <option value="before" disabled="disabled">Before:</option>
+                                    <option value="2021-03-11">Thu 11 Mar</option>
+                                    <option value="2021-03-12">Fri 12 Mar</option>
+                                    <option value="2021-03-13">Sat 13 Mar</option>
+                                    <option value="2021-03-14">Sun 14 Mar</option>
+                                    <option value="2021-03-15">Mon 15 Mar</option>
+                                    <option value="2021-03-16">Tue 16 Mar</option>
+                                    <option value="2021-03-17">Wed 17 Mar</option>
+                                    <option value="2021-03-18">Thu 18 Mar</option>
+                                    <option value="2021-03-19">Fri 19 Mar</option>
+                                    <option value="2021-03-20">Sat 20 Mar</option>
+                                    <option value="2021-03-21">Sun 21 Mar</option>
+                                    <option value="2021-03-22">Mon 22 Mar</option>
+                                    <option value="2021-03-23">Tue 23 Mar</option>
+                                    <option value="2021-03-24">Wed 24 Mar</option>
+                                    <option value="2021-03-25">Thu 25 Mar</option>
+                                    <option value="2021-03-26">Fri 26 Mar</option>
+                                    <option value="2021-03-27">Sat 27 Mar</option>
+                                    <option value="2021-03-28">Sun 28 Mar</option>
+                                    <option value="2021-03-29">Mon 29 Mar</option>
+                                    <option value="2021-03-30">Tue 30 Mar</option>
+                                    <option value="2021-03-31">Wed 31 Mar</option>
+                                    <option value="2021-04-01">Thu 1 Apr</option>
+                                    <option value="2021-04-02">Fri 2 Apr</option>
+                                    <option value="2021-04-03">Sat 3 Apr</option>
+                                    <option value="2021-04-04">Sun 4 Apr</option>
+                                    <option value="2021-04-05">Mon 5 Apr</option>
+                                    <option value="2021-04-06">Tue 6 Apr</option>
+                                    <option value="2021-04-07">Wed 7 Apr</option>
+                                    <option value="2021-04-08">Thu 8 Apr</option>
+                                    <option value="2021-04-09">Fri 9 Apr</option>
+                                    <option value="2021-04-10">Sat 10 Apr</option>
+                                    <option value="2021-04-11">Sun 11 Apr</option>
+                                    <option value="2021-04-12">Mon 12 Apr</option>
+                                    <option value="2021-04-13">Tue 13 Apr</option>
+                                    <option value="2021-04-14">Wed 14 Apr</option>
+                                    <option value="2021-04-15">Thu 15 Apr</option>
+                                    <option value="2021-04-16">Fri 16 Apr</option>
+                                    <option value="2021-04-17">Sat 17 Apr</option>
+                                    <option value="2021-04-18">Sun 18 Apr</option>
+                                    <option value="2021-04-19">Mon 19 Apr</option>
+                                    <option value="2021-04-20">Tue 20 Apr</option>
+                                    <option value="2021-04-21">Wed 21 Apr</option>
+                                </select>
+                                <div class="rui-select-wrapper rui-default-selected">
+                                    <div id="rui-sel-rui-available-before-id"
+                                         class="rui-select-link rui-input rui-select resize-select"><span>Available date</span><input
+                                            type="text" tabindex="9"><i class="rui-icon rui-icon-arrow-down"></i>
+                                    </div>
+                                    <ul class="rui-select-menu">
+                                        <li class="rui-select-list rui-selected" data-value="Any"
+                                            data-label="Any date">Any date
+                                        </li>
+                                        <li class="rui-select-list" data-value="2021-03-10" data-label="Avail. now">
+                                            Avail. now
+                                        </li>
+                                        <li class="rui-select-list rui-disabled" data-value="before"
+                                            data-label="Before:">Before:
+                                        </li>
+                                        <li class="rui-select-list" data-value="2021-03-11" data-label="Thu 11 Mar">
+                                            Thu 11 Mar
+                                        </li>
+                                        <li class="rui-select-list" data-value="2021-03-12" data-label="Fri 12 Mar">
+                                            Fri 12 Mar
+                                        </li>
+                                        <li class="rui-select-list" data-value="2021-03-13" data-label="Sat 13 Mar">
+                                            Sat 13 Mar
+                                        </li>
+                                        <li class="rui-select-list" data-value="2021-03-14" data-label="Sun 14 Mar">
+                                            Sun 14 Mar
+                                        </li>
+                                        <li class="rui-select-list" data-value="2021-03-15" data-label="Mon 15 Mar">
+                                            Mon 15 Mar
+                                        </li>
+                                        <li class="rui-select-list" data-value="2021-03-16" data-label="Tue 16 Mar">
+                                            Tue 16 Mar
+                                        </li>
+                                        <li class="rui-select-list" data-value="2021-03-17" data-label="Wed 17 Mar">
+                                            Wed 17 Mar
+                                        </li>
+                                        <li class="rui-select-list" data-value="2021-03-18" data-label="Thu 18 Mar">
+                                            Thu 18 Mar
+                                        </li>
+                                        <li class="rui-select-list" data-value="2021-03-19" data-label="Fri 19 Mar">
+                                            Fri 19 Mar
+                                        </li>
+                                        <li class="rui-select-list" data-value="2021-03-20" data-label="Sat 20 Mar">
+                                            Sat 20 Mar
+                                        </li>
+                                        <li class="rui-select-list" data-value="2021-03-21" data-label="Sun 21 Mar">
+                                            Sun 21 Mar
+                                        </li>
+                                        <li class="rui-select-list" data-value="2021-03-22" data-label="Mon 22 Mar">
+                                            Mon 22 Mar
+                                        </li>
+                                        <li class="rui-select-list" data-value="2021-03-23" data-label="Tue 23 Mar">
+                                            Tue 23 Mar
+                                        </li>
+                                        <li class="rui-select-list" data-value="2021-03-24" data-label="Wed 24 Mar">
+                                            Wed 24 Mar
+                                        </li>
+                                        <li class="rui-select-list" data-value="2021-03-25" data-label="Thu 25 Mar">
+                                            Thu 25 Mar
+                                        </li>
+                                        <li class="rui-select-list" data-value="2021-03-26" data-label="Fri 26 Mar">
+                                            Fri 26 Mar
+                                        </li>
+                                        <li class="rui-select-list" data-value="2021-03-27" data-label="Sat 27 Mar">
+                                            Sat 27 Mar
+                                        </li>
+                                        <li class="rui-select-list" data-value="2021-03-28" data-label="Sun 28 Mar">
+                                            Sun 28 Mar
+                                        </li>
+                                        <li class="rui-select-list" data-value="2021-03-29" data-label="Mon 29 Mar">
+                                            Mon 29 Mar
+                                        </li>
+                                        <li class="rui-select-list" data-value="2021-03-30" data-label="Tue 30 Mar">
+                                            Tue 30 Mar
+                                        </li>
+                                        <li class="rui-select-list" data-value="2021-03-31" data-label="Wed 31 Mar">
+                                            Wed 31 Mar
+                                        </li>
+                                        <li class="rui-select-list" data-value="2021-04-01" data-label="Thu 1 Apr">
+                                            Thu 1 Apr
+                                        </li>
+                                        <li class="rui-select-list" data-value="2021-04-02" data-label="Fri 2 Apr">
+                                            Fri 2 Apr
+                                        </li>
+                                        <li class="rui-select-list" data-value="2021-04-03" data-label="Sat 3 Apr">
+                                            Sat 3 Apr
+                                        </li>
+                                        <li class="rui-select-list" data-value="2021-04-04" data-label="Sun 4 Apr">
+                                            Sun 4 Apr
+                                        </li>
+                                        <li class="rui-select-list" data-value="2021-04-05" data-label="Mon 5 Apr">
+                                            Mon 5 Apr
+                                        </li>
+                                        <li class="rui-select-list" data-value="2021-04-06" data-label="Tue 6 Apr">
+                                            Tue 6 Apr
+                                        </li>
+                                        <li class="rui-select-list" data-value="2021-04-07" data-label="Wed 7 Apr">
+                                            Wed 7 Apr
+                                        </li>
+                                        <li class="rui-select-list" data-value="2021-04-08" data-label="Thu 8 Apr">
+                                            Thu 8 Apr
+                                        </li>
+                                        <li class="rui-select-list" data-value="2021-04-09" data-label="Fri 9 Apr">
+                                            Fri 9 Apr
+                                        </li>
+                                        <li class="rui-select-list" data-value="2021-04-10" data-label="Sat 10 Apr">
+                                            Sat 10 Apr
+                                        </li>
+                                        <li class="rui-select-list" data-value="2021-04-11" data-label="Sun 11 Apr">
+                                            Sun 11 Apr
+                                        </li>
+                                        <li class="rui-select-list" data-value="2021-04-12" data-label="Mon 12 Apr">
+                                            Mon 12 Apr
+                                        </li>
+                                        <li class="rui-select-list" data-value="2021-04-13" data-label="Tue 13 Apr">
+                                            Tue 13 Apr
+                                        </li>
+                                        <li class="rui-select-list" data-value="2021-04-14" data-label="Wed 14 Apr">
+                                            Wed 14 Apr
+                                        </li>
+                                        <li class="rui-select-list" data-value="2021-04-15" data-label="Thu 15 Apr">
+                                            Thu 15 Apr
+                                        </li>
+                                        <li class="rui-select-list" data-value="2021-04-16" data-label="Fri 16 Apr">
+                                            Fri 16 Apr
+                                        </li>
+                                        <li class="rui-select-list" data-value="2021-04-17" data-label="Sat 17 Apr">
+                                            Sat 17 Apr
+                                        </li>
+                                        <li class="rui-select-list" data-value="2021-04-18" data-label="Sun 18 Apr">
+                                            Sun 18 Apr
+                                        </li>
+                                        <li class="rui-select-list" data-value="2021-04-19" data-label="Mon 19 Apr">
+                                            Mon 19 Apr
+                                        </li>
+                                        <li class="rui-select-list" data-value="2021-04-20" data-label="Tue 20 Apr">
+                                            Tue 20 Apr
+                                        </li>
+                                        <li class="rui-select-list" data-value="2021-04-21" data-label="Wed 21 Apr">
+                                            Wed 21 Apr
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                        <div class="rui-clearfix"></div>
+                    </section>
+
+                    <div class="formSuburbSurroundings">
+                        <input type="checkbox" name="includeSurrounding" id="includeSurrounding" checked="checked"
+                               tabindex="3">
+                        <label for="includeSurrounding">Surrounding suburbs</label>
+                    </div>
+
+                </div>
+
+
+                <div class="rui-clearfix"></div>
+                <input id="preferredSort" type="hidden" name="activeSort" value="">
+                <input id="preferredView" type="hidden" name="display" value="list">
+                <input id="trace" type="hidden" name="trace" value="">
             </div>
-        </div>
-
-
+        </form>
     </div>
+
+
+    <div class="home-loans-container">
+        <div class="home-loans-content fade-in">
+            <h1 class="home-loans-header">Home Loans</h1>
+            <h2 class="home-loans-text">Finally, there’s one place to look for your home and your loan.</h2>
+            <a class="home-loans-link"
+               href="https://www.realestate.com.au/home-loans/?cid=cid:rent:desktop-homepage:search-box:home-loans-CTA">Learn
+                more</a>
+        </div>
+    </div>
+
+
+</div>
 
     <div class="spotlight-container"></div>
     <img class="image-placeholder">

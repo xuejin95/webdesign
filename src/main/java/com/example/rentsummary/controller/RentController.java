@@ -2,24 +2,32 @@ package com.example.rentsummary.controller;
 
 import com.example.rentsummary.server.RentContextGet;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.servlet.ModelAndView;
 
 @Controller
 public class RentController {
 
     @GetMapping(value = "getrent")
-    @ResponseBody
-    public String getRent() {
+    public String getRent(Model model) {
+
+        model.addAttribute("allhomes",RentContextGet.getRentFromAllHomes());
+        model.addAttribute("domain",RentContextGet.getRentFromDomain());
+        model.addAttribute("zango",RentContextGet.getRentFromzango());
+        model.addAttribute("realestate",RentContextGet.getRentFromRealestate());
+
+        return "rentsummary";
 //        return RentContextGet.getRent();
 //        return RentContextGet.getRent();
-        return RentContextGet.getRentFromAllHomes();
+//        return RentContextGet.getRentFromAllHomes();
 //        return RentContextGet.getRentFromDomain();
     }
 
     @GetMapping(value = "/")
     public String toIndex(){
-        return "rentsummary";
+        return "rentsummary.html";
     }
 
     @GetMapping(value = "/test")
@@ -44,7 +52,4 @@ public class RentController {
     public String zango(){
         return "zango";
     }
-
-
-
 }
