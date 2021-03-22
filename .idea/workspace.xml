@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1860199f-8a38-4e69-ab8b-c19f733d4628" name="Default Changelist" comment="">
+    <list default="true" id="1860199f-8a38-4e69-ab8b-c19f733d4628" name="Default Changelist" comment="testbyxuejin20210316">
+      <change afterPath="$PROJECT_DIR$/allhomespackage.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/rentsummary/controller/RentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/rentsummary/controller/RentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/rentsummary/model/AllHomesEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/rentsummary/model/AllHomesEntity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/rentsummary/server/RentContextGet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/rentsummary/server/RentContextGet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/domain.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/domain.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/realestate.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/realestate.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/rentsummary.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/rentsummary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/test.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="package.json" />
         <option value="HTML File" />
+        <option value="package.json" />
         <option value="Class" />
       </list>
     </option>
@@ -33,9 +33,6 @@
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="dummy://restClient/response21.json" root0="SKIP_INSPECTION" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -66,7 +63,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/templates" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/网页设计/rentsummary/rentsummary" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -84,8 +81,8 @@
       <recent name="com.example.rentsummary.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Users\jake.sai\rentsummary\src\main\resources\templates" />
       <recent name="E:\Users\jake.sai\rentsummary\src\main\resources\static" />
+      <recent name="E:\Users\jake.sai\rentsummary\src\main\resources\templates" />
     </key>
   </component>
   <component name="RestClientSettings">
@@ -2020,6 +2017,11 @@
       <workItem from="1615774437641" duration="1880000" />
       <workItem from="1615786486688" duration="291000" />
       <workItem from="1615811746552" duration="19568000" />
+      <workItem from="1615855036608" duration="1407000" />
+      <workItem from="1615995581147" duration="700000" />
+      <workItem from="1615996306545" duration="17081000" />
+      <workItem from="1616024308996" duration="3410000" />
+      <workItem from="1616433017842" duration="6923000" />
     </task>
     <task id="LOCAL-00001" summary="testbyxuejin20210311">
       <created>1615477847855</created>
@@ -2049,7 +2051,21 @@
       <option name="project" value="LOCAL" />
       <updated>1615776298694</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="testbyxuejin20210316">
+      <created>1615855245250</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1615855245250</updated>
+    </task>
+    <task id="LOCAL-00006" summary="testbyxuejin20210316">
+      <created>1615855311239</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1615855311239</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -2071,7 +2087,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="testbyxuejin20210311" />
     <MESSAGE value="testbyxuejin20210312" />
-    <option name="LAST_COMMIT_MESSAGE" value="testbyxuejin20210312" />
+    <MESSAGE value="testbyxuejin20210316" />
+    <option name="LAST_COMMIT_MESSAGE" value="testbyxuejin20210316" />
   </component>
   <component name="WindowStateProjectService">
     <state x="233" y="4" key="#Notifications" timestamp="1615813051130">
@@ -2106,70 +2123,70 @@
       <screen x="0" y="0" width="1280" height="690" />
     </state>
     <state x="381" y="208" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.690@0.0.1280.690" timestamp="1615632928601" />
-    <state x="245" y="0" key="CommitChangelistDialog2" timestamp="1615776296532">
+    <state x="245" y="0" key="CommitChangelistDialog2" timestamp="1616436653117">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state x="245" y="0" key="CommitChangelistDialog2/0.0.1280.690@0.0.1280.690" timestamp="1615776296532" />
-    <state width="438" height="618" key="DebuggerActiveHint" timestamp="1615815062157">
+    <state x="245" y="0" key="CommitChangelistDialog2/0.0.1280.690@0.0.1280.690" timestamp="1616436653117" />
+    <state width="467" height="618" key="DebuggerActiveHint" timestamp="1616436605791">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state width="438" height="618" key="DebuggerActiveHint/0.0.1280.690@0.0.1280.690" timestamp="1615815062157" />
+    <state width="467" height="618" key="DebuggerActiveHint/0.0.1280.690@0.0.1280.690" timestamp="1616436605791" />
     <state x="93" y="93" width="1093" height="503" key="DiffContextDialog" timestamp="1615776062780">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
     <state x="93" y="93" width="1093" height="503" key="DiffContextDialog/0.0.1280.690@0.0.1280.690" timestamp="1615776062780" />
-    <state x="422" y="102" key="FileChooserDialogImpl" timestamp="1615633400531">
+    <state x="422" y="102" key="FileChooserDialogImpl" timestamp="1616027141988">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state x="422" y="102" key="FileChooserDialogImpl/0.0.1280.690@0.0.1280.690" timestamp="1615633400531" />
-    <state width="1238" height="377" key="GridCell.Tab.0.bottom" timestamp="1615839817810">
+    <state x="422" y="102" key="FileChooserDialogImpl/0.0.1280.690@0.0.1280.690" timestamp="1616027141988" />
+    <state width="1238" height="382" key="GridCell.Tab.0.bottom" timestamp="1616439945902">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state width="1238" height="377" key="GridCell.Tab.0.bottom/0.0.1280.690@0.0.1280.690" timestamp="1615839817810" />
-    <state width="1238" height="377" key="GridCell.Tab.0.center" timestamp="1615839817810">
+    <state width="1238" height="382" key="GridCell.Tab.0.bottom/0.0.1280.690@0.0.1280.690" timestamp="1616439945902" />
+    <state width="1238" height="382" key="GridCell.Tab.0.center" timestamp="1616439945902">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state width="1238" height="377" key="GridCell.Tab.0.center/0.0.1280.690@0.0.1280.690" timestamp="1615839817810" />
-    <state width="1238" height="377" key="GridCell.Tab.0.left" timestamp="1615839817810">
+    <state width="1238" height="382" key="GridCell.Tab.0.center/0.0.1280.690@0.0.1280.690" timestamp="1616439945902" />
+    <state width="1238" height="382" key="GridCell.Tab.0.left" timestamp="1616439945902">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state width="1238" height="377" key="GridCell.Tab.0.left/0.0.1280.690@0.0.1280.690" timestamp="1615839817810" />
-    <state width="1238" height="377" key="GridCell.Tab.0.right" timestamp="1615839817810">
+    <state width="1238" height="382" key="GridCell.Tab.0.left/0.0.1280.690@0.0.1280.690" timestamp="1616439945902" />
+    <state width="1238" height="382" key="GridCell.Tab.0.right" timestamp="1616439945902">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state width="1238" height="377" key="GridCell.Tab.0.right/0.0.1280.690@0.0.1280.690" timestamp="1615839817810" />
-    <state width="1238" height="377" key="GridCell.Tab.1.bottom" timestamp="1615839751719">
+    <state width="1238" height="382" key="GridCell.Tab.0.right/0.0.1280.690@0.0.1280.690" timestamp="1616439945902" />
+    <state width="1238" height="382" key="GridCell.Tab.1.bottom" timestamp="1616439945902">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state width="1238" height="377" key="GridCell.Tab.1.bottom/0.0.1280.690@0.0.1280.690" timestamp="1615839751719" />
-    <state width="1238" height="377" key="GridCell.Tab.1.center" timestamp="1615839751719">
+    <state width="1238" height="382" key="GridCell.Tab.1.bottom/0.0.1280.690@0.0.1280.690" timestamp="1616439945902" />
+    <state width="1238" height="382" key="GridCell.Tab.1.center" timestamp="1616439945902">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state width="1238" height="377" key="GridCell.Tab.1.center/0.0.1280.690@0.0.1280.690" timestamp="1615839751719" />
-    <state width="1238" height="377" key="GridCell.Tab.1.left" timestamp="1615839751719">
+    <state width="1238" height="382" key="GridCell.Tab.1.center/0.0.1280.690@0.0.1280.690" timestamp="1616439945902" />
+    <state width="1238" height="382" key="GridCell.Tab.1.left" timestamp="1616439945902">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state width="1238" height="377" key="GridCell.Tab.1.left/0.0.1280.690@0.0.1280.690" timestamp="1615839751719" />
-    <state width="1238" height="377" key="GridCell.Tab.1.right" timestamp="1615839751719">
+    <state width="1238" height="382" key="GridCell.Tab.1.left/0.0.1280.690@0.0.1280.690" timestamp="1616439945902" />
+    <state width="1238" height="382" key="GridCell.Tab.1.right" timestamp="1616439945902">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state width="1238" height="377" key="GridCell.Tab.1.right/0.0.1280.690@0.0.1280.690" timestamp="1615839751719" />
-    <state width="1238" height="180" key="GridCell.Tab.2.bottom" timestamp="1615835587827">
+    <state width="1238" height="382" key="GridCell.Tab.1.right/0.0.1280.690@0.0.1280.690" timestamp="1616439945902" />
+    <state width="1238" height="382" key="GridCell.Tab.2.bottom" timestamp="1616439945903">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state width="1238" height="180" key="GridCell.Tab.2.bottom/0.0.1280.690@0.0.1280.690" timestamp="1615835587827" />
-    <state width="1238" height="180" key="GridCell.Tab.2.center" timestamp="1615835587827">
+    <state width="1238" height="382" key="GridCell.Tab.2.bottom/0.0.1280.690@0.0.1280.690" timestamp="1616439945903" />
+    <state width="1238" height="382" key="GridCell.Tab.2.center" timestamp="1616439945903">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state width="1238" height="180" key="GridCell.Tab.2.center/0.0.1280.690@0.0.1280.690" timestamp="1615835587827" />
-    <state width="1238" height="180" key="GridCell.Tab.2.left" timestamp="1615835587827">
+    <state width="1238" height="382" key="GridCell.Tab.2.center/0.0.1280.690@0.0.1280.690" timestamp="1616439945903" />
+    <state width="1238" height="382" key="GridCell.Tab.2.left" timestamp="1616439945902">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state width="1238" height="180" key="GridCell.Tab.2.left/0.0.1280.690@0.0.1280.690" timestamp="1615835587827" />
-    <state width="1238" height="180" key="GridCell.Tab.2.right" timestamp="1615835587827">
+    <state width="1238" height="382" key="GridCell.Tab.2.left/0.0.1280.690@0.0.1280.690" timestamp="1616439945902" />
+    <state width="1238" height="382" key="GridCell.Tab.2.right" timestamp="1616439945903">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state width="1238" height="180" key="GridCell.Tab.2.right/0.0.1280.690@0.0.1280.690" timestamp="1615835587827" />
+    <state width="1238" height="382" key="GridCell.Tab.2.right/0.0.1280.690@0.0.1280.690" timestamp="1616439945903" />
     <state x="221" y="80" key="IDE.errors.dialog" timestamp="1615832125569">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
@@ -2178,14 +2195,18 @@
       <screen x="0" y="0" width="1280" height="690" />
     </state>
     <state x="171" y="0" key="Maven.ArtifactSearchDialog/0.0.1280.690@0.0.1280.690" timestamp="1615649550562" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1615775287467">
+    <state x="219" y="0" key="Registry" timestamp="1615996132627">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.690@0.0.1280.690" timestamp="1615775287467" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1615786765313">
+    <state x="219" y="0" key="Registry/0.0.1280.690@0.0.1280.690" timestamp="1615996132627" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1615996826794">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.690@0.0.1280.690" timestamp="1615786765313" />
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.690@0.0.1280.690" timestamp="1615996826794" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1615855256718">
+      <screen x="0" y="0" width="1280" height="690" />
+    </state>
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.690@0.0.1280.690" timestamp="1615855256718" />
     <state x="360" y="235" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1615478362012">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
@@ -2198,10 +2219,10 @@
       <screen x="0" y="0" width="1280" height="690" />
     </state>
     <state x="412" y="36" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.690@0.0.1280.690" timestamp="1615479265317" />
-    <state x="192" y="0" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1615645603882">
+    <state x="192" y="0" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1616012717290">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state x="192" y="0" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1280.690@0.0.1280.690" timestamp="1615645603882" />
+    <state x="192" y="0" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1280.690@0.0.1280.690" timestamp="1616012717290" />
     <state x="371" y="110" key="extract.method.dialog" timestamp="1615832203251">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
@@ -2210,6 +2231,10 @@
       <screen x="0" y="0" width="1280" height="690" />
     </state>
     <state x="355" y="118" key="git4idea.merge.GitPullDialog/0.0.1280.690@0.0.1280.690" timestamp="1615480560769" />
+    <state x="6" y="43" key="new project wizard" timestamp="1616433053244">
+      <screen x="0" y="0" width="1280" height="690" />
+    </state>
+    <state x="6" y="43" key="new project wizard/0.0.1280.690@0.0.1280.690" timestamp="1616433053244" />
     <state x="299" y="155" key="run.anything.popup" timestamp="1615774129991">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
@@ -2220,69 +2245,10 @@
     <state x="303" y="12" width="672" height="678" key="search.everywhere.popup/0.0.1280.690@0.0.1280.690" timestamp="1615713446974" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/rentsummary/server/RentContextGet.java</url>
-          <line>101</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/rentsummary/server/RentContextGet.java</url>
-          <line>111</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/rentsummary/server/RentContextGet.java</url>
-          <line>106</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/rentsummary/server/RentContextGet.java</url>
-          <line>155</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/rentsummary/server/RentContextGet.java</url>
-          <line>152</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/rentsummary/server/RentContextGet.java</url>
-          <line>147</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/rentsummary/server/RentContextGet.java</url>
-          <line>197</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/rentsummary/server/RentContextGet.java</url>
-          <line>199</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/rentsummary/server/RentContextGet.java</url>
-          <line>198</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/rentsummary/server/RentContextGet.java</url>
-          <line>196</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/rentsummary/server/RentContextGet.java</url>
-          <line>195</line>
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/rentsummary/server/RentContextGet.java</url>
-          <line>194</line>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="domainEntity.listingsMap" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

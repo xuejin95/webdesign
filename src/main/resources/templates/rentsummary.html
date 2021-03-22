@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>rentsummary</title>
+    <script type="text/javascript" src="../static/My97DatePicker/WdatePicker.js"></script>
 </head>
 <body style="align-content: center">
 <div align="center">
@@ -11,457 +12,220 @@
 
 <div>
     <form action="/getrent" method="get">
-        <div></div>
-        <div data-testid="dynamic-search-filters__property-types">
-            <div><h3 data-testid="property-types_heading"
-            >Property Types</h3>
-                <button type="button" aria-label="Clear all filter selections"
-                >Clear all
-                </button>
-            </div>
-            <div data-testid="property-types_checkbox"><label
-            >
-                <div><input
-                        class="domain-checkbox__checkbox css-5a3lae" type="checkbox" name="All"
-                        value="" checked="checked">
-                    <div><span
-                    >All</span></div>
-                </div>
-            </label><label>
-                <div><input
-                        class="domain-checkbox__checkbox css-5a3lae" type="checkbox"
-                        name="house" value="">
-                    <div><span
-                    ><div
-                    ><span data-testid="property-types_label-content">House</span></div></span>
-                    </div>
-                </div>
-            </label><label>
-                <div><input
-                        class="domain-checkbox__checkbox css-5a3lae" type="checkbox"
-                        name="apartment" value="">
-                    <div><span
-                    ><div
-                    ><span data-testid="property-types_label-content">Apartment</span></div></span>
-                    </div>
-                </div>
-            </label><label>
-                <div><input
-                        class="domain-checkbox__checkbox css-5a3lae" type="checkbox"
-                        name="town-house" value="">
-                    <div><span
-                    ><div
-                    ><span data-testid="property-types_label-content">Townhouse</span></div></span>
-                    </div>
-                </div>
-            </label><label>
-                <div><input
-                        class="domain-checkbox__checkbox css-5a3lae" type="checkbox" name="land"
-                        value="">
-                    <div><span
-                    ><div
-                    ><span data-testid="property-types_label-content">Land</span></div></span>
-                    </div>
-                </div>
-            </label></div>
+        <div>
+            <div><h3>Localities</h3></div>
+            REGION:
+            <select name="REGION">
+                <option value="canberra-act">canberra-act</option>
+            </select>
+            <!--&nbsp;&nbsp;&nbsp;
+            DISTRICT:
+            <select name="DISTRICT">
+                <option value="greater-queanbeyan-queanbeyan-region-nsw">greater-queanbeyan-queanbeyan-region-nsw</option>
+            </select>-->
         </div>
-        <div data-testid="dynamic-search-filters__price-range"><h3
-        >Price</h3><span
-                data-testid="dynamic-search-filters__price-range-label"
-        >Any</span>
-            <div data-testid="dynamic-search-filters__price-range-container">
-                <div>
-                    <div></div>
-                    <div>
-                        <button data-testid="dynamic-search-filters__price-range-handle"
-                                type="button" aria-valuemax="5500" aria-valuemin="0"
-                                aria-valuenow="0" aria-disabled="false" data-handle-key="0"
-                                orientation="horizontal" role="slider"
-                                style="left: 0%; position: absolute;" tabindex="0"
-                        ></button>
-                        <button data-testid="dynamic-search-filters__price-range-handle"
-                                type="button" aria-valuemax="5500" aria-valuemin="0"
-                                aria-valuenow="5500" aria-disabled="false" data-handle-key="1"
-                                orientation="horizontal" role="slider"
-                                style="left: 100%; position: absolute;" tabindex="0"
-                        ></button>
-                    </div>
-                    <div style="left: 0%; width: 100%;"></div>
-                </div>
-            </div>
-        </div>
-        <div data-testid="dynamic-search-filters__date-available"><h3
-        >Date Available</h3>
-            <div style="max-width: 380px;">
-                <div>
-                    <div>
-                        <div role="combobox" aria-expanded="false" aria-haspopup="listbox"
-                             aria-labelledby="downshift-0-label"><label
-                                for="downshift-0-input" id="downshift-0-label"
-                        >Date Available</label>
-                            <div>
-                                <button type="button" role="button" aria-label="open menu"
-                                        aria-haspopup="true" data-toggle="true"
-                                >Any Date
-                                </button>
-                                <input aria-autocomplete="list"
-                                       aria-labelledby="downshift-0-label" autocomplete="off"
-                                       id="downshift-0-input" class="css-1hyfx7x"
-                                       value="anyDate"></div>
-                        </div>
-                    </div>
-                    <div>
-                        <div>
-                            <div>
-                                <div>
-                                    <div><input
-                                            type="text" placeholder="Choose a date"
-                                            disabled="disabled"></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div data-testid="dynamic-search-filters__bedrooms"><h3
-        >Bedrooms</h3>
+        <br>
+
+        <div>
             <div>
-                <div><label data-testid="bedrooms_0">Any<input
-                        group="bedrooms" type="radio" class="css-10bu0qy"
-                        checked="checked"></label><label data-testid="bedrooms_1"
-                >1+<input
-                        group="bedrooms" type="radio"></label><label
-                        data-testid="bedrooms_2">2+<input group="bedrooms"
-                                                          type="radio"
-                ></label><label
-                        data-testid="bedrooms_3">3+<input group="bedrooms"
-                                                          type="radio"
-                ></label><label
-                        data-testid="bedrooms_4">4+<input group="bedrooms"
-                                                          type="radio"
-                ></label><label
-                        data-testid="bedrooms_5">5+<input group="bedrooms"
-                                                          type="radio"
-                ></label>
-                </div>
-                <div data-testid="bedrooms_exactValueToggle"><label
-                >
-                    <div>
-                        <input class="domain-checkbox__checkbox css-5a3lae" type="checkbox"
-                               name="bedrooms_exact" value="">
-                        <div>
-                            <div><span
-                            ></span><span
-                            ></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div>Use exact values</div>
-                </label></div>
+                <h3>Property Types</h3>
+                &nbsp;&nbsp;&nbsp;&nbsp;
             </div>
-        </div>
-        <div data-testid="dynamic-search-filters__bathrooms"><h3
-        >Bathrooms</h3>
             <div>
-                <div><label data-testid="Bathrooms_0">Any<input
-                        group="Bathrooms" type="radio" class="css-10bu0qy"
-                        checked="checked"></label><label data-testid="Bathrooms_1"
-                >1+<input
-                        group="Bathrooms" type="radio"></label><label
-                        data-testid="Bathrooms_2">2+<input group="Bathrooms"
-                                                           type="radio"
-                ></label><label
-                        data-testid="Bathrooms_3">3+<input group="Bathrooms"
-                                                           type="radio"
-                ></label><label
-                        data-testid="Bathrooms_4">4+<input group="Bathrooms"
-                                                           type="radio"
-                ></label><label
-                        data-testid="Bathrooms_5">5+<input group="Bathrooms"
-                                                           type="radio"
-                ></label>
-                </div>
-                <div data-testid="Bathrooms_exactValueToggle"><label
-                >
-                    <div>
-                        <input class="domain-checkbox__checkbox css-5a3lae" type="checkbox"
-                               name="Bathrooms_exact" value="">
-                        <div>
-                            <div><span
-                            ></span><span
-                            ></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div>Use exact values</div>
-                </label></div>
+                <input name="propertyTypes" type="checkbox" checked value="__ALL__">ALL
+                <input name="propertyTypes" type="checkbox" value="HOUSE">House
+                <input name="propertyTypes" type="checkbox" value="TOWNHOUSE">TOWNHOUSE
+                <input name="propertyTypes" type="checkbox" value="UNIT">Unit / Apartment
+                <input name="propertyTypes" type="checkbox" value="Rural">Rural
+                <input name="propertyTypes" type="checkbox" value="Duplex">Duplex
+                <input name="propertyTypes" type="checkbox" value="Studio">Studio
+                <input name="propertyTypes" type="checkbox" value="Other">Other
+            </div>
+            <div><h3>Price</h3>
+                <input name="anyminprice" type="checkbox" value="anyminprice" checked>anyminprice
+                <input name="anymaxprice" type="checkbox" value="anymaxprice" checked>anymaxprice<br>
+                min:<input type="number" name="min">---max:<input type="number" name="max">
+            </div>
+            <div><h3>Date Available</h3>
+                <input name="anydate" type="checkbox" value="anydate" checked>Any Date
+                <br>
+                <select name="datetype">
+                    <option value="before">before</option>
+                    <option value="after">after</option>
+                </select>
+                <font color="green">Pick Date After: </font><input type="text" onClick="WdatePicker()" readonly="readonly"
+                                                             name="date" placeholder="2021-03-03">
+            </div>
+            <div><h3>Bedrooms</h3>
+                <input name="bedrooms" type="checkbox" value="0" checked>Any Bedrooms
+                <br>
+                <input name="bedrooms" type="checkbox" value="1">1 Bedrooms
+                <input name="bedrooms" type="checkbox" value="2">2 Bedrooms
+                <input name="bedrooms" type="checkbox" value="3">3 Bedrooms
+                <input name="bedrooms" type="checkbox" value="4">4 Bedrooms
+                <input name="bedrooms" type="checkbox" value="5">5+ Bedrooms
+            </div>
+            <div><h3>Bathrooms</h3>
+                <input name="bathrooms" type="checkbox" value="0" checked>Any Bathrooms
+                <br>
+                <input name="bathrooms" type="checkbox" value="1">1 Bathroom
+                <input name="bathrooms" type="checkbox" value="2">2 Bathrooms
+                <input name="bathrooms" type="checkbox" value="3">3 Bathrooms
+                <input name="bathrooms" type="checkbox" value="4">4 Bathrooms
+                <input name="bathrooms" type="checkbox" value="5">5+ Bathrooms
+
+            </div>
+            <div><h3>Parking</h3>
+                <input type="checkbox" name="parking" value="0" checked>Any Parking
+                <br>
+                <input type="checkbox" name="parking" value="1">1 Parking
+                <input type="checkbox" name="parking" value="2">2 Parking
+                <input type="checkbox" name="parking" value="3">3 Parking
+                <input type="checkbox" name="parking" value="4">4 Parking
+                <input type="checkbox" name="parking" value="5">5+ Parking
             </div>
         </div>
-        <div data-testid="dynamic-search-filters__carparks"><h3
-        >Parking</h3>
+        <div>
             <div>
-                <div><label data-testid="Carparks_0">Any<input
-                        group="Carparks" type="radio" class="css-10bu0qy"
-                        checked="checked"></label><label data-testid="Carparks_1"
-                >1+<input
-                        group="Carparks" type="radio"></label><label
-                        data-testid="Carparks_2">2+<input group="Carparks"
-                                                          type="radio"
-                ></label><label
-                        data-testid="Carparks_3">3+<input group="Carparks"
-                                                          type="radio"
-                ></label><label
-                        data-testid="Carparks_4">4+<input group="Carparks"
-                                                          type="radio"
-                ></label><label
-                        data-testid="Carparks_5">5+<input group="Carparks"
-                                                          type="radio"
-                ></label>
-                </div>
-                <div data-testid="Carparks_exactValueToggle"><label
-                >
+                <div><h3>Land Size</h3>
                     <div>
-                        <input class="domain-checkbox__checkbox css-5a3lae" type="checkbox"
-                               name="Carparks_exact" value="">
-                        <div>
-                            <div><span
-                            ></span><span
-                            ></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div>Use exact values</div>
-                </label></div>
-            </div>
-        </div>
-        <div data-testid="dynamic-search-filters__more-filters">
-            <div data-testid="expander-wrapper" style="overflow: visible;"
-            >
-                <div>
-                    <div>
-                        <div data-testid="dynamic-search-filters__land-size"
-                        >
-                            <div><h3>Land Size</h3>
-                                <div>
-                                    <div><input name="minSize" type="number"
-                                                placeholder="eg. 100"
-                                                class="text-input__input is-regular is-empty css-1r86gqu"
-                                                aria-required="false"
-                                                aria-label="Minimum land size in meters square"><span
-                                            data-testid="land-size-msquared">m<sup
-                                    >2</sup></span></div>
-                                    <span> - </span>
-                                    <div><input name="maxSize" type="number"
-                                                placeholder="eg. 500"
-                                                class="text-input__input is-regular is-empty css-1r86gqu"
-                                                aria-required="false"
-                                                aria-label="Maximum land size in meters square"><span
-                                            data-testid="land-size-msquared">m<sup
-                                    >2</sup></span></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div data-testid="dynamic-search-filters__feature-options"
-                        ><h3>Features</h3>
-                            <div><label>
-                                <div>
-                                    <input class="domain-checkbox__checkbox css-5a3lae"
-                                           type="checkbox" name="featureOptions"
-                                           value="petsallowed">
-                                    <div>
-                                        <div>
-                                            <span></span><span
-                                        ></span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div>Pets allowed</div>
-                            </label></div>
-                            <div><label>
-                                <div>
-                                    <input class="domain-checkbox__checkbox css-5a3lae"
-                                           type="checkbox" name="featureOptions"
-                                           value="builtinwardrobes">
-                                    <div>
-                                        <div>
-                                            <span></span><span
-                                        ></span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div>Built in wardrobes
-                                </div>
-                            </label></div>
-                            <div><label>
-                                <div>
-                                    <input class="domain-checkbox__checkbox css-5a3lae"
-                                           type="checkbox" name="featureOptions" value="gas">
-                                    <div>
-                                        <div>
-                                            <span></span><span
-                                        ></span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div>Gas</div>
-                            </label></div>
-                            <div><label>
-                                <div>
-                                    <input class="domain-checkbox__checkbox css-5a3lae"
-                                           type="checkbox" name="featureOptions"
-                                           value="gardencourtyard">
-                                    <div>
-                                        <div>
-                                            <span></span><span
-                                        ></span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div>Garden / courtyard
-                                </div>
-                            </label></div>
-                            <div><label>
-                                <div>
-                                    <input class="domain-checkbox__checkbox css-5a3lae"
-                                           type="checkbox" name="featureOptions"
-                                           value="balconydeck">
-                                    <div>
-                                        <div>
-                                            <span></span><span
-                                        ></span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div>Balcony / deck</div>
-                            </label></div>
-                            <div><label>
-                                <div>
-                                    <input class="domain-checkbox__checkbox css-5a3lae"
-                                           type="checkbox" name="featureOptions"
-                                           value="internallaundry">
-                                    <div>
-                                        <div>
-                                            <span></span><span
-                                        ></span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div>Internal laundry</div>
-                            </label></div>
-                            <div><label>
-                                <div>
-                                    <input class="domain-checkbox__checkbox css-5a3lae"
-                                           type="checkbox" name="featureOptions" value="study">
-                                    <div>
-                                        <div>
-                                            <span></span><span
-                                        ></span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div>Study</div>
-                            </label></div>
-                            <div><label>
-                                <div>
-                                    <input class="domain-checkbox__checkbox css-5a3lae"
-                                           type="checkbox" name="featureOptions"
-                                           value="furnished">
-                                    <div>
-                                        <div>
-                                            <span></span><span
-                                        ></span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div>Furnished</div>
-                            </label></div>
-                            <div><label>
-                                <div>
-                                    <input class="domain-checkbox__checkbox css-5a3lae"
-                                           type="checkbox" name="featureOptions"
-                                           value="dishwasher">
-                                    <div>
-                                        <div>
-                                            <span></span><span
-                                        ></span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div>Dishwasher</div>
-                            </label></div>
-                        </div>
-                        <div data-testid="dynamic-search-filters__new-or-established"
-                        ><h3>New/Established</h3>
-                            <div>
-                                <div role="combobox" aria-expanded="false"
-                                     aria-haspopup="listbox"
-                                     aria-labelledby="search-filters-new-or-established-label"
-                                ><label
-                                        for="search-filters-new-or-established-input"
-                                        id="search-filters-new-or-established-label"
-                                >New or established</label>
-                                    <div>
-                                        <button type="button" role="button"
-                                                aria-label="open menu" aria-haspopup="true"
-                                                data-toggle="true">Any
-                                        </button>
-                                        <input aria-autocomplete="list"
-                                               aria-labelledby="search-filters-new-or-established-label"
-                                               autocomplete="off"
-                                               id="search-filters-new-or-established-input"
-                                        ></div>
-                                </div>
-                            </div>
-                        </div>
-                        <div data-testid="dynamic-search-filters__keywords">
-                            <h3>Keywords</h3>
-                            <div><input name="keywords" type="text"
-                                        placeholder="e.g. waterfront, views, street name"
-                                        class="text-input__input is-regular is-empty css-1tghao4"
-                                        aria-required="false"
-                                        aria-label="Property keywords (example: waterfront, views, street name)">
-                            </div>
-                        </div>
-                        <div data-testid="dynamic-search-filters__exclude">
-                            <div><label>
-                                <div>
-                                    <input class="domain-checkbox__checkbox css-5a3lae"
-                                           type="checkbox" name="excludeDepositTaken" value=""
-                                           checked="checked">
-                                    <div>
-                                        <div>
-                                            <span></span><span
-                                        ></span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div>Exclude deposit
-                                    taken
-                                </div>
-                            </label></div>
-                        </div>
+                        <input name="minsize" type="number" placeholder="eg. 100">m<sup>2</sup>
+                        ---
+                        <input name="maxsize" type="number" placeholder="eg. 500"> m<sup>2</sup>
                     </div>
                 </div>
             </div>
+            <div style="display: none"><h3>Features</h3>
+                <input type="checkbox" name="Pets allowed" value="1">Pets allowed
+                <input type="checkbox" name="Built in wardrobes" value="2">Built in wardrobes
+                <input type="checkbox" name="Gas" value="3">Gas
+                <input type="checkbox" name="Garden / courtyard" value="4">Garden / courtyard
+                <input type="checkbox" name="alcony / deck" value="5">Balcony / deck
+                <input type="checkbox" name="Internal laundry" value="5">Internal laundry
+                <input type="checkbox" name="Study" value="5">Study
+                <input type="checkbox" name="Furnished" value="5">Furnished
+                <input type="checkbox" name="Dishwasher" value="5">Dishwasher
+            </div>
+
         </div>
-        <button type="submit">search</button>
-    </form>
+        <div style="display: none"><h3>New/Established</h3>
+            <select name="newestablished">
+                <option value="0" checked>Any</option>
+                <option value="1">New</option>
+                <option value="2">established</option>
+            </select>
+        </div>
+        <div><h3>Keywords</h3>
+            <div><input name="keywords" type="text" placeholder="e.g. waterfront, views, street name">
+            </div>
+        </div>
+</div>
+<br>
+<div>
+    <button type="submit">search</button>
+    <button type="reset">reset</button>
+</div>
+</form>
 </div>
 
 <br>
 <div>
     <h3>www.allhomes.com.au查询数据</h3>
     <br>
-    <p th:text="${allhomes}"></p>
+    <p th:utext="${allhomesSearchList}" th:remove="tag"></p>
+    <!--第一层循环-->
+<!--    <div th:each="list : ${allhomesSearchList}">-->
+<!--        &lt;!&ndash;第二层循环&ndash;&gt;-->
+<!--&lt;!&ndash;        <a th:each="listing : ${list.listing}">&ndash;&gt;-->
+<!--&lt;!&ndash;            <span th:text="${listing.url}">文章的分类们</span>&ndash;&gt;-->
+<!--&lt;!&ndash;        </a>&ndash;&gt;-->
+<!--        <br>-->
+<!--        <br>-->
+<!--        <br>-->
+<!--        <br>-->
+<!--        <br>-->
+<!--        <br>-->
+<!--        <table border="1"  style="border-collapse: collapse">-->
+<!--            <th>url</th>-->
+<!--            <th>title</th>-->
+<!--            <th>firstImage</th>-->
+<!--            <th>priceLabel</th>-->
+<!--            <th>numPhotos</th>-->
+<!--            <th>has3dTour</th>-->
+<!--            <th>hasVideo</th>-->
+<!--            <th>badges</th>-->
+<!--            <th>events</th>-->
+<!--            <th>publicVisibleDate</th>-->
+<!--            <th>relistedDate</th>-->
+<!--            <tr th:each="list : ${list.listing}">-->
+<!--                <td th:text="${list.url}"/>-->
+<!--                <td th:text="${list.title}"/>-->
+<!--                <td th:text="${list.firstImage}"/>-->
+<!--                <td th:text="${list.priceLabel}"/>-->
+<!--                <td th:text="${list.numPhotos}"/>-->
+<!--                <td th:text="${list.has3dTour}"/>-->
+<!--                <td th:text="${list.hasVideo}"/>-->
+<!--                <td th:text="${list.badges}"/>-->
+<!--                <td th:text="${list.events}"/>-->
+<!--                <td th:text="${list.publicVisibleDate}"/>-->
+<!--                <td th:text="${list.relistedDate}"/>-->
+<!--            </tr>-->
+<!--        </table>-->
+
+
+<!--        <table border="1"  style="border-collapse: collapse">-->
+<!--            <th>suppression</th>-->
+<!--            <th>street</th>-->
+<!--            <th>division</th>-->
+<!--            <th>state</th>-->
+<!--            <th>postcode</th>-->
+<!--            <th>coordinates</th>-->
+<!--            <tr th:each="address : ${list.address}">-->
+<!--                <td th:text="${address.suppression}"/>-->
+<!--                <td th:text="${address.street}"/>-->
+<!--                <td th:text="${address.division}"/>-->
+<!--                <td th:text="${address.state}"/>-->
+<!--                <td th:text="${address.postcode}"/>-->
+<!--                <td th:text="${address.coordinates}"/>-->
+<!--            </tr>-->
+<!--        </table>-->
+
+<!--        <table border="1"  style="border-collapse: collapse">-->
+<!--            <th>types</th>-->
+<!--            <th>beds</th>-->
+<!--            <th>baths</th>-->
+<!--            <th>cars</th>-->
+<!--            <th>size</th>-->
+<!--            <th>features</th>-->
+<!--            <tr th:each="property : ${list.property}">-->
+<!--                <td th:text="${property.types}"/>-->
+<!--                <td th:text="${property.beds}"/>-->
+<!--                <td th:text="${property.baths}"/>-->
+<!--                <td th:text="${property.cars}"/>-->
+<!--                <td th:text="${property.size}"/>-->
+<!--                <td th:text="${property.features}"/>-->
+<!--            </tr>-->
+<!--        </table>-->
+
+<!--        <table border="1"  style="border-collapse: collapse">-->
+<!--            <tr>-->
+<!--                <th>id</th>-->
+<!--                <th>type</th>-->
+<!--                <th>name</th>-->
+<!--            </tr>-->
+<!--            <tr th:each="agency : ${list.agency}">-->
+<!--                <td th:text="${agency.id}"/>-->
+<!--                <td th:text="${agency.type}"/>-->
+<!--                <td th:text="${agency.name}"/>-->
+<!--            </tr>-->
+<!--        </table>-->
+<!--    </div>-->
 </div>
 
 <div>
     <h3>www.domain.com.au查询数据</h3>
     <br>
-    <p th:text="${domain}"></p>
+    <p th:utext="${domain}" th:remove="tag"></p>
 </div>
 
 <div>

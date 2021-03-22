@@ -3,9 +3,7 @@ package com.example.rentsummary.server;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
-import com.example.rentsummary.model.AllHomesEntity;
-import com.example.rentsummary.model.DomainEntity;
-import com.example.rentsummary.model.ZangoEntity;
+import com.example.rentsummary.model.*;
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpStatus;
 import org.apache.http.client.ClientProtocolException;
@@ -19,6 +17,7 @@ import org.apache.http.impl.client.HttpClients;
 import org.apache.http.util.EntityUtils;
 
 import java.io.IOException;
+import java.util.List;
 
 public class RentContextGet {
 
@@ -29,7 +28,7 @@ public class RentContextGet {
 //        getRentFromzango();
     }
 
-    public static String getRentFromAllHomes() {
+    public static String getRentFromAllHomes(RentRequestParaForAllhomes rent) {
         //1.生成httpclient，相当于该打开一个浏览器
         CloseableHttpClient httpClient = HttpClients.createDefault();
         CloseableHttpResponse response = null;
@@ -45,7 +44,9 @@ public class RentContextGet {
         try {
 
             //allhomes
-            String paraJson = "{\"page\":1,\"pageSize\":50,\"sort\":{\"criteria\":\"PRICE\",\"order\":\"ASC\"},\"filters\":{\"localities\":[{\"type\":\"REGION\",\"slug\":\"canberra-act\"},{\"type\":\"DISTRICT\",\"slug\":\"greater-queanbeyan-queanbeyan-region-nsw\"}],\"beds\":{\"min\":4,\"max\":4}},\"results\":{\"type\":\"LIST\"}}";
+//            String paraJson = "{\"page\":1,\"pageSize\":50,\"sort\":{\"criteria\":\"PRICE\",\"order\":\"ASC\"},\"filters\":{\"localities\":[{\"type\":\"REGION\",\"slug\":\"canberra-act\"},{\"type\":\"DISTRICT\",\"slug\":\"greater-queanbeyan-queanbeyan-region-nsw\"}],\"beds\":{\"min\":4,\"max\":4}},\"results\":{\"type\":\"LIST\"}}";
+            String paraJson=JSON.toJSONString(rent);
+            System.out.println("rentrequestforallhomes:"+paraJson);
             StringEntity entity = new StringEntity(paraJson, "UTF-8");
             request.setEntity(entity);
 
@@ -59,7 +60,23 @@ public class RentContextGet {
                 String html = EntityUtils.toString(httpEntity, "utf-8");
                 AllHomesEntity allHomesEntity = JSONObject.parseObject(html, AllHomesEntity.class);
                 System.out.println("Allhomes get!!!");
-                return allHomesEntity.getSearchResults().toString();
+                StringBuilder stringBuilder = new StringBuilder();
+                stringBuilder.append("<table>");
+                //生成一个表格
+                for (AllHomesEntitySearchResultsBean item :allHomesEntity.getSearchResults()) {
+                    stringBuilder.append("<tr>");
+                    stringBuilder.append("<td><a href="+item.getListing().getUrl()+">" + item.getListing().getTitle()+"</a><td>");
+                    stringBuilder.append("<td><img src=" + item.getListing().getFirstImage()+"/><td>");
+                    stringBuilder.append("<td>" + item.getListing().getPriceLabel()+"<td>");
+                    stringBuilder.append("<td>" + item.getAddress().getState()+"<td>");
+                    stringBuilder.append("<td>" + item.getAddress().getPostcode()+"<td>");
+                    stringBuilder.append("</tr>");
+                }
+
+                stringBuilder.append("</table>");
+                //return allHomesEntity.getSearchResults().toString();
+                return stringBuilder.toString();
+
             } else {
                 //如果返回状态不是200，比如404（页面不存在）等，根据情况做处理，这里略
                 System.out.println("返回状态不是200");
@@ -77,13 +94,26 @@ public class RentContextGet {
         return null;
     }
 
-    public static String getRentFromDomain() {
+    public static String getRentFromDomain(String queryPara) {
         //1.生成httpclient，相当于该打开一个浏览器
         CloseableHttpClient httpClient = HttpClients.createDefault();
         CloseableHttpResponse response = null;
         //2.创建get请求，相当于在浏览器地址栏输入 网址
+        String url="https://www.domain.com.au/rent/";
+        url=url+queryPara;
 
-        HttpGet request = new HttpGet("https://www.domain.com.au/rent/?bedrooms=2-any&bathrooms=2-any&excludedeposittaken=1&carspaces=2-any&postcode=3690");
+        //eg:https://www.domain.com.au/rent/
+        // st-leonards-vic-3223/house/?bedrooms=2-any&bathrooms=1-any&price=0-2000&availableto=2021-03-23&excludedeposittaken=1&carspaces=3-any&landsize=100-any&keywords=vic
+
+//      availableto=2021-03-23
+//      excludedeposittaken=1
+
+//        https://www.domain.com.au/rent/
+//        geelong-vic-3220/?ptype=apartment-unit-flat,block-of-units,duplex,free-standing,new-apartments,new-home-designs,new-house-land,pent-house,semi-detached,studio,terrace,town-house,villa&excludedeposittaken=1
+
+        url="https://www.domain.com.au/rent/geelong-vic-3220/?excludedeposittaken=1&keywords=views";
+
+        HttpGet request = new HttpGet(url);
         request.setHeader("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:86.0) Gecko/20100101 Firefox/86.0");
         request.setHeader("Content-Type", "application/json");
         request.setHeader("Accept-Encoding", "gzip, deflate, br");
@@ -107,11 +137,44 @@ public class RentContextGet {
 //                Object object=JSON.parse(html);
 
 //                JSONArray jsonArray=JSON.parseArray(html);
-                DomainEntity domainEntity = JSON.parseObject(html, DomainEntity.class);
+//                DomainEntity domainEntity = JSON.parseObject(html, DomainEntity.class);
 
-//                System.out.println(domainEntity.getListingsMap().toString());
+                JSONObject jsonObj=JSONObject.parseObject(html);
+
+                String listingSearchResultIds=jsonObj.getString("listingSearchResultIds");
+                String[] ids=listingSearchResultIds.replace("[","").replace("]","").split(",");
+
+                String listingsMap=jsonObj.getString("listingsMap");
+                JSONObject listingsMapObject=JSONObject.parseObject(listingsMap);
+
+                StringBuilder stringBuilder = new StringBuilder();
+                stringBuilder.append("<table>");
+
+                String headurl="https://www.domain.com.au/";
+                //创建页面显示
+                for (int i=0;i<ids.length;i++){
+                    stringBuilder.append("<tr>");
+
+                    DomainResultsBean domainResultsBean = JSON.parseObject( listingsMapObject.getString(ids[i]), DomainResultsBean.class);
+
+                    stringBuilder.append("<td><a href="+headurl+domainResultsBean.getListingModel().getUrl()+">" + domainResultsBean.getListingModel().getAddress().getStreet()+"</a><td>");
+                    stringBuilder.append("<td><img src=" + domainResultsBean.getListingModel().getLowResImage()+"/><td>");
+                    stringBuilder.append("<td>" + domainResultsBean.getListingModel().getPrice()+"<td>");
+                    stringBuilder.append("<td>" + domainResultsBean.getListingModel().getAddress().getState()+"<td>");
+                    stringBuilder.append("<td>" + domainResultsBean.getListingModel().getAddress().getPostcode()+"<td>");
+                    stringBuilder.append("</tr>");
+
+                }
+
+
+                stringBuilder.append("</table>");
+                //return allHomesEntity.getSearchResults().toString();
                 System.out.println("Domain get!!!");
-                return domainEntity.toString();
+                return stringBuilder.toString();
+
+//                https://www.domain.com.au/+...
+//                System.out.println(domainEntity.getListingsMap().toString());
+//                return domainEntity.toString();
             } else {
                 //如果返回状态不是200，比如404（页面不存在）等，根据情况做处理，这里略
                 System.out.println("返回状态不是200");
