@@ -166,20 +166,20 @@ public class RentContextGet {
                 }
 
                 //金额升序排序
-                String regEx="[^0-9]";
-                Pattern p = Pattern.compile(regEx);
-                Collections.sort(domainList, new Comparator<DomainResultsBean>() {
-                    @Override
-                    public int compare(DomainResultsBean domain1, DomainResultsBean domain2) {
-                        String sprice1=domain1.getListingModel().getPrice();
-                        String sprice2=domain2.getListingModel().getPrice();
-                        Matcher m1 = p.matcher(sprice1);
-                        Matcher m2 = p.matcher(sprice2);
-                        int price1= Integer.parseInt(m1.replaceAll("").trim());
-                        int price2= Integer.parseInt(m2.replaceAll("").trim());
-                        return price1-price2;
-                    }
-                });
+//                String regEx="[^0-9]";
+//                Pattern p = Pattern.compile(regEx);
+//                Collections.sort(domainList, new Comparator<DomainResultsBean>() {
+//                    @Override
+//                    public int compare(DomainResultsBean domain1, DomainResultsBean domain2) {
+//                        String sprice1=domain1.getListingModel().getPrice();
+//                        String sprice2=domain2.getListingModel().getPrice();
+//                        Matcher m1 = p.matcher(sprice1);
+//                        Matcher m2 = p.matcher(sprice2);
+//                        int price1= Integer.parseInt(m1.replaceAll("").trim());
+//                        int price2= Integer.parseInt(m2.replaceAll("").trim());
+//                        return price1-price2;
+//                    }
+//                });
 
                 //创建页面显示
                 for (int i=0;i<domainList.size();i++){
