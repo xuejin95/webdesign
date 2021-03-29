@@ -2,8 +2,10 @@ package com.example.rentsummary.server;
 
 
 import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
 import com.example.rentsummary.model.*;
+import com.sun.corba.se.spi.servicecontext.UEInfoServiceContext;
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpStatus;
 import org.apache.http.client.ClientProtocolException;
@@ -17,7 +19,12 @@ import org.apache.http.impl.client.HttpClients;
 import org.apache.http.util.EntityUtils;
 
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class RentContextGet {
 
@@ -111,16 +118,15 @@ public class RentContextGet {
 //        https://www.domain.com.au/rent/
 //        geelong-vic-3220/?ptype=apartment-unit-flat,block-of-units,duplex,free-standing,new-apartments,new-home-designs,new-house-land,pent-house,semi-detached,studio,terrace,town-house,villa&excludedeposittaken=1
 
-        url="https://www.domain.com.au/rent/geelong-vic-3220/?excludedeposittaken=1&keywords=views";
-
         HttpGet request = new HttpGet(url);
         request.setHeader("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:86.0) Gecko/20100101 Firefox/86.0");
-        request.setHeader("Content-Type", "application/json");
+        request.setHeader("Content-Type", "text/html; charset=utf-8");
         request.setHeader("Accept-Encoding", "gzip, deflate, br");
-        request.setHeader("Accept", "*/*");
+        request.setHeader("Accept", "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8");
         request.setHeader("Accept-Language", "zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2");
         try {
             //3.执行get请求，相当于在输入地址栏后敲回车键
+            System.out.println("domain url is :"+url);
             response = httpClient.execute(request);
 
             //4.判断响应状态为200，进行处理
@@ -151,17 +157,38 @@ public class RentContextGet {
                 stringBuilder.append("<table>");
 
                 String headurl="https://www.domain.com.au/";
-                //创建页面显示
+
+                //按价格降序排序
+                List<DomainResultsBean> domainList=new ArrayList<DomainResultsBean>();
                 for (int i=0;i<ids.length;i++){
-                    stringBuilder.append("<tr>");
-
                     DomainResultsBean domainResultsBean = JSON.parseObject( listingsMapObject.getString(ids[i]), DomainResultsBean.class);
+                    domainList.add(domainResultsBean);
+                }
 
-                    stringBuilder.append("<td><a href="+headurl+domainResultsBean.getListingModel().getUrl()+">" + domainResultsBean.getListingModel().getAddress().getStreet()+"</a><td>");
-                    stringBuilder.append("<td><img src=" + domainResultsBean.getListingModel().getLowResImage()+"/><td>");
-                    stringBuilder.append("<td>" + domainResultsBean.getListingModel().getPrice()+"<td>");
-                    stringBuilder.append("<td>" + domainResultsBean.getListingModel().getAddress().getState()+"<td>");
-                    stringBuilder.append("<td>" + domainResultsBean.getListingModel().getAddress().getPostcode()+"<td>");
+                //金额升序排序
+                String regEx="[^0-9]";
+                Pattern p = Pattern.compile(regEx);
+                Collections.sort(domainList, new Comparator<DomainResultsBean>() {
+                    @Override
+                    public int compare(DomainResultsBean domain1, DomainResultsBean domain2) {
+                        String sprice1=domain1.getListingModel().getPrice();
+                        String sprice2=domain2.getListingModel().getPrice();
+                        Matcher m1 = p.matcher(sprice1);
+                        Matcher m2 = p.matcher(sprice2);
+                        int price1= Integer.parseInt(m1.replaceAll("").trim());
+                        int price2= Integer.parseInt(m2.replaceAll("").trim());
+                        return price1-price2;
+                    }
+                });
+
+                //创建页面显示
+                for (int i=0;i<domainList.size();i++){
+                    stringBuilder.append("<tr>");
+                    stringBuilder.append("<td><a href="+headurl+domainList.get(i).getListingModel().getUrl()+">" + domainList.get(i).getListingModel().getAddress().getStreet()+"</a><td>");
+                    stringBuilder.append("<td><img src=" + domainList.get(i).getListingModel().getLowResImage()+"/><td>");
+                    stringBuilder.append("<td>" + domainList.get(i).getListingModel().getPrice()+"<td>");
+                    stringBuilder.append("<td>" + domainList.get(i).getListingModel().getAddress().getState()+"<td>");
+                    stringBuilder.append("<td>" + domainList.get(i).getListingModel().getAddress().getPostcode()+"<td>");
                     stringBuilder.append("</tr>");
 
                 }
@@ -200,9 +227,8 @@ public class RentContextGet {
 
         HttpGet request = new HttpGet("https://www.realestate.com.au/rent/with-2-bedrooms-in-3690/list-1?maxBeds=2");
         request.setHeader("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:86.0) Gecko/20100101 Firefox/86.0");
-        request.setHeader("Content-Type", "application/json");
         request.setHeader("Accept-Encoding", "gzip, deflate, br");
-        request.setHeader("Accept", "*/*");
+        request.setHeader("Accept", "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8");
         request.setHeader("Accept-Language", "zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2");
         request.setHeader("Referer", "https://www.realestate.com.au/rent/");
 
@@ -220,7 +246,7 @@ public class RentContextGet {
             } else {
                 //如果返回状态不是200，比如404（页面不存在）等，根据情况做处理，这里略
                 System.out.println("返回状态不是200");
-                System.out.println(EntityUtils.toString(response.getEntity(), "utf-8"));
+//                System.out.println(EntityUtils.toString(response.getEntity(), "utf-8"));
             }
         } catch (ClientProtocolException e) {
             e.printStackTrace();
@@ -232,16 +258,22 @@ public class RentContextGet {
             HttpClientUtils.closeQuietly(httpClient);
         }
 //        return "返回状态不是200,是429状态码：too many request,反爬虫检测";
-        return "com.example.rentsummary.model.Entity$ResultsBean@3f64fd44";
+        return "Pending";
     }
 
-    public static String getRentFromzango() {
+    public static String getRentFromzango(String queryPara) {
         //1.生成httpclient，相当于该打开一个浏览器
         CloseableHttpClient httpClient = HttpClients.createDefault();
         CloseableHttpResponse response = null;
         //2.创建get请求，相当于在浏览器地址栏输入 网址
+        String urltmp="https://zango.com.au";
+        String url="https://zango.com.au/api/pages/70/?property_class=rental&listing_type=lease&surrounding=true&";
+        url=url+queryPara;
 
-        HttpGet request = new HttpGet("https://zango.com.au/api/pages/70/?property_class=rental&listing_type=lease&surrounding=true&bedrooms__gte=1&price__gte=50&price__lte=10000&order_by=price&property_status_groups=current%2CunderOffer%2CincludePrivate&bedrooms__lte=1&filters=1&page=1");
+
+        System.out.println("get rent inf from ZangoURL:"+url);
+//        HttpGet request = new HttpGet("https://zango.com.au/api/pages/70/?property_class=rental&listing_type=lease&surrounding=true&bedrooms__gte=2&price__gte=350&price__lte=1700&order_by=price&property_status_groups=current%2CunderOffer%2CincludePrivate&region_group=ACT+%26+Surrounds&bedrooms__lte=4&filters=1&page=1&view_as=list");
+        HttpGet request = new HttpGet(url);
         request.setHeader("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:86.0) Gecko/20100101 Firefox/86.0");
         request.setHeader("Content-Type", "application/json");
         request.setHeader("Accept", "*/*");
@@ -257,13 +289,43 @@ public class RentContextGet {
                 //5.获取响应内容
                 HttpEntity httpEntity = response.getEntity();
                 String html = EntityUtils.toString(httpEntity, "utf-8");
-                ZangoEntity zangoEntity = JSON.parseObject(html, ZangoEntity.class);
                 System.out.println("Zango get!!!");
-                return zangoEntity.toString();
+
+                String results=JSONObject.parseObject(html).getString("results");
+                String listings=JSONObject.parseObject(results).getString("listings");
+                List<ZangoEntity> zanGoList=JSONArray.parseArray(listings,ZangoEntity.class);
+
+                //金额排序
+                //金额升序排序
+                String regEx="[^0-9]";
+                Pattern p = Pattern.compile(regEx);
+                Collections.sort(zanGoList, new Comparator<ZangoEntity>() {
+                    @Override
+                    public int compare(ZangoEntity domain1, ZangoEntity domain2) {
+                        int price1=domain1.getPrice();
+                        int price2=domain2.getPrice();
+                        return price1-price2;
+                    }
+                });
+
+                StringBuilder stringBuilder = new StringBuilder();
+                stringBuilder.append("<table>");
+                //生成一个表格
+                for(ZangoEntity zango :zanGoList){
+                    stringBuilder.append("<tr>");
+                    stringBuilder.append("<td><a href="+urltmp+zango.getUrl_path()+">" + zango.getAddress_display_string()+"</a><td>");
+                    stringBuilder.append("<td><img src=" + zango.getImages().get(0).getImage().getImage_480_270()+"/><td>");
+                    stringBuilder.append("<td>" + zango.getPriceView()+"<td>");
+                    stringBuilder.append("<td>" + zango.getAddress_street_string()+"<td>");
+                    stringBuilder.append("<td>" + zango.getAddress_postcode()+"<td>");
+                    stringBuilder.append("</tr>");
+                }
+
+                return stringBuilder.toString();
             } else {
                 //如果返回状态不是200，比如404（页面不存在）等，根据情况做处理，这里略
                 System.out.println("返回状态不是200");
-                System.out.println(EntityUtils.toString(response.getEntity(), "utf-8"));
+//                System.out.println(EntityUtils.toString(response.getEntity(), "utf-8"));
             }
         } catch (ClientProtocolException e) {
             e.printStackTrace();

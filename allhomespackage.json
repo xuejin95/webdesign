@@ -1,48 +1,1726 @@
 {
-  "page": 1,
-  "pageSize": 50,
-  "sort": {
-    "criteria": "PRICE",
-    "order": "ASC"
+  "id": 70,
+  "meta": {
+    "type": "realestate.ListingSearchPage",
+    "detail_url": "https://zango.com.au/api/pages/70/",
+    "html_url": "https://zango.com.au/rent/search/",
+    "slug": "search",
+    "show_in_menus": true,
+    "seo_title": "",
+    "search_description": "",
+    "first_published_at": "2019-02-14T11:06:19.708123+11:00",
+    "parent": {
+      "id": 434,
+      "meta": {
+        "type": "cbr_realestate.HomePage",
+        "detail_url": "https://zango.com.au/api/pages/434/",
+        "html_url": "https://zango.com.au/rent/"
+      },
+      "title": "Rental Properties"
+    },
+    "meta_title": "",
+    "meta_description": "",
+    "meta_keywords": "",
+    "og_title": "",
+    "og_type": "",
+    "og_url": "",
+    "og_img": "",
+    "og_description": "",
+    "twitter_card": "",
+    "twitter_site": "",
+    "twitter_title": "",
+    "twitter_description": "",
+    "twitter_creator": "",
+    "twitter_image": "",
+    "canonical": ""
   },
-  "filters": {
-    "localities": [
+  "title": "Rent",
+  "description": "<p></p>",
+  "featured_listings": [],
+  "form": [
+    {
+      "name": "keywords",
+      "label": "Keywords",
+      "value": null,
+      "choices": []
+    },
+    {
+      "name": "id",
+      "label": "Id",
+      "value": null,
+      "choices": []
+    },
+    {
+      "name": "uniqueID",
+      "label": "Uniqueid",
+      "value": null,
+      "choices": []
+    },
+    {
+      "name": "agentID",
+      "label": "Agentid",
+      "value": null,
+      "choices": []
+    },
+    {
+      "name": "feed_provider",
+      "label": "Feed provider",
+      "value": null,
+      "choices": []
+    },
+    {
+      "name": "status",
+      "label": "Status",
+      "value": null,
+      "choices": []
+    },
+    {
+      "name": "property_status_groups",
+      "label": "Property status groups",
+      "value": [
+        "current",
+        "underOffer",
+        "includePrivate"
+      ],
+      "choices": []
+    },
+    {
+      "name": "property_class",
+      "label": "Property Type",
+      "value": "rental",
+      "choices": []
+    },
+    {
+      "name": "listing_type",
+      "label": "Listing type",
+      "value": "lease",
+      "choices": []
+    },
+    {
+      "name": "address",
+      "label": "Address",
+      "value": null,
+      "choices": []
+    },
+    {
+      "name": "address_suburb",
+      "label": "Address suburb",
+      "value": null,
+      "choices": []
+    },
+    {
+      "name": "address_region",
+      "label": "Address region",
+      "value": null,
+      "choices": []
+    },
+    {
+      "name": "region_group",
+      "label": "Region group",
+      "value": "ACT & Surrounds",
+      "choices": []
+    },
+    {
+      "name": "address_postcode",
+      "label": "Address postcode",
+      "value": null,
+      "choices": []
+    },
+    {
+      "name": "surrounding",
+      "label": "Surrounding",
+      "value": true,
+      "choices": []
+    },
+    {
+      "name": "address_state",
+      "label": "Address state",
+      "value": null,
+      "choices": []
+    },
+    {
+      "name": "bedrooms__gte",
+      "label": "Bedrooms (min)",
+      "value": "1",
+      "choices": []
+    },
+    {
+      "name": "bedrooms__lte",
+      "label": "Bedrooms (max)",
+      "value": "3",
+      "choices": []
+    },
+    {
+      "name": "bathrooms__gte",
+      "label": "Bathrooms (min)",
+      "value": null,
+      "choices": []
+    },
+    {
+      "name": "bathrooms__lte",
+      "label": "Bathrooms (max)",
+      "value": null,
+      "choices": []
+    },
+    {
+      "name": "parking__gte",
+      "label": "Parking (min)",
+      "value": null,
+      "choices": []
+    },
+    {
+      "name": "parking__lte",
+      "label": "Parking (max)",
+      "value": null,
+      "choices": []
+    },
+    {
+      "name": "price__gte",
+      "label": "$ min",
+      "value": "350",
+      "choices": []
+    },
+    {
+      "name": "price__lte",
+      "label": "$ max",
+      "value": "1700",
+      "choices": []
+    },
+    {
+      "name": "rent__gte",
+      "label": "$ min",
+      "value": null,
+      "choices": []
+    },
+    {
+      "name": "rent__lte",
+      "label": "$ max",
+      "value": null,
+      "choices": []
+    },
+    {
+      "name": "categories",
+      "label": "Categories",
+      "value": null,
+      "choices": []
+    },
+    {
+      "name": "features",
+      "label": "Features",
+      "value": null,
+      "choices": []
+    },
+    {
+      "name": "order_by",
+      "label": "Sort by",
+      "value": "price",
+      "choices": []
+    },
+    {
+      "name": "boundaries",
+      "label": "Boundaries",
+      "value": null,
+      "choices": []
+    },
+    {
+      "name": "area__gte",
+      "label": "Land Area",
+      "value": "100",
+      "choices": []
+    },
+    {
+      "name": "area__lte",
+      "label": "Land Area Max",
+      "value": "10000",
+      "choices": []
+    },
+    {
+      "name": "buildingDetails_area__gte",
+      "label": "Building Area",
+      "value": null,
+      "choices": []
+    },
+    {
+      "name": "buildingDetails_area__lte",
+      "label": "Building Area",
+      "value": null,
+      "choices": []
+    },
+    {
+      "name": "created__gte",
+      "label": "Created  gte",
+      "value": null,
+      "choices": []
+    },
+    {
+      "name": "created__lte",
+      "label": "Created  lte",
+      "value": null,
+      "choices": []
+    },
+    {
+      "name": "first_go_live__gte",
+      "label": "First go live  gte",
+      "value": null,
+      "choices": []
+    },
+    {
+      "name": "first_go_live__lte",
+      "label": "First go live  lte",
+      "value": null,
+      "choices": []
+    },
+    {
+      "name": "updated__gte",
+      "label": "Updated  gte",
+      "value": null,
+      "choices": []
+    },
+    {
+      "name": "updated_lte",
+      "label": "Updated lte",
+      "value": null,
+      "choices": []
+    },
+    {
+      "name": "soldDetails_date__gte",
+      "label": "Solddetails date  gte",
+      "value": null,
+      "choices": []
+    },
+    {
+      "name": "soldDetails_date__lte",
+      "label": "Solddetails date  lte",
+      "value": null,
+      "choices": []
+    },
+    {
+      "name": "inspection__gte",
+      "label": "Inspection  gte",
+      "value": null,
+      "choices": []
+    },
+    {
+      "name": "inspection__lte",
+      "label": "Inspection  lte",
+      "value": null,
+      "choices": []
+    },
+    {
+      "name": "leasedDetails_date__gte",
+      "label": "Leaseddetails date  gte",
+      "value": null,
+      "choices": []
+    },
+    {
+      "name": "leasedDetails_date__lte",
+      "label": "Leaseddetails date  lte",
+      "value": null,
+      "choices": []
+    },
+    {
+      "name": "development_id",
+      "label": "Development id",
+      "value": null,
+      "choices": []
+    },
+    {
+      "name": "created_string",
+      "label": "Created string",
+      "value": null,
+      "choices": []
+    },
+    {
+      "name": "has_auction",
+      "label": "Has auction",
+      "value": false,
+      "choices": []
+    },
+    {
+      "name": "has_live_auction",
+      "label": "Has live auction",
+      "value": false,
+      "choices": []
+    },
+    {
+      "name": "has_virtual_tour",
+      "label": "Has virtual tour",
+      "value": false,
+      "choices": []
+    },
+    {
+      "name": "has_inspection",
+      "label": "Has inspection",
+      "value": false,
+      "choices": []
+    },
+    {
+      "name": "is_prestige",
+      "label": "Is prestige",
+      "value": false,
+      "choices": []
+    },
+    {
+      "name": "last_price_change__gte",
+      "label": "Last price change  gte",
+      "value": null,
+      "choices": []
+    },
+    {
+      "name": "office_slug",
+      "label": "Office slug",
+      "value": null,
+      "choices": []
+    },
+    {
+      "name": "agent_slug",
+      "label": "Agent slug",
+      "value": null,
+      "choices": []
+    },
+    {
+      "name": "street",
+      "label": "Street",
+      "value": null,
+      "choices": []
+    },
+    {
+      "name": "agent",
+      "label": "Agent",
+      "value": null,
+      "choices": []
+    }
+  ],
+  "results": {
+    "meta": {
+      "search_params": {
+        "listing_type": "lease"
+      },
+      "page": 1,
+      "total_pages": 1,
+      "total_results": 6,
+      "search_description": {
+        "search": "Properties for rent",
+        "locations": "in the ACT & Surrounds region and surrounding suburbs"
+      }
+    },
+    "listings": [
       {
-        "type": "REGION",
-        "slug": "canberra-act"
+        "id": 39335,
+        "status": "current",
+        "property_class": "rental",
+        "listing_type": "lease",
+        "created": "2021-03-19T10:46:33.808431+11:00",
+        "updated": "2021-03-25T11:16:47.846604+11:00",
+        "priceView": "$475 Per Week",
+        "address_postcode": "2612",
+        "address_suburb": "TURNER",
+        "address_suburb_display": true,
+        "address_state": "ACT",
+        "address_region": "North Canberra",
+        "location": {
+          "type": "Point",
+          "coordinates": [
+            149.1293139,
+            -35.2674017
+          ]
+        },
+        "headline": "Inner City Sanctuary",
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "parking": 1,
+        "price": 475,
+        "price_display": true,
+        "underOffer": false,
+        "authority": "sale",
+        "auction_date": null,
+        "auctionVenue": null,
+        "rent": null,
+        "rent_period": "weekly",
+        "dateAvailable": "2021-04-22T00:00:00+10:00",
+        "commercialRent": 0,
+        "commercialRent_period": "annual",
+        "carSpaces": 0,
+        "parkingComments": "",
+        "area": "1045.00",
+        "area_unit": "squareMeter",
+        "address_display_string": "3/11 Forbes Street TURNER, ACT 2612",
+        "address_street_string": "3/11 Forbes Street",
+        "images": [
+          {
+            "image": {
+              "image_480_270": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/3-11-forbes-street-turner-act-2612-39335-image-0-20210325001642324969-crop-c0-5__0-5-480x270-70.jpg",
+              "image_320_240": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/3-11-forbes-street-turner-act-2612-39335-image-0-20210325001642324969-crop-c0-5__0-5-320x240-70.jpg",
+              "image_1200_680": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/3-11-forbes-street-turner-act-2612-39335-image-0-20210325001642324969-crop-c0-5__0-5-1200x680-70.jpg",
+              "image_800_600": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/3-11-forbes-street-turner-act-2612-39335-image-0-20210325001642324969-crop-c0-5__0-5-800x600-70.jpg"
+            }
+          },
+          {
+            "image": {
+              "image_480_270": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/3-11-forbes-street-turner-act-2612-39335-image-0-20210325001643142217-crop-c0-5__0-5-480x270-70.jpg",
+              "image_320_240": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/3-11-forbes-street-turner-act-2612-39335-image-0-20210325001643142217-crop-c0-5__0-5-320x240-70.jpg",
+              "image_1200_680": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/3-11-forbes-street-turner-act-2612-39335-image-0-20210325001643142217-crop-c0-5__0-5-1200x680-70.jpg",
+              "image_800_600": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/3-11-forbes-street-turner-act-2612-39335-image-0-20210325001643142217-crop-c0-5__0-5-800x600-70.jpg"
+            }
+          },
+          {
+            "image": {
+              "image_480_270": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/3-11-forbes-street-turner-act-2612-39335-image-0-20210325001643786691-crop-c0-5__0-5-480x270-70.jpg",
+              "image_320_240": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/3-11-forbes-street-turner-act-2612-39335-image-0-20210325001643786691-crop-c0-5__0-5-320x240-70.jpg",
+              "image_1200_680": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/3-11-forbes-street-turner-act-2612-39335-image-0-20210325001643786691-crop-c0-5__0-5-1200x680-70.jpg",
+              "image_800_600": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/3-11-forbes-street-turner-act-2612-39335-image-0-20210325001643786691-crop-c0-5__0-5-800x600-70.jpg"
+            }
+          },
+          {
+            "image": {
+              "image_480_270": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/3-11-forbes-street-turner-act-2612-39335-image-0-20210325001644446586-crop-c0-5__0-5-480x270-70.jpg",
+              "image_320_240": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/3-11-forbes-street-turner-act-2612-39335-image-0-20210325001644446586-crop-c0-5__0-5-320x240-70.jpg",
+              "image_1200_680": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/3-11-forbes-street-turner-act-2612-39335-image-0-20210325001644446586-crop-c0-5__0-5-1200x680-70.jpg",
+              "image_800_600": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/3-11-forbes-street-turner-act-2612-39335-image-0-20210325001644446586-crop-c0-5__0-5-800x600-70.jpg"
+            }
+          },
+          {
+            "image": {
+              "image_480_270": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/3-11-forbes-street-turner-act-2612-39335-image-0-20210325001645110773-crop-c0-5__0-5-480x270-70.jpg",
+              "image_320_240": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/3-11-forbes-street-turner-act-2612-39335-image-0-20210325001645110773-crop-c0-5__0-5-320x240-70.jpg",
+              "image_1200_680": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/3-11-forbes-street-turner-act-2612-39335-image-0-20210325001645110773-crop-c0-5__0-5-1200x680-70.jpg",
+              "image_800_600": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/3-11-forbes-street-turner-act-2612-39335-image-0-20210325001645110773-crop-c0-5__0-5-800x600-70.jpg"
+            }
+          },
+          {
+            "image": {
+              "image_480_270": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/3-11-forbes-street-turner-act-2612-39335-image-0-20210325001645982124-crop-c0-5__0-5-480x270-70.jpg",
+              "image_320_240": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/3-11-forbes-street-turner-act-2612-39335-image-0-20210325001645982124-crop-c0-5__0-5-320x240-70.jpg",
+              "image_1200_680": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/3-11-forbes-street-turner-act-2612-39335-image-0-20210325001645982124-crop-c0-5__0-5-1200x680-70.jpg",
+              "image_800_600": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/3-11-forbes-street-turner-act-2612-39335-image-0-20210325001645982124-crop-c0-5__0-5-800x600-70.jpg"
+            }
+          },
+          {
+            "image": {
+              "image_480_270": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/3-11-forbes-street-turner-act-2612-39335-image-0-20210325001646887398-crop-c0-5__0-5-480x270-70.jpg",
+              "image_320_240": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/3-11-forbes-street-turner-act-2612-39335-image-0-20210325001646887398-crop-c0-5__0-5-320x240-70.jpg",
+              "image_1200_680": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/3-11-forbes-street-turner-act-2612-39335-image-0-20210325001646887398-crop-c0-5__0-5-1200x680-70.jpg",
+              "image_800_600": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/3-11-forbes-street-turner-act-2612-39335-image-0-20210325001646887398-crop-c0-5__0-5-800x600-70.jpg"
+            }
+          }
+        ],
+        "agents": [
+          {
+            "id": 1774,
+            "title": "Kerry Robinson",
+            "name_short": "",
+            "job_title": "Leasing Consultant",
+            "results_image": "https://zango.com.au/cms-images/2F1zTYZIqqrIQvw6OjH_qkvGf8E=/129831/fill-150x176/",
+            "profile_image": "https://zango.com.au/cms-images/pTZgKJDuEtZ_a3GqdBA21xcWcO4=/129831/original/",
+            "phone": "0478 036 220",
+            "office_phone": "02 6123 8000",
+            "slug": "kerry-robinson-2",
+            "live": true,
+            "private_lister": false,
+            "rei_membership": null,
+            "rei_member_number": null
+          }
+        ],
+        "office": {
+          "title": "McGrath North Canberra",
+          "office_name": "McGrath North Canberra",
+          "logo": "https://zango.com.au/cms-images/rHgmSo4twxzg_PSwudtuBPTqHFE=/36160/width-230/",
+          "logo_medium": "https://zango.com.au/cms-images/VZrzQMdj9SEUnMxiYlDGZKLViY0=/36160/width-600/",
+          "branding_colour": "#FFFFFF",
+          "branding_font_colour": "#000000",
+          "slug": "mcgrath-north-canberra",
+          "address": "4/3 Cape Street",
+          "suburb": "DICKSON",
+          "postcode": "2602",
+          "state": "ACT",
+          "id": 410,
+          "show_1form": false,
+          "show_1form_url": null,
+          "sorted_services_id": "",
+          "inspect_real_estate_id": "McGrathBelconnen",
+          "inspect_real_estate_sale_id": "",
+          "inspect_real_estate_apply_id": "",
+          "snug_office_id": "",
+          "snug_apply_now_enabled": false,
+          "snug_book_inspections_enabled_sale": false,
+          "snug_book_inspections_enabled_rent": false,
+          "payment_terms": 0,
+          "phone": "02 6123 8000"
+        },
+        "url_path": "/rent/3-11-forbes-street-turner-act-2612-39335/",
+        "category": "Unit",
+        "slug": "3-11-forbes-street-turner-act-2612",
+        "landblock_slug": "311-forbes-street-turner-act-2612",
+        "inspections": [],
+        "buildingDetails_energyRating": "6.00",
+        "last_price_change": null,
+        "development": null,
+        "soldDetails_price": null,
+        "soldDetails_date": null,
+        "leasedDetails_price": null,
+        "stamp_duty": "5.70",
+        "development_show_full_result": false,
+        "has_live_auction": false,
+        "has_virtual_tour": false,
+        "first_go_live": "2021-03-19T11:01:32.243848+11:00",
+        "has_new_price": false,
+        "body_corporate_fees": "",
+        "suburb_aliases": [
+          "Turner"
+        ],
+        "is_private_listing": false
       },
       {
-        "type": "DISTRICT",
-        "slug": "greater-queanbeyan-queanbeyan-region-nsw"
+        "id": 39413,
+        "status": "current",
+        "property_class": "rental",
+        "listing_type": "lease",
+        "created": "2021-03-22T15:17:52.754939+11:00",
+        "updated": "2021-03-22T15:21:25.652607+11:00",
+        "priceView": "$485 per week",
+        "address_postcode": "2602",
+        "address_suburb": "WATSON",
+        "address_suburb_display": true,
+        "address_state": "ACT",
+        "address_region": "North Canberra",
+        "location": {
+          "type": "Point",
+          "coordinates": [
+            149.167401,
+            -35.2269201
+          ]
+        },
+        "headline": "Prone to Allergies? No Problem!",
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "parking": 1,
+        "price": 485,
+        "price_display": true,
+        "underOffer": false,
+        "authority": "sale",
+        "auction_date": null,
+        "auctionVenue": null,
+        "rent": null,
+        "rent_period": "week",
+        "dateAvailable": "2021-04-14T00:00:00+10:00",
+        "commercialRent": 0,
+        "commercialRent_period": "annual",
+        "carSpaces": 0,
+        "parkingComments": "",
+        "area": "207.00",
+        "area_unit": "squareMeter",
+        "address_display_string": "71 Ian Nicol Street WATSON, ACT 2602",
+        "address_street_string": "71 Ian Nicol Street",
+        "images": [
+          {
+            "image": {
+              "image_480_270": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/71-ian-nicol-street-watson-act-2602-39413-image-0-20210322041753271714-crop-c0-5__0-5-480x270-70.jpg",
+              "image_320_240": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/71-ian-nicol-street-watson-act-2602-39413-image-0-20210322041753271714-crop-c0-5__0-5-320x240-70.jpg",
+              "image_1200_680": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/71-ian-nicol-street-watson-act-2602-39413-image-0-20210322041753271714-crop-c0-5__0-5-1200x680-70.jpg",
+              "image_800_600": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/71-ian-nicol-street-watson-act-2602-39413-image-0-20210322041753271714-crop-c0-5__0-5-800x600-70.jpg"
+            }
+          },
+          {
+            "image": {
+              "image_480_270": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/71-ian-nicol-street-watson-act-2602-39413-image-0-20210322041753802277-crop-c0-5__0-5-480x270-70.jpg",
+              "image_320_240": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/71-ian-nicol-street-watson-act-2602-39413-image-0-20210322041753802277-crop-c0-5__0-5-320x240-70.jpg",
+              "image_1200_680": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/71-ian-nicol-street-watson-act-2602-39413-image-0-20210322041753802277-crop-c0-5__0-5-1200x680-70.jpg",
+              "image_800_600": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/71-ian-nicol-street-watson-act-2602-39413-image-0-20210322041753802277-crop-c0-5__0-5-800x600-70.jpg"
+            }
+          },
+          {
+            "image": {
+              "image_480_270": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/71-ian-nicol-street-watson-act-2602-39413-image-0-20210322041754267190-crop-c0-5__0-5-480x270-70.jpg",
+              "image_320_240": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/71-ian-nicol-street-watson-act-2602-39413-image-0-20210322041754267190-crop-c0-5__0-5-320x240-70.jpg",
+              "image_1200_680": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/71-ian-nicol-street-watson-act-2602-39413-image-0-20210322041754267190-crop-c0-5__0-5-1200x680-70.jpg",
+              "image_800_600": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/71-ian-nicol-street-watson-act-2602-39413-image-0-20210322041754267190-crop-c0-5__0-5-800x600-70.jpg"
+            }
+          },
+          {
+            "image": {
+              "image_480_270": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/71-ian-nicol-street-watson-act-2602-39413-image-0-20210322041754577285-crop-c0-5__0-5-480x270-70.jpg",
+              "image_320_240": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/71-ian-nicol-street-watson-act-2602-39413-image-0-20210322041754577285-crop-c0-5__0-5-320x240-70.jpg",
+              "image_1200_680": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/71-ian-nicol-street-watson-act-2602-39413-image-0-20210322041754577285-crop-c0-5__0-5-1200x680-70.jpg",
+              "image_800_600": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/71-ian-nicol-street-watson-act-2602-39413-image-0-20210322041754577285-crop-c0-5__0-5-800x600-70.jpg"
+            }
+          },
+          {
+            "image": {
+              "image_480_270": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/71-ian-nicol-street-watson-act-2602-39413-image-0-20210322041754915112-crop-c0-5__0-5-480x270-70.jpg",
+              "image_320_240": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/71-ian-nicol-street-watson-act-2602-39413-image-0-20210322041754915112-crop-c0-5__0-5-320x240-70.jpg",
+              "image_1200_680": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/71-ian-nicol-street-watson-act-2602-39413-image-0-20210322041754915112-crop-c0-5__0-5-1200x680-70.jpg",
+              "image_800_600": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/71-ian-nicol-street-watson-act-2602-39413-image-0-20210322041754915112-crop-c0-5__0-5-800x600-70.jpg"
+            }
+          },
+          {
+            "image": {
+              "image_480_270": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/71-ian-nicol-street-watson-act-2602-39413-image-0-20210322041755265382-crop-c0-5__0-5-480x270-70.jpg",
+              "image_320_240": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/71-ian-nicol-street-watson-act-2602-39413-image-0-20210322041755265382-crop-c0-5__0-5-320x240-70.jpg",
+              "image_1200_680": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/71-ian-nicol-street-watson-act-2602-39413-image-0-20210322041755265382-crop-c0-5__0-5-1200x680-70.jpg",
+              "image_800_600": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/71-ian-nicol-street-watson-act-2602-39413-image-0-20210322041755265382-crop-c0-5__0-5-800x600-70.jpg"
+            }
+          }
+        ],
+        "agents": [
+          {
+            "id": 1193,
+            "title": "Leasing Team",
+            "name_short": "Leasing team",
+            "job_title": "Property Investment Managers",
+            "results_image": "https://zango.com.au/cms-images/aHdbnzR0DKMB_sjnxfpPS3q_xp4=/129183/fill-150x176/",
+            "profile_image": "https://zango.com.au/cms-images/7c8GMVrTaM556IqRYOl8rnP8RN8=/129183/original/",
+            "phone": "02 6251 1477",
+            "office_phone": "(02) 6251 1477",
+            "slug": "leasing-team",
+            "live": true,
+            "private_lister": false,
+            "rei_membership": null,
+            "rei_member_number": null
+          }
+        ],
+        "office": {
+          "title": "LJ Hooker Belconnen",
+          "office_name": "LJ Hooker Belconnen",
+          "logo": "https://zango.com.au/cms-images/rVwZAmyiBT8ybEd_GqyIywAR4aI=/1955/width-230/",
+          "logo_medium": "https://zango.com.au/cms-images/9GYoabz2ncwwoUL5ywqsmiG55_c=/1955/width-600/",
+          "branding_colour": "#fbcc30",
+          "branding_font_colour": "#ffffff",
+          "slug": "lj-hooker-belconnen",
+          "address": "Shop 9, Lakeview Square 21 Benjamin Way",
+          "suburb": "Belconnen",
+          "postcode": "2617",
+          "state": "ACT",
+          "id": 437,
+          "show_1form": false,
+          "show_1form_url": null,
+          "sorted_services_id": "",
+          "inspect_real_estate_id": "LJHBelconnen",
+          "inspect_real_estate_sale_id": "",
+          "inspect_real_estate_apply_id": "",
+          "snug_office_id": "",
+          "snug_apply_now_enabled": false,
+          "snug_book_inspections_enabled_sale": false,
+          "snug_book_inspections_enabled_rent": false,
+          "payment_terms": 0,
+          "phone": "(02) 6251 1477"
+        },
+        "url_path": "/rent/71-ian-nicol-street-watson-act-2602-39413/",
+        "category": "House",
+        "slug": "71-ian-nicol-street-watson-act-2602",
+        "landblock_slug": "71-ian-nicol-street-watson-act-2602",
+        "inspections": [],
+        "buildingDetails_energyRating": null,
+        "last_price_change": null,
+        "development": null,
+        "soldDetails_price": null,
+        "soldDetails_date": null,
+        "leasedDetails_price": null,
+        "stamp_duty": "5.82",
+        "development_show_full_result": false,
+        "has_live_auction": false,
+        "has_virtual_tour": false,
+        "first_go_live": "2021-03-22T15:21:25.435080+11:00",
+        "has_new_price": false,
+        "body_corporate_fees": "",
+        "suburb_aliases": [
+          "Watson"
+        ],
+        "is_private_listing": false
+      },
+      {
+        "id": 39330,
+        "status": "current",
+        "property_class": "rental",
+        "listing_type": "lease",
+        "created": "2021-03-19T09:57:11.800721+11:00",
+        "updated": "2021-03-24T12:02:09.543004+11:00",
+        "priceView": "$490 per week",
+        "address_postcode": "2913",
+        "address_suburb": "NGUNNAWAL",
+        "address_suburb_display": true,
+        "address_state": "ACT",
+        "address_region": "Gungahlin",
+        "location": {
+          "type": "Point",
+          "coordinates": [
+            149.1100789,
+            -35.1616035
+          ]
+        },
+        "headline": "Well Presented Home Ideal For The Young Family",
+        "bedrooms": 3,
+        "bathrooms": 1,
+        "parking": 1,
+        "price": 490,
+        "price_display": true,
+        "underOffer": false,
+        "authority": "sale",
+        "auction_date": null,
+        "auctionVenue": null,
+        "rent": null,
+        "rent_period": "week",
+        "dateAvailable": "2021-03-26T00:00:00+11:00",
+        "commercialRent": 0,
+        "commercialRent_period": "annual",
+        "carSpaces": 0,
+        "parkingComments": "",
+        "area": "336.00",
+        "area_unit": "squareMeter",
+        "address_display_string": "30 Maynard Street NGUNNAWAL, ACT 2913",
+        "address_street_string": "30 Maynard Street",
+        "images": [
+          {
+            "image": {
+              "image_480_270": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/30-maynard-street-ngunnawal-act-2913-39330-image-0-20210324010204525619-crop-c0-5__0-5-480x270-70.jpg",
+              "image_320_240": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/30-maynard-street-ngunnawal-act-2913-39330-image-0-20210324010204525619-crop-c0-5__0-5-320x240-70.jpg",
+              "image_1200_680": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/30-maynard-street-ngunnawal-act-2913-39330-image-0-20210324010204525619-crop-c0-5__0-5-1200x680-70.jpg",
+              "image_800_600": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/30-maynard-street-ngunnawal-act-2913-39330-image-0-20210324010204525619-crop-c0-5__0-5-800x600-70.jpg"
+            }
+          },
+          {
+            "image": {
+              "image_480_270": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/30-maynard-street-ngunnawal-act-2913-39330-image-0-20210324010204851177-crop-c0-5__0-5-480x270-70.jpg",
+              "image_320_240": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/30-maynard-street-ngunnawal-act-2913-39330-image-0-20210324010204851177-crop-c0-5__0-5-320x240-70.jpg",
+              "image_1200_680": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/30-maynard-street-ngunnawal-act-2913-39330-image-0-20210324010204851177-crop-c0-5__0-5-1200x680-70.jpg",
+              "image_800_600": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/30-maynard-street-ngunnawal-act-2913-39330-image-0-20210324010204851177-crop-c0-5__0-5-800x600-70.jpg"
+            }
+          },
+          {
+            "image": {
+              "image_480_270": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/30-maynard-street-ngunnawal-act-2913-39330-image-0-20210324010205076791-crop-c0-5__0-5-480x270-70.jpg",
+              "image_320_240": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/30-maynard-street-ngunnawal-act-2913-39330-image-0-20210324010205076791-crop-c0-5__0-5-320x240-70.jpg",
+              "image_1200_680": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/30-maynard-street-ngunnawal-act-2913-39330-image-0-20210324010205076791-crop-c0-5__0-5-1200x680-70.jpg",
+              "image_800_600": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/30-maynard-street-ngunnawal-act-2913-39330-image-0-20210324010205076791-crop-c0-5__0-5-800x600-70.jpg"
+            }
+          },
+          {
+            "image": {
+              "image_480_270": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/30-maynard-street-ngunnawal-act-2913-39330-image-0-20210324010205315511-crop-c0-5__0-5-480x270-70.jpg",
+              "image_320_240": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/30-maynard-street-ngunnawal-act-2913-39330-image-0-20210324010205315511-crop-c0-5__0-5-320x240-70.jpg",
+              "image_1200_680": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/30-maynard-street-ngunnawal-act-2913-39330-image-0-20210324010205315511-crop-c0-5__0-5-1200x680-70.jpg",
+              "image_800_600": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/30-maynard-street-ngunnawal-act-2913-39330-image-0-20210324010205315511-crop-c0-5__0-5-800x600-70.jpg"
+            }
+          },
+          {
+            "image": {
+              "image_480_270": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/30-maynard-street-ngunnawal-act-2913-39330-image-0-20210324010205671991-crop-c0-5__0-5-480x270-70.jpg",
+              "image_320_240": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/30-maynard-street-ngunnawal-act-2913-39330-image-0-20210324010205671991-crop-c0-5__0-5-320x240-70.jpg",
+              "image_1200_680": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/30-maynard-street-ngunnawal-act-2913-39330-image-0-20210324010205671991-crop-c0-5__0-5-1200x680-70.jpg",
+              "image_800_600": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/30-maynard-street-ngunnawal-act-2913-39330-image-0-20210324010205671991-crop-c0-5__0-5-800x600-70.jpg"
+            }
+          },
+          {
+            "image": {
+              "image_480_270": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/30-maynard-street-ngunnawal-act-2913-39330-image-0-20210324010205956165-crop-c0-5__0-5-480x270-70.jpg",
+              "image_320_240": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/30-maynard-street-ngunnawal-act-2913-39330-image-0-20210324010205956165-crop-c0-5__0-5-320x240-70.jpg",
+              "image_1200_680": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/30-maynard-street-ngunnawal-act-2913-39330-image-0-20210324010205956165-crop-c0-5__0-5-1200x680-70.jpg",
+              "image_800_600": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/30-maynard-street-ngunnawal-act-2913-39330-image-0-20210324010205956165-crop-c0-5__0-5-800x600-70.jpg"
+            }
+          },
+          {
+            "image": {
+              "image_480_270": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/30-maynard-street-ngunnawal-act-2913-39330-image-0-20210324010206269067-crop-c0-5__0-5-480x270-70.jpg",
+              "image_320_240": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/30-maynard-street-ngunnawal-act-2913-39330-image-0-20210324010206269067-crop-c0-5__0-5-320x240-70.jpg",
+              "image_1200_680": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/30-maynard-street-ngunnawal-act-2913-39330-image-0-20210324010206269067-crop-c0-5__0-5-1200x680-70.jpg",
+              "image_800_600": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/30-maynard-street-ngunnawal-act-2913-39330-image-0-20210324010206269067-crop-c0-5__0-5-800x600-70.jpg"
+            }
+          },
+          {
+            "image": {
+              "image_480_270": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/30-maynard-street-ngunnawal-act-2913-39330-image-0-20210324010206735664-crop-c0-5__0-5-480x270-70.jpg",
+              "image_320_240": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/30-maynard-street-ngunnawal-act-2913-39330-image-0-20210324010206735664-crop-c0-5__0-5-320x240-70.jpg",
+              "image_1200_680": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/30-maynard-street-ngunnawal-act-2913-39330-image-0-20210324010206735664-crop-c0-5__0-5-1200x680-70.jpg",
+              "image_800_600": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/30-maynard-street-ngunnawal-act-2913-39330-image-0-20210324010206735664-crop-c0-5__0-5-800x600-70.jpg"
+            }
+          },
+          {
+            "image": {
+              "image_480_270": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/30-maynard-street-ngunnawal-act-2913-39330-image-0-20210324010207045732-crop-c0-5__0-5-480x270-70.jpg",
+              "image_320_240": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/30-maynard-street-ngunnawal-act-2913-39330-image-0-20210324010207045732-crop-c0-5__0-5-320x240-70.jpg",
+              "image_1200_680": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/30-maynard-street-ngunnawal-act-2913-39330-image-0-20210324010207045732-crop-c0-5__0-5-1200x680-70.jpg",
+              "image_800_600": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/30-maynard-street-ngunnawal-act-2913-39330-image-0-20210324010207045732-crop-c0-5__0-5-800x600-70.jpg"
+            }
+          },
+          {
+            "image": {
+              "image_480_270": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/30-maynard-street-ngunnawal-act-2913-39330-image-0-20210324010207281690-crop-c0-5__0-5-480x270-70.jpg",
+              "image_320_240": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/30-maynard-street-ngunnawal-act-2913-39330-image-0-20210324010207281690-crop-c0-5__0-5-320x240-70.jpg",
+              "image_1200_680": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/30-maynard-street-ngunnawal-act-2913-39330-image-0-20210324010207281690-crop-c0-5__0-5-1200x680-70.jpg",
+              "image_800_600": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/30-maynard-street-ngunnawal-act-2913-39330-image-0-20210324010207281690-crop-c0-5__0-5-800x600-70.jpg"
+            }
+          },
+          {
+            "image": {
+              "image_480_270": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/30-maynard-street-ngunnawal-act-2913-39330-image-0-20210324010207491179-crop-c0-5__0-5-480x270-70.jpg",
+              "image_320_240": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/30-maynard-street-ngunnawal-act-2913-39330-image-0-20210324010207491179-crop-c0-5__0-5-320x240-70.jpg",
+              "image_1200_680": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/30-maynard-street-ngunnawal-act-2913-39330-image-0-20210324010207491179-crop-c0-5__0-5-1200x680-70.jpg",
+              "image_800_600": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/30-maynard-street-ngunnawal-act-2913-39330-image-0-20210324010207491179-crop-c0-5__0-5-800x600-70.jpg"
+            }
+          },
+          {
+            "image": {
+              "image_480_270": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/30-maynard-street-ngunnawal-act-2913-39330-image-0-20210324010207775229-crop-c0-5__0-5-480x270-70.jpg",
+              "image_320_240": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/30-maynard-street-ngunnawal-act-2913-39330-image-0-20210324010207775229-crop-c0-5__0-5-320x240-70.jpg",
+              "image_1200_680": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/30-maynard-street-ngunnawal-act-2913-39330-image-0-20210324010207775229-crop-c0-5__0-5-1200x680-70.jpg",
+              "image_800_600": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/30-maynard-street-ngunnawal-act-2913-39330-image-0-20210324010207775229-crop-c0-5__0-5-800x600-70.jpg"
+            }
+          },
+          {
+            "image": {
+              "image_480_270": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/30-maynard-street-ngunnawal-act-2913-39330-image-0-20210324010208031664-crop-c0-5__0-5-480x270-70.jpg",
+              "image_320_240": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/30-maynard-street-ngunnawal-act-2913-39330-image-0-20210324010208031664-crop-c0-5__0-5-320x240-70.jpg",
+              "image_1200_680": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/30-maynard-street-ngunnawal-act-2913-39330-image-0-20210324010208031664-crop-c0-5__0-5-1200x680-70.jpg",
+              "image_800_600": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/30-maynard-street-ngunnawal-act-2913-39330-image-0-20210324010208031664-crop-c0-5__0-5-800x600-70.jpg"
+            }
+          },
+          {
+            "image": {
+              "image_480_270": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/30-maynard-street-ngunnawal-act-2913-39330-image-0-20210324010208285835-crop-c0-5__0-5-480x270-70.jpg",
+              "image_320_240": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/30-maynard-street-ngunnawal-act-2913-39330-image-0-20210324010208285835-crop-c0-5__0-5-320x240-70.jpg",
+              "image_1200_680": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/30-maynard-street-ngunnawal-act-2913-39330-image-0-20210324010208285835-crop-c0-5__0-5-1200x680-70.jpg",
+              "image_800_600": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/30-maynard-street-ngunnawal-act-2913-39330-image-0-20210324010208285835-crop-c0-5__0-5-800x600-70.jpg"
+            }
+          },
+          {
+            "image": {
+              "image_480_270": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/30-maynard-street-ngunnawal-act-2913-39330-image-0-20210324010208623070-crop-c0-5__0-5-480x270-70.jpg",
+              "image_320_240": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/30-maynard-street-ngunnawal-act-2913-39330-image-0-20210324010208623070-crop-c0-5__0-5-320x240-70.jpg",
+              "image_1200_680": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/30-maynard-street-ngunnawal-act-2913-39330-image-0-20210324010208623070-crop-c0-5__0-5-1200x680-70.jpg",
+              "image_800_600": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/30-maynard-street-ngunnawal-act-2913-39330-image-0-20210324010208623070-crop-c0-5__0-5-800x600-70.jpg"
+            }
+          },
+          {
+            "image": {
+              "image_480_270": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/30-maynard-street-ngunnawal-act-2913-39330-image-0-20210324010208940937-crop-c0-5__0-5-480x270-70.jpg",
+              "image_320_240": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/30-maynard-street-ngunnawal-act-2913-39330-image-0-20210324010208940937-crop-c0-5__0-5-320x240-70.jpg",
+              "image_1200_680": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/30-maynard-street-ngunnawal-act-2913-39330-image-0-20210324010208940937-crop-c0-5__0-5-1200x680-70.jpg",
+              "image_800_600": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/30-maynard-street-ngunnawal-act-2913-39330-image-0-20210324010208940937-crop-c0-5__0-5-800x600-70.jpg"
+            }
+          },
+          {
+            "image": {
+              "image_480_270": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/30-maynard-street-ngunnawal-act-2913-39330-image-0-20210324010209239335-crop-c0-5__0-5-480x270-70.jpg",
+              "image_320_240": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/30-maynard-street-ngunnawal-act-2913-39330-image-0-20210324010209239335-crop-c0-5__0-5-320x240-70.jpg",
+              "image_1200_680": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/30-maynard-street-ngunnawal-act-2913-39330-image-0-20210324010209239335-crop-c0-5__0-5-1200x680-70.jpg",
+              "image_800_600": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/30-maynard-street-ngunnawal-act-2913-39330-image-0-20210324010209239335-crop-c0-5__0-5-800x600-70.jpg"
+            }
+          }
+        ],
+        "agents": [
+          {
+            "id": 307,
+            "title": "LJ Hooker Gungahlin",
+            "name_short": "LJH",
+            "job_title": "",
+            "results_image": "https://zango.com.au/cms-images/v5ska340UJAJptxKEjHUt2VbShU=/129281/fill-150x176/",
+            "profile_image": "https://zango.com.au/cms-images/dS059daDWRMoWDiGNdWTgD5cb80=/129281/original/",
+            "phone": "02 6213 3999",
+            "office_phone": "(02) 6213 3999",
+            "slug": "lj-hooker-gungahlin",
+            "live": true,
+            "private_lister": false,
+            "rei_membership": null,
+            "rei_member_number": null
+          },
+          {
+            "id": 546,
+            "title": "Natalie Clinton",
+            "name_short": "Natalie",
+            "job_title": "Property Investment Manager",
+            "results_image": "https://zango.com.au/cms-images/szP3xdywCdff6utZrdmo9o6g0Gk=/128548/fill-150x176/",
+            "profile_image": "https://zango.com.au/cms-images/X_rAIhAOc4JAANbvAZ3pwlP7AV4=/128548/original/",
+            "phone": "02 6213 3999",
+            "office_phone": "(02) 6213 3999",
+            "slug": "natalie-clinton",
+            "live": true,
+            "private_lister": false,
+            "rei_membership": null,
+            "rei_member_number": null
+          }
+        ],
+        "office": {
+          "title": "LJ Hooker Gungahlin",
+          "office_name": "LJ Hooker Gungahlin",
+          "logo": "https://zango.com.au/cms-images/rVwZAmyiBT8ybEd_GqyIywAR4aI=/1955/width-230/",
+          "logo_medium": "https://zango.com.au/cms-images/9GYoabz2ncwwoUL5ywqsmiG55_c=/1955/width-600/",
+          "branding_colour": "#fbcc30",
+          "branding_font_colour": "#ffffff",
+          "slug": "lj-hooker-gungahlin",
+          "address": "Suite 2C, Level 1, Gungahlin Village, 46-50 Hibberson Street,",
+          "suburb": "Gungahlin",
+          "postcode": "2912",
+          "state": "ACT",
+          "id": 233,
+          "show_1form": false,
+          "show_1form_url": null,
+          "sorted_services_id": "",
+          "inspect_real_estate_id": "LJHGungahlin",
+          "inspect_real_estate_sale_id": "LJHGungahlin",
+          "inspect_real_estate_apply_id": "LJHGungahlin",
+          "snug_office_id": "",
+          "snug_apply_now_enabled": false,
+          "snug_book_inspections_enabled_sale": false,
+          "snug_book_inspections_enabled_rent": false,
+          "payment_terms": 0,
+          "phone": "(02) 6213 3999"
+        },
+        "url_path": "/rent/30-maynard-street-ngunnawal-act-2913-39330/",
+        "category": "House",
+        "slug": "30-maynard-street-ngunnawal-act-2913",
+        "landblock_slug": "30-maynard-street-ngunnawal-act-2913",
+        "inspections": [],
+        "buildingDetails_energyRating": null,
+        "last_price_change": null,
+        "development": null,
+        "soldDetails_price": null,
+        "soldDetails_date": null,
+        "leasedDetails_price": null,
+        "stamp_duty": "5.88",
+        "development_show_full_result": false,
+        "has_live_auction": false,
+        "has_virtual_tour": false,
+        "first_go_live": "2021-03-19T10:04:31.787835+11:00",
+        "has_new_price": false,
+        "body_corporate_fees": "",
+        "suburb_aliases": [
+          "Broadview",
+          "Ngunnawal"
+        ],
+        "is_private_listing": false
+      },
+      {
+        "id": 39739,
+        "status": "current",
+        "property_class": "rental",
+        "listing_type": "lease",
+        "created": "2021-03-29T15:46:31.423855+11:00",
+        "updated": "2021-03-29T15:48:22.848876+11:00",
+        "priceView": "$500 per week",
+        "address_postcode": "2617",
+        "address_suburb": "KALEEN",
+        "address_suburb_display": true,
+        "address_state": "ACT",
+        "address_region": "Belconnen",
+        "location": {
+          "type": "Point",
+          "coordinates": [
+            149.1135263,
+            -35.2278384
+          ]
+        },
+        "headline": "3 Bedroom Spacious Family Home",
+        "bedrooms": 3,
+        "bathrooms": 1,
+        "parking": 2,
+        "price": 500,
+        "price_display": true,
+        "underOffer": false,
+        "authority": "sale",
+        "auction_date": null,
+        "auctionVenue": null,
+        "rent": null,
+        "rent_period": "week",
+        "dateAvailable": "2021-04-19T00:00:00+10:00",
+        "commercialRent": 0,
+        "commercialRent_period": "annual",
+        "carSpaces": 0,
+        "parkingComments": "",
+        "area": "781.00",
+        "area_unit": "squareMeter",
+        "address_display_string": "41 Bokhara Circuit KALEEN, ACT 2617",
+        "address_street_string": "41 Bokhara Circuit",
+        "images": [
+          {
+            "image": {
+              "image_480_270": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/41-bokhara-circuit-kaleen-act-2617-39739-image-0-20210329044631595305-crop-c0-5__0-5-480x270-70.jpg",
+              "image_320_240": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/41-bokhara-circuit-kaleen-act-2617-39739-image-0-20210329044631595305-crop-c0-5__0-5-320x240-70.jpg",
+              "image_1200_680": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/41-bokhara-circuit-kaleen-act-2617-39739-image-0-20210329044631595305-crop-c0-5__0-5-1200x680-70.jpg",
+              "image_800_600": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/41-bokhara-circuit-kaleen-act-2617-39739-image-0-20210329044631595305-crop-c0-5__0-5-800x600-70.jpg"
+            }
+          },
+          {
+            "image": {
+              "image_480_270": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/41-bokhara-circuit-kaleen-act-2617-39739-image-0-20210329044631985258-crop-c0-5__0-5-480x270-70.jpg",
+              "image_320_240": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/41-bokhara-circuit-kaleen-act-2617-39739-image-0-20210329044631985258-crop-c0-5__0-5-320x240-70.jpg",
+              "image_1200_680": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/41-bokhara-circuit-kaleen-act-2617-39739-image-0-20210329044631985258-crop-c0-5__0-5-1200x680-70.jpg",
+              "image_800_600": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/41-bokhara-circuit-kaleen-act-2617-39739-image-0-20210329044631985258-crop-c0-5__0-5-800x600-70.jpg"
+            }
+          },
+          {
+            "image": {
+              "image_480_270": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/41-bokhara-circuit-kaleen-act-2617-39739-image-0-20210329044632140852-crop-c0-5__0-5-480x270-70.jpg",
+              "image_320_240": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/41-bokhara-circuit-kaleen-act-2617-39739-image-0-20210329044632140852-crop-c0-5__0-5-320x240-70.jpg",
+              "image_1200_680": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/41-bokhara-circuit-kaleen-act-2617-39739-image-0-20210329044632140852-crop-c0-5__0-5-1200x680-70.jpg",
+              "image_800_600": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/41-bokhara-circuit-kaleen-act-2617-39739-image-0-20210329044632140852-crop-c0-5__0-5-800x600-70.jpg"
+            }
+          },
+          {
+            "image": {
+              "image_480_270": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/41-bokhara-circuit-kaleen-act-2617-39739-image-0-20210329044632298239-crop-c0-5__0-5-480x270-70.jpg",
+              "image_320_240": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/41-bokhara-circuit-kaleen-act-2617-39739-image-0-20210329044632298239-crop-c0-5__0-5-320x240-70.jpg",
+              "image_1200_680": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/41-bokhara-circuit-kaleen-act-2617-39739-image-0-20210329044632298239-crop-c0-5__0-5-1200x680-70.jpg",
+              "image_800_600": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/41-bokhara-circuit-kaleen-act-2617-39739-image-0-20210329044632298239-crop-c0-5__0-5-800x600-70.jpg"
+            }
+          },
+          {
+            "image": {
+              "image_480_270": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/41-bokhara-circuit-kaleen-act-2617-39739-image-0-20210329044632506731-crop-c0-5__0-5-480x270-70.jpg",
+              "image_320_240": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/41-bokhara-circuit-kaleen-act-2617-39739-image-0-20210329044632506731-crop-c0-5__0-5-320x240-70.jpg",
+              "image_1200_680": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/41-bokhara-circuit-kaleen-act-2617-39739-image-0-20210329044632506731-crop-c0-5__0-5-1200x680-70.jpg",
+              "image_800_600": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/41-bokhara-circuit-kaleen-act-2617-39739-image-0-20210329044632506731-crop-c0-5__0-5-800x600-70.jpg"
+            }
+          },
+          {
+            "image": {
+              "image_480_270": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/41-bokhara-circuit-kaleen-act-2617-39739-image-0-20210329044632693493-crop-c0-5__0-5-480x270-70.jpg",
+              "image_320_240": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/41-bokhara-circuit-kaleen-act-2617-39739-image-0-20210329044632693493-crop-c0-5__0-5-320x240-70.jpg",
+              "image_1200_680": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/41-bokhara-circuit-kaleen-act-2617-39739-image-0-20210329044632693493-crop-c0-5__0-5-1200x680-70.jpg",
+              "image_800_600": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/41-bokhara-circuit-kaleen-act-2617-39739-image-0-20210329044632693493-crop-c0-5__0-5-800x600-70.jpg"
+            }
+          },
+          {
+            "image": {
+              "image_480_270": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/41-bokhara-circuit-kaleen-act-2617-39739-image-0-20210329044632944607-crop-c0-5__0-5-480x270-70.jpg",
+              "image_320_240": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/41-bokhara-circuit-kaleen-act-2617-39739-image-0-20210329044632944607-crop-c0-5__0-5-320x240-70.jpg",
+              "image_1200_680": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/41-bokhara-circuit-kaleen-act-2617-39739-image-0-20210329044632944607-crop-c0-5__0-5-1200x680-70.jpg",
+              "image_800_600": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/41-bokhara-circuit-kaleen-act-2617-39739-image-0-20210329044632944607-crop-c0-5__0-5-800x600-70.jpg"
+            }
+          },
+          {
+            "image": {
+              "image_480_270": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/41-bokhara-circuit-kaleen-act-2617-39739-image-0-20210329044633157147-crop-c0-5__0-5-480x270-70.jpg",
+              "image_320_240": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/41-bokhara-circuit-kaleen-act-2617-39739-image-0-20210329044633157147-crop-c0-5__0-5-320x240-70.jpg",
+              "image_1200_680": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/41-bokhara-circuit-kaleen-act-2617-39739-image-0-20210329044633157147-crop-c0-5__0-5-1200x680-70.jpg",
+              "image_800_600": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/41-bokhara-circuit-kaleen-act-2617-39739-image-0-20210329044633157147-crop-c0-5__0-5-800x600-70.jpg"
+            }
+          },
+          {
+            "image": {
+              "image_480_270": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/41-bokhara-circuit-kaleen-act-2617-39739-image-0-20210329044633353153-crop-c0-5__0-5-480x270-70.jpg",
+              "image_320_240": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/41-bokhara-circuit-kaleen-act-2617-39739-image-0-20210329044633353153-crop-c0-5__0-5-320x240-70.jpg",
+              "image_1200_680": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/41-bokhara-circuit-kaleen-act-2617-39739-image-0-20210329044633353153-crop-c0-5__0-5-1200x680-70.jpg",
+              "image_800_600": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/41-bokhara-circuit-kaleen-act-2617-39739-image-0-20210329044633353153-crop-c0-5__0-5-800x600-70.jpg"
+            }
+          }
+        ],
+        "agents": [
+          {
+            "id": 2586,
+            "title": "Lauren Toro",
+            "name_short": "",
+            "job_title": "",
+            "results_image": null,
+            "profile_image": null,
+            "phone": "62411922",
+            "office_phone": "",
+            "slug": "lauren-toro",
+            "live": true,
+            "private_lister": false,
+            "rei_membership": null,
+            "rei_member_number": null
+          },
+          {
+            "id": 449,
+            "title": "LJ Hooker Kaleen Property Management Team",
+            "name_short": "",
+            "job_title": "",
+            "results_image": "https://zango.com.au/cms-images/_EqttPsbcp4nyqTptjvKE4NkLIM=/129062/fill-150x176/",
+            "profile_image": "https://zango.com.au/cms-images/lz81EDSRdrc898Y1Qw0LNpkY7K0=/129062/original/",
+            "phone": "6241 1922",
+            "office_phone": "02 6241 1922",
+            "slug": "lj-hooker-kaleen-property-management-team",
+            "live": true,
+            "private_lister": false,
+            "rei_membership": null,
+            "rei_member_number": null
+          }
+        ],
+        "office": {
+          "title": "LJ Hooker Kaleen",
+          "office_name": "LJ Hooker Kaleen",
+          "logo": "https://zango.com.au/cms-images/rVwZAmyiBT8ybEd_GqyIywAR4aI=/1955/width-230/",
+          "logo_medium": "https://zango.com.au/cms-images/9GYoabz2ncwwoUL5ywqsmiG55_c=/1955/width-600/",
+          "branding_colour": "#fbcc30",
+          "branding_font_colour": "#FFFFFF",
+          "slug": "lj-hooker-kaleen",
+          "address": "Cnr Maribyrnong Avenue & Georgina Crescent,",
+          "suburb": "Kaleen",
+          "postcode": "2617",
+          "state": "ACT",
+          "id": 439,
+          "show_1form": false,
+          "show_1form_url": null,
+          "sorted_services_id": "",
+          "inspect_real_estate_id": "LJHKaleen",
+          "inspect_real_estate_sale_id": "LJHKaleen",
+          "inspect_real_estate_apply_id": "LJHKaleen",
+          "snug_office_id": "",
+          "snug_apply_now_enabled": false,
+          "snug_book_inspections_enabled_sale": false,
+          "snug_book_inspections_enabled_rent": false,
+          "payment_terms": 0,
+          "phone": "02 6241 1922"
+        },
+        "url_path": "/rent/41-bokhara-circuit-kaleen-act-2617-39739/",
+        "category": "House",
+        "slug": "41-bokhara-circuit-kaleen-act-2617",
+        "landblock_slug": "41-bokhara-circuit-kaleen-act-2617",
+        "inspections": [],
+        "buildingDetails_energyRating": "0.00",
+        "last_price_change": null,
+        "development": null,
+        "soldDetails_price": null,
+        "soldDetails_date": null,
+        "leasedDetails_price": null,
+        "stamp_duty": "6.00",
+        "development_show_full_result": false,
+        "has_live_auction": false,
+        "has_virtual_tour": false,
+        "first_go_live": "2021-03-29T15:48:22.793941+11:00",
+        "has_new_price": false,
+        "body_corporate_fees": "",
+        "suburb_aliases": [
+          "Kaleen"
+        ],
+        "is_private_listing": false
+      },
+      {
+        "id": 39333,
+        "status": "current",
+        "property_class": "rental",
+        "listing_type": "lease",
+        "created": "2021-03-19T10:24:00.320399+11:00",
+        "updated": "2021-03-19T11:46:31.807153+11:00",
+        "priceView": "$560 per week",
+        "address_postcode": "2903",
+        "address_suburb": "WANNIASSA",
+        "address_suburb_display": true,
+        "address_state": "ACT",
+        "address_region": "Tuggeranong",
+        "location": {
+          "type": "Point",
+          "coordinates": [
+            149.0852751,
+            -35.4019446
+          ]
+        },
+        "headline": "The simple life, great location",
+        "bedrooms": 3,
+        "bathrooms": 1,
+        "parking": 2,
+        "price": 560,
+        "price_display": true,
+        "underOffer": false,
+        "authority": "sale",
+        "auction_date": null,
+        "auctionVenue": null,
+        "rent": null,
+        "rent_period": "weekly",
+        "dateAvailable": "2021-03-31T00:00:00+11:00",
+        "commercialRent": 0,
+        "commercialRent_period": "annual",
+        "carSpaces": 0,
+        "parkingComments": "",
+        "area": "616.00",
+        "area_unit": "squareMeter",
+        "address_display_string": "11 Bailes Court WANNIASSA, ACT 2903",
+        "address_street_string": "11 Bailes Court",
+        "images": [
+          {
+            "image": {
+              "image_480_270": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004623542510-crop-c0-5__0-5-480x270-70.jpg",
+              "image_320_240": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004623542510-crop-c0-5__0-5-320x240-70.jpg",
+              "image_1200_680": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004623542510-crop-c0-5__0-5-1200x680-70.jpg",
+              "image_800_600": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004623542510-crop-c0-5__0-5-800x600-70.jpg"
+            }
+          },
+          {
+            "image": {
+              "image_480_270": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004623895659-crop-c0-5__0-5-480x270-70.jpg",
+              "image_320_240": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004623895659-crop-c0-5__0-5-320x240-70.jpg",
+              "image_1200_680": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004623895659-crop-c0-5__0-5-1200x680-70.jpg",
+              "image_800_600": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004623895659-crop-c0-5__0-5-800x600-70.jpg"
+            }
+          },
+          {
+            "image": {
+              "image_480_270": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004624195653-crop-c0-5__0-5-480x270-70.jpg",
+              "image_320_240": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004624195653-crop-c0-5__0-5-320x240-70.jpg",
+              "image_1200_680": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004624195653-crop-c0-5__0-5-1200x680-70.jpg",
+              "image_800_600": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004624195653-crop-c0-5__0-5-800x600-70.jpg"
+            }
+          },
+          {
+            "image": {
+              "image_480_270": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004624436120-crop-c0-5__0-5-480x270-70.jpg",
+              "image_320_240": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004624436120-crop-c0-5__0-5-320x240-70.jpg",
+              "image_1200_680": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004624436120-crop-c0-5__0-5-1200x680-70.jpg",
+              "image_800_600": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004624436120-crop-c0-5__0-5-800x600-70.jpg"
+            }
+          },
+          {
+            "image": {
+              "image_480_270": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004624720237-crop-c0-5__0-5-480x270-70.jpg",
+              "image_320_240": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004624720237-crop-c0-5__0-5-320x240-70.jpg",
+              "image_1200_680": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004624720237-crop-c0-5__0-5-1200x680-70.jpg",
+              "image_800_600": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004624720237-crop-c0-5__0-5-800x600-70.jpg"
+            }
+          },
+          {
+            "image": {
+              "image_480_270": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004625031451-crop-c0-5__0-5-480x270-70.jpg",
+              "image_320_240": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004625031451-crop-c0-5__0-5-320x240-70.jpg",
+              "image_1200_680": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004625031451-crop-c0-5__0-5-1200x680-70.jpg",
+              "image_800_600": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004625031451-crop-c0-5__0-5-800x600-70.jpg"
+            }
+          },
+          {
+            "image": {
+              "image_480_270": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004625314538-crop-c0-5__0-5-480x270-70.jpg",
+              "image_320_240": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004625314538-crop-c0-5__0-5-320x240-70.jpg",
+              "image_1200_680": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004625314538-crop-c0-5__0-5-1200x680-70.jpg",
+              "image_800_600": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004625314538-crop-c0-5__0-5-800x600-70.jpg"
+            }
+          },
+          {
+            "image": {
+              "image_480_270": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004625604069-crop-c0-5__0-5-480x270-70.jpg",
+              "image_320_240": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004625604069-crop-c0-5__0-5-320x240-70.jpg",
+              "image_1200_680": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004625604069-crop-c0-5__0-5-1200x680-70.jpg",
+              "image_800_600": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004625604069-crop-c0-5__0-5-800x600-70.jpg"
+            }
+          },
+          {
+            "image": {
+              "image_480_270": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004625877469-crop-c0-5__0-5-480x270-70.jpg",
+              "image_320_240": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004625877469-crop-c0-5__0-5-320x240-70.jpg",
+              "image_1200_680": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004625877469-crop-c0-5__0-5-1200x680-70.jpg",
+              "image_800_600": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004625877469-crop-c0-5__0-5-800x600-70.jpg"
+            }
+          },
+          {
+            "image": {
+              "image_480_270": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004626217491-crop-c0-5__0-5-480x270-70.jpg",
+              "image_320_240": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004626217491-crop-c0-5__0-5-320x240-70.jpg",
+              "image_1200_680": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004626217491-crop-c0-5__0-5-1200x680-70.jpg",
+              "image_800_600": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004626217491-crop-c0-5__0-5-800x600-70.jpg"
+            }
+          },
+          {
+            "image": {
+              "image_480_270": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004626454278-crop-c0-5__0-5-480x270-70.jpg",
+              "image_320_240": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004626454278-crop-c0-5__0-5-320x240-70.jpg",
+              "image_1200_680": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004626454278-crop-c0-5__0-5-1200x680-70.jpg",
+              "image_800_600": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004626454278-crop-c0-5__0-5-800x600-70.jpg"
+            }
+          },
+          {
+            "image": {
+              "image_480_270": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004626792074-crop-c0-5__0-5-480x270-70.jpg",
+              "image_320_240": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004626792074-crop-c0-5__0-5-320x240-70.jpg",
+              "image_1200_680": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004626792074-crop-c0-5__0-5-1200x680-70.jpg",
+              "image_800_600": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004626792074-crop-c0-5__0-5-800x600-70.jpg"
+            }
+          },
+          {
+            "image": {
+              "image_480_270": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004627101882-crop-c0-5__0-5-480x270-70.jpg",
+              "image_320_240": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004627101882-crop-c0-5__0-5-320x240-70.jpg",
+              "image_1200_680": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004627101882-crop-c0-5__0-5-1200x680-70.jpg",
+              "image_800_600": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004627101882-crop-c0-5__0-5-800x600-70.jpg"
+            }
+          },
+          {
+            "image": {
+              "image_480_270": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004627407698-crop-c0-5__0-5-480x270-70.jpg",
+              "image_320_240": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004627407698-crop-c0-5__0-5-320x240-70.jpg",
+              "image_1200_680": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004627407698-crop-c0-5__0-5-1200x680-70.jpg",
+              "image_800_600": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004627407698-crop-c0-5__0-5-800x600-70.jpg"
+            }
+          },
+          {
+            "image": {
+              "image_480_270": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004627753799-crop-c0-5__0-5-480x270-70.jpg",
+              "image_320_240": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004627753799-crop-c0-5__0-5-320x240-70.jpg",
+              "image_1200_680": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004627753799-crop-c0-5__0-5-1200x680-70.jpg",
+              "image_800_600": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004627753799-crop-c0-5__0-5-800x600-70.jpg"
+            }
+          },
+          {
+            "image": {
+              "image_480_270": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004628085987-crop-c0-5__0-5-480x270-70.jpg",
+              "image_320_240": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004628085987-crop-c0-5__0-5-320x240-70.jpg",
+              "image_1200_680": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004628085987-crop-c0-5__0-5-1200x680-70.jpg",
+              "image_800_600": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004628085987-crop-c0-5__0-5-800x600-70.jpg"
+            }
+          },
+          {
+            "image": {
+              "image_480_270": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004628440416-crop-c0-5__0-5-480x270-70.jpg",
+              "image_320_240": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004628440416-crop-c0-5__0-5-320x240-70.jpg",
+              "image_1200_680": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004628440416-crop-c0-5__0-5-1200x680-70.jpg",
+              "image_800_600": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004628440416-crop-c0-5__0-5-800x600-70.jpg"
+            }
+          },
+          {
+            "image": {
+              "image_480_270": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004628827017-crop-c0-5__0-5-480x270-70.jpg",
+              "image_320_240": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004628827017-crop-c0-5__0-5-320x240-70.jpg",
+              "image_1200_680": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004628827017-crop-c0-5__0-5-1200x680-70.jpg",
+              "image_800_600": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004628827017-crop-c0-5__0-5-800x600-70.jpg"
+            }
+          },
+          {
+            "image": {
+              "image_480_270": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004629251211-crop-c0-5__0-5-480x270-70.jpg",
+              "image_320_240": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004629251211-crop-c0-5__0-5-320x240-70.jpg",
+              "image_1200_680": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004629251211-crop-c0-5__0-5-1200x680-70.jpg",
+              "image_800_600": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004629251211-crop-c0-5__0-5-800x600-70.jpg"
+            }
+          },
+          {
+            "image": {
+              "image_480_270": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004629528872-crop-c0-5__0-5-480x270-70.jpg",
+              "image_320_240": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004629528872-crop-c0-5__0-5-320x240-70.jpg",
+              "image_1200_680": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004629528872-crop-c0-5__0-5-1200x680-70.jpg",
+              "image_800_600": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004629528872-crop-c0-5__0-5-800x600-70.jpg"
+            }
+          },
+          {
+            "image": {
+              "image_480_270": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004629981902-crop-c0-5__0-5-480x270-70.jpg",
+              "image_320_240": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004629981902-crop-c0-5__0-5-320x240-70.jpg",
+              "image_1200_680": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004629981902-crop-c0-5__0-5-1200x680-70.jpg",
+              "image_800_600": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004629981902-crop-c0-5__0-5-800x600-70.jpg"
+            }
+          },
+          {
+            "image": {
+              "image_480_270": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004630308153-crop-c0-5__0-5-480x270-70.jpg",
+              "image_320_240": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004630308153-crop-c0-5__0-5-320x240-70.jpg",
+              "image_1200_680": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004630308153-crop-c0-5__0-5-1200x680-70.jpg",
+              "image_800_600": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004630308153-crop-c0-5__0-5-800x600-70.jpg"
+            }
+          },
+          {
+            "image": {
+              "image_480_270": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004630560072-crop-c0-5__0-5-480x270-70.jpg",
+              "image_320_240": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004630560072-crop-c0-5__0-5-320x240-70.jpg",
+              "image_1200_680": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004630560072-crop-c0-5__0-5-1200x680-70.jpg",
+              "image_800_600": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004630560072-crop-c0-5__0-5-800x600-70.jpg"
+            }
+          },
+          {
+            "image": {
+              "image_480_270": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004630878394-crop-c0-5__0-5-480x270-70.jpg",
+              "image_320_240": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004630878394-crop-c0-5__0-5-320x240-70.jpg",
+              "image_1200_680": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004630878394-crop-c0-5__0-5-1200x680-70.jpg",
+              "image_800_600": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004630878394-crop-c0-5__0-5-800x600-70.jpg"
+            }
+          },
+          {
+            "image": {
+              "image_480_270": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004631224483-crop-c0-5__0-5-480x270-70.jpg",
+              "image_320_240": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004631224483-crop-c0-5__0-5-320x240-70.jpg",
+              "image_1200_680": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004631224483-crop-c0-5__0-5-1200x680-70.jpg",
+              "image_800_600": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/11-bailes-court-wanniassa-act-2903-39333-image-0-20210319004631224483-crop-c0-5__0-5-800x600-70.jpg"
+            }
+          }
+        ],
+        "agents": [
+          {
+            "id": 755,
+            "title": "Aspa Markakis",
+            "name_short": "",
+            "job_title": "Property Manager",
+            "results_image": "https://zango.com.au/cms-images/Mvq4ch1XsyplHF5TY1edge63QUU=/129162/fill-150x176/",
+            "profile_image": "https://zango.com.au/cms-images/NzKaAieOwageF-sfgMhlLeE_VwA=/129162/original/",
+            "phone": "0419 388 458",
+            "office_phone": "02 6171 2220",
+            "slug": "aspa-markakis",
+            "live": true,
+            "private_lister": false,
+            "rei_membership": null,
+            "rei_member_number": null
+          }
+        ],
+        "office": {
+          "title": "McCann Properties",
+          "office_name": "McCann Properties",
+          "logo": "https://zango.com.au/cms-images/EaaEGkuZEIN-nthUBfb2TUAAFxo=/130896/width-230/",
+          "logo_medium": "https://zango.com.au/cms-images/WuNuYl6Gt46PZ8xvHHCWIez0A8o=/130896/width-600/",
+          "branding_colour": "",
+          "branding_font_colour": "",
+          "slug": "mccann-properties",
+          "address": "3/43 Comrie Street",
+          "suburb": "Wanniassa",
+          "postcode": "2903",
+          "state": "ACT",
+          "id": 684,
+          "show_1form": false,
+          "show_1form_url": null,
+          "sorted_services_id": "",
+          "inspect_real_estate_id": "",
+          "inspect_real_estate_sale_id": "",
+          "inspect_real_estate_apply_id": "",
+          "snug_office_id": "",
+          "snug_apply_now_enabled": false,
+          "snug_book_inspections_enabled_sale": false,
+          "snug_book_inspections_enabled_rent": false,
+          "payment_terms": 0,
+          "phone": "02 6171 2220"
+        },
+        "url_path": "/rent/11-bailes-court-wanniassa-act-2903-39333/",
+        "category": "House",
+        "slug": "11-bailes-court-wanniassa-act-2903",
+        "landblock_slug": "11-bailes-court-wanniassa-act-2903",
+        "inspections": [],
+        "buildingDetails_energyRating": "1.00",
+        "last_price_change": null,
+        "development": null,
+        "soldDetails_price": null,
+        "soldDetails_date": null,
+        "leasedDetails_price": null,
+        "stamp_duty": "6.72",
+        "development_show_full_result": false,
+        "has_live_auction": false,
+        "has_virtual_tour": false,
+        "first_go_live": "2021-03-19T11:46:16.861083+11:00",
+        "has_new_price": false,
+        "body_corporate_fees": "",
+        "suburb_aliases": [
+          "Wanniassa"
+        ],
+        "is_private_listing": false
+      },
+      {
+        "id": 39705,
+        "status": "current",
+        "property_class": "rental",
+        "listing_type": "lease",
+        "created": "2021-03-26T15:07:44.023895+11:00",
+        "updated": "2021-03-29T13:46:28.848233+11:00",
+        "priceView": "630 - 640 pw",
+        "address_postcode": "2904",
+        "address_suburb": "MONASH",
+        "address_suburb_display": true,
+        "address_state": "ACT",
+        "address_region": "Tuggeranong",
+        "location": {
+          "type": "Point",
+          "coordinates": [
+            149.1008349,
+            -35.4137472
+          ]
+        },
+        "headline": "Lovely three bedroom home in a whisper quiet location",
+        "bedrooms": 3,
+        "bathrooms": 1,
+        "parking": 2,
+        "price": 640,
+        "price_display": true,
+        "underOffer": false,
+        "authority": "sale",
+        "auction_date": null,
+        "auctionVenue": null,
+        "rent": null,
+        "rent_period": "weekly",
+        "dateAvailable": "2021-03-27T00:00:00+11:00",
+        "commercialRent": 0,
+        "commercialRent_period": "annual",
+        "carSpaces": 0,
+        "parkingComments": "",
+        "area": "868.00",
+        "area_unit": "squareMeter",
+        "address_display_string": "2 Madsen Place MONASH, ACT 2904",
+        "address_street_string": "2 Madsen Place",
+        "images": [
+          {
+            "image": {
+              "image_480_270": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/2-madsen-place-monash-act-2904-39705-image-0-20210329024624537904-crop-c0-5__0-5-480x270-70.jpg",
+              "image_320_240": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/2-madsen-place-monash-act-2904-39705-image-0-20210329024624537904-crop-c0-5__0-5-320x240-70.jpg",
+              "image_1200_680": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/2-madsen-place-monash-act-2904-39705-image-0-20210329024624537904-crop-c0-5__0-5-1200x680-70.jpg",
+              "image_800_600": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/2-madsen-place-monash-act-2904-39705-image-0-20210329024624537904-crop-c0-5__0-5-800x600-70.jpg"
+            }
+          },
+          {
+            "image": {
+              "image_480_270": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/2-madsen-place-monash-act-2904-39705-image-0-20210329024624843712-crop-c0-5__0-5-480x270-70.jpg",
+              "image_320_240": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/2-madsen-place-monash-act-2904-39705-image-0-20210329024624843712-crop-c0-5__0-5-320x240-70.jpg",
+              "image_1200_680": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/2-madsen-place-monash-act-2904-39705-image-0-20210329024624843712-crop-c0-5__0-5-1200x680-70.jpg",
+              "image_800_600": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/2-madsen-place-monash-act-2904-39705-image-0-20210329024624843712-crop-c0-5__0-5-800x600-70.jpg"
+            }
+          },
+          {
+            "image": {
+              "image_480_270": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/2-madsen-place-monash-act-2904-39705-image-0-20210329024625082570-crop-c0-5__0-5-480x270-70.jpg",
+              "image_320_240": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/2-madsen-place-monash-act-2904-39705-image-0-20210329024625082570-crop-c0-5__0-5-320x240-70.jpg",
+              "image_1200_680": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/2-madsen-place-monash-act-2904-39705-image-0-20210329024625082570-crop-c0-5__0-5-1200x680-70.jpg",
+              "image_800_600": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/2-madsen-place-monash-act-2904-39705-image-0-20210329024625082570-crop-c0-5__0-5-800x600-70.jpg"
+            }
+          },
+          {
+            "image": {
+              "image_480_270": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/2-madsen-place-monash-act-2904-39705-image-0-20210329024625374642-crop-c0-5__0-5-480x270-70.jpg",
+              "image_320_240": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/2-madsen-place-monash-act-2904-39705-image-0-20210329024625374642-crop-c0-5__0-5-320x240-70.jpg",
+              "image_1200_680": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/2-madsen-place-monash-act-2904-39705-image-0-20210329024625374642-crop-c0-5__0-5-1200x680-70.jpg",
+              "image_800_600": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/2-madsen-place-monash-act-2904-39705-image-0-20210329024625374642-crop-c0-5__0-5-800x600-70.jpg"
+            }
+          },
+          {
+            "image": {
+              "image_480_270": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/2-madsen-place-monash-act-2904-39705-image-0-20210329024625648505-crop-c0-5__0-5-480x270-70.jpg",
+              "image_320_240": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/2-madsen-place-monash-act-2904-39705-image-0-20210329024625648505-crop-c0-5__0-5-320x240-70.jpg",
+              "image_1200_680": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/2-madsen-place-monash-act-2904-39705-image-0-20210329024625648505-crop-c0-5__0-5-1200x680-70.jpg",
+              "image_800_600": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/2-madsen-place-monash-act-2904-39705-image-0-20210329024625648505-crop-c0-5__0-5-800x600-70.jpg"
+            }
+          },
+          {
+            "image": {
+              "image_480_270": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/2-madsen-place-monash-act-2904-39705-image-0-20210329024625907510-crop-c0-5__0-5-480x270-70.jpg",
+              "image_320_240": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/2-madsen-place-monash-act-2904-39705-image-0-20210329024625907510-crop-c0-5__0-5-320x240-70.jpg",
+              "image_1200_680": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/2-madsen-place-monash-act-2904-39705-image-0-20210329024625907510-crop-c0-5__0-5-1200x680-70.jpg",
+              "image_800_600": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/2-madsen-place-monash-act-2904-39705-image-0-20210329024625907510-crop-c0-5__0-5-800x600-70.jpg"
+            }
+          },
+          {
+            "image": {
+              "image_480_270": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/2-madsen-place-monash-act-2904-39705-image-0-20210329024626191811-crop-c0-5__0-5-480x270-70.jpg",
+              "image_320_240": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/2-madsen-place-monash-act-2904-39705-image-0-20210329024626191811-crop-c0-5__0-5-320x240-70.jpg",
+              "image_1200_680": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/2-madsen-place-monash-act-2904-39705-image-0-20210329024626191811-crop-c0-5__0-5-1200x680-70.jpg",
+              "image_800_600": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/2-madsen-place-monash-act-2904-39705-image-0-20210329024626191811-crop-c0-5__0-5-800x600-70.jpg"
+            }
+          },
+          {
+            "image": {
+              "image_480_270": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/2-madsen-place-monash-act-2904-39705-image-0-20210329024626451525-crop-c0-5__0-5-480x270-70.jpg",
+              "image_320_240": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/2-madsen-place-monash-act-2904-39705-image-0-20210329024626451525-crop-c0-5__0-5-320x240-70.jpg",
+              "image_1200_680": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/2-madsen-place-monash-act-2904-39705-image-0-20210329024626451525-crop-c0-5__0-5-1200x680-70.jpg",
+              "image_800_600": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/2-madsen-place-monash-act-2904-39705-image-0-20210329024626451525-crop-c0-5__0-5-800x600-70.jpg"
+            }
+          },
+          {
+            "image": {
+              "image_480_270": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/2-madsen-place-monash-act-2904-39705-image-0-20210329024626805661-crop-c0-5__0-5-480x270-70.jpg",
+              "image_320_240": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/2-madsen-place-monash-act-2904-39705-image-0-20210329024626805661-crop-c0-5__0-5-320x240-70.jpg",
+              "image_1200_680": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/2-madsen-place-monash-act-2904-39705-image-0-20210329024626805661-crop-c0-5__0-5-1200x680-70.jpg",
+              "image_800_600": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/2-madsen-place-monash-act-2904-39705-image-0-20210329024626805661-crop-c0-5__0-5-800x600-70.jpg"
+            }
+          },
+          {
+            "image": {
+              "image_480_270": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/2-madsen-place-monash-act-2904-39705-image-0-20210329024627143439-crop-c0-5__0-5-480x270-70.jpg",
+              "image_320_240": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/2-madsen-place-monash-act-2904-39705-image-0-20210329024627143439-crop-c0-5__0-5-320x240-70.jpg",
+              "image_1200_680": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/2-madsen-place-monash-act-2904-39705-image-0-20210329024627143439-crop-c0-5__0-5-1200x680-70.jpg",
+              "image_800_600": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/2-madsen-place-monash-act-2904-39705-image-0-20210329024627143439-crop-c0-5__0-5-800x600-70.jpg"
+            }
+          },
+          {
+            "image": {
+              "image_480_270": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/2-madsen-place-monash-act-2904-39705-image-0-20210329024627468517-crop-c0-5__0-5-480x270-70.jpg",
+              "image_320_240": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/2-madsen-place-monash-act-2904-39705-image-0-20210329024627468517-crop-c0-5__0-5-320x240-70.jpg",
+              "image_1200_680": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/2-madsen-place-monash-act-2904-39705-image-0-20210329024627468517-crop-c0-5__0-5-1200x680-70.jpg",
+              "image_800_600": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/2-madsen-place-monash-act-2904-39705-image-0-20210329024627468517-crop-c0-5__0-5-800x600-70.jpg"
+            }
+          },
+          {
+            "image": {
+              "image_480_270": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/2-madsen-place-monash-act-2904-39705-image-0-20210329024627776343-crop-c0-5__0-5-480x270-70.jpg",
+              "image_320_240": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/2-madsen-place-monash-act-2904-39705-image-0-20210329024627776343-crop-c0-5__0-5-320x240-70.jpg",
+              "image_1200_680": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/2-madsen-place-monash-act-2904-39705-image-0-20210329024627776343-crop-c0-5__0-5-1200x680-70.jpg",
+              "image_800_600": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/2-madsen-place-monash-act-2904-39705-image-0-20210329024627776343-crop-c0-5__0-5-800x600-70.jpg"
+            }
+          },
+          {
+            "image": {
+              "image_480_270": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/2-madsen-place-monash-act-2904-39705-image-0-20210329024628097051-crop-c0-5__0-5-480x270-70.jpg",
+              "image_320_240": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/2-madsen-place-monash-act-2904-39705-image-0-20210329024628097051-crop-c0-5__0-5-320x240-70.jpg",
+              "image_1200_680": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/2-madsen-place-monash-act-2904-39705-image-0-20210329024628097051-crop-c0-5__0-5-1200x680-70.jpg",
+              "image_800_600": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/2-madsen-place-monash-act-2904-39705-image-0-20210329024628097051-crop-c0-5__0-5-800x600-70.jpg"
+            }
+          },
+          {
+            "image": {
+              "image_480_270": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/2-madsen-place-monash-act-2904-39705-image-0-20210329024628420721-crop-c0-5__0-5-480x270-70.jpg",
+              "image_320_240": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/2-madsen-place-monash-act-2904-39705-image-0-20210329024628420721-crop-c0-5__0-5-320x240-70.jpg",
+              "image_1200_680": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/2-madsen-place-monash-act-2904-39705-image-0-20210329024628420721-crop-c0-5__0-5-1200x680-70.jpg",
+              "image_800_600": "https://d2t3vhau9g43uy.cloudfront.net/media/__sized__/properties/images/2-madsen-place-monash-act-2904-39705-image-0-20210329024628420721-crop-c0-5__0-5-800x600-70.jpg"
+            }
+          }
+        ],
+        "agents": [
+          {
+            "id": 1887,
+            "title": "Zac Morris",
+            "name_short": "",
+            "job_title": "",
+            "results_image": "https://zango.com.au/cms-images/mdxjrQVF2fu5OSTaEFnMrGQDD68=/130458/fill-150x176/",
+            "profile_image": "https://zango.com.au/cms-images/zbN95ZHEY3T3vIphDg0fonGYTO8=/130458/original/",
+            "phone": "02 6296 4252",
+            "office_phone": "02 6296 4252",
+            "slug": "zac-morris-3",
+            "live": true,
+            "private_lister": false,
+            "rei_membership": null,
+            "rei_member_number": ""
+          }
+        ],
+        "office": {
+          "title": "One Agency Sandy Morris",
+          "office_name": "One Agency Sandy Morris",
+          "logo": "https://zango.com.au/cms-images/ielLVl2WlU6pQRhkqOOt-WsESxs=/128345/width-230/",
+          "logo_medium": "https://zango.com.au/cms-images/RkNA9y-C3CFwTUBsJvVCiQHX3JQ=/128345/width-600/",
+          "branding_colour": "#f37430",
+          "branding_font_colour": "#ffffff",
+          "slug": "oneagency-sandy-morris",
+          "address": "5 Primmer Ct",
+          "suburb": "Kambah",
+          "postcode": "2902",
+          "state": "ACT",
+          "id": 513,
+          "show_1form": true,
+          "show_1form_url": "https://www.1form.com/au/tenant/application/new-start",
+          "sorted_services_id": "",
+          "inspect_real_estate_id": "OneAgencySM",
+          "inspect_real_estate_sale_id": "OneAgencySM",
+          "inspect_real_estate_apply_id": "",
+          "snug_office_id": "",
+          "snug_apply_now_enabled": false,
+          "snug_book_inspections_enabled_sale": false,
+          "snug_book_inspections_enabled_rent": false,
+          "payment_terms": 0,
+          "phone": "02 6296 4252"
+        },
+        "url_path": "/rent/2-madsen-place-monash-act-2904-39705/",
+        "category": "House",
+        "slug": "2-madsen-place-monash-act-2904",
+        "landblock_slug": "2-madsen-place-monash-act-2904",
+        "inspections": [
+          {
+            "inspection_time": "2021-03-30T12:45:00+11:00",
+            "inspection_end_time": "2021-03-30T13:05:00+11:00"
+          }
+        ],
+        "buildingDetails_energyRating": "1.00",
+        "last_price_change": null,
+        "development": null,
+        "soldDetails_price": null,
+        "soldDetails_date": null,
+        "leasedDetails_price": null,
+        "stamp_duty": "7.68",
+        "development_show_full_result": false,
+        "has_live_auction": false,
+        "has_virtual_tour": false,
+        "first_go_live": "2021-03-26T15:16:50.545426+11:00",
+        "has_new_price": false,
+        "body_corporate_fees": "",
+        "suburb_aliases": [
+          "Monash Ridge",
+          "Monash"
+        ],
+        "is_private_listing": false
       }
-    ],
-    "propertyTypes": [
-      "HOUSE",
-      "TOWNHOUSE",
-      "UNIT"
-    ],
-    "price": {
-      "min": null,
-      "max": 100
-    },
-    "beds": {
-      "min": 1,
-      "max": 3
-    },
-    "baths": {
-      "min": 1,
-      "max": 3
-    },
-    "parking": {
-      "min": 1,
-      "max": 3
-    },
-    "availability": {
-      "min": null,
-      "max": "2021-03-03"
-    }
+    ]
   },
-  "results": {
-    "type": "LIST"
-  }
+  "suburb_data": {}
 }

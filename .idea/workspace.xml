@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1860199f-8a38-4e69-ab8b-c19f733d4628" name="Default Changelist" comment="" />
+    <list default="true" id="1860199f-8a38-4e69-ab8b-c19f733d4628" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allhomespackage.json" beforeDir="false" afterPath="$PROJECT_DIR$/allhomespackage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/rentsummary/controller/RentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/rentsummary/controller/RentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/rentsummary/model/ZangoEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/rentsummary/model/ZangoEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/rentsummary/server/RentContextGet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/rentsummary/server/RentContextGet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/rentsummary.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/rentsummary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/test.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,6 +89,313 @@
   <component name="RestClientSettings">
     <option name="REQUEST_HISTORY">
       <list>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="allhomes.com.au" />
+                <option name="name" value="_ah-live-bucket" />
+                <option name="path" value="/" />
+                <option name="value" value="87" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="allhomes.com.au" />
+                <option name="name" value="_cc" />
+                <option name="path" value="/" />
+                <option name="value" value="CN" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="allhomes.com.au" />
+                <option name="name" value="_eu" />
+                <option name="path" value="/" />
+                <option name="value" value="false" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="realestate.com.au" />
+                <option name="name" value="Country" />
+                <option name="path" value="/" />
+                <option name="value" value="CN" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2177452799000" />
+                <option name="domain" value="realestate.com.au" />
+                <option name="name" value="reauid" />
+                <option name="path" value="/" />
+                <option name="value" value="43010f1773630000f4a54f607302000009090100" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="www.realestate.com.au" />
+                <option name="name" value="AWSELB" />
+                <option name="path" value="/" />
+                <option name="value" value="E32BC90112C9C0CF56D4194ABA698EBC86B542A11EBB76C2CF6CA3492090D9AFC471C5859721B354ED4597E5AD1484076B115A4A27F33EC203F34E722C3CE30B0F93A511A1" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="www.realestate.com.au" />
+                <option name="name" value="AWSELBCORS" />
+                <option name="path" value="/" />
+                <option name="value" value="E32BC90112C9C0CF56D4194ABA698EBC86B542A11EBB76C2CF6CA3492090D9AFC471C5859721B354ED4597E5AD1484076B115A4A27F33EC203F34E722C3CE30B0F93A511A1" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="www.realestate.com.au" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="9D6EC9B63A9EBE7B38DA0EE8DF252518" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1615655688000" />
+                <option name="domain" value="www.realestate.com.au" />
+                <option name="name" value="_readc" />
+                <option name="path" value="/" />
+                <option name="value" value="ap-southeast-2" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="www.realestate.com.au" />
+                <option name="name" value="_stc" />
+                <option name="path" value="/" />
+                <option name="value" value="typedBookmarked" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1618424859000" />
+                <option name="domain" value="zango.com.au" />
+                <option name="name" value="__cfduid" />
+                <option name="path" value="/" />
+                <option name="value" value="da9321d38bdc5eace1ea6dd8122fa50af1615832859" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="https://www.domain.com.au" />
+          <option name="urlPath" value="/rent/canberra-act/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="excludedeposittaken" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="price" />
+                <option name="value" value="0-999999999" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="bedrooms" />
+                <option name="value" value="0-10" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="bathrooms" />
+                <option name="value" value="0-10" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="carspaces" />
+                <option name="value" value="0-10" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="landsize" />
+                <option name="value" value="0-1000" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="allhomes.com.au" />
+                <option name="name" value="_ah-live-bucket" />
+                <option name="path" value="/" />
+                <option name="value" value="87" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="allhomes.com.au" />
+                <option name="name" value="_cc" />
+                <option name="path" value="/" />
+                <option name="value" value="CN" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="allhomes.com.au" />
+                <option name="name" value="_eu" />
+                <option name="path" value="/" />
+                <option name="value" value="false" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="realestate.com.au" />
+                <option name="name" value="Country" />
+                <option name="path" value="/" />
+                <option name="value" value="CN" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="2177452799000" />
+                <option name="domain" value="realestate.com.au" />
+                <option name="name" value="reauid" />
+                <option name="path" value="/" />
+                <option name="value" value="43010f1773630000f4a54f607302000009090100" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="www.realestate.com.au" />
+                <option name="name" value="AWSELB" />
+                <option name="path" value="/" />
+                <option name="value" value="E32BC90112C9C0CF56D4194ABA698EBC86B542A11EBB76C2CF6CA3492090D9AFC471C5859721B354ED4597E5AD1484076B115A4A27F33EC203F34E722C3CE30B0F93A511A1" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="www.realestate.com.au" />
+                <option name="name" value="AWSELBCORS" />
+                <option name="path" value="/" />
+                <option name="value" value="E32BC90112C9C0CF56D4194ABA698EBC86B542A11EBB76C2CF6CA3492090D9AFC471C5859721B354ED4597E5AD1484076B115A4A27F33EC203F34E722C3CE30B0F93A511A1" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="www.realestate.com.au" />
+                <option name="name" value="JSESSIONID" />
+                <option name="path" value="/" />
+                <option name="value" value="9D6EC9B63A9EBE7B38DA0EE8DF252518" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1615655688000" />
+                <option name="domain" value="www.realestate.com.au" />
+                <option name="name" value="_readc" />
+                <option name="path" value="/" />
+                <option name="value" value="ap-southeast-2" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="-1" />
+                <option name="domain" value="www.realestate.com.au" />
+                <option name="name" value="_stc" />
+                <option name="path" value="/" />
+                <option name="value" value="typedBookmarked" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1618424859000" />
+                <option name="domain" value="zango.com.au" />
+                <option name="name" value="__cfduid" />
+                <option name="path" value="/" />
+                <option name="value" value="da9321d38bdc5eace1ea6dd8122fa50af1615832859" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="https://www.domain.com.au" />
+          <option name="urlPath" value="/rent/canberra-act/" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="property_class" />
+                <option name="value" value="rental" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="listing_type" />
+                <option name="value" value="lease" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="surrounding" />
+                <option name="value" value="true" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="bedrooms__gte" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="price__gte" />
+                <option name="value" value="50" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="price__lte" />
+                <option name="value" value="10000" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="order_by" />
+                <option name="value" value="price" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="property_status_groups" />
+                <option name="value" value="current,underOffer,includePrivate" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="bedrooms__lte" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="filters" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="page" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="ptype" />
+                <option name="value" value="apartment-unit-flat,block-of-units,duplex,free-standing,new-apartments,new-home-designs,new-house-land,pent-house,semi-detached,studio,terrace,town-house,villa" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="excludedeposittaken" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="price" />
+                <option name="value" value="0-999999999" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="bedrooms" />
+                <option name="value" value="0-10" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="bathrooms" />
+                <option name="value" value="0-10" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="carspaces" />
+                <option name="value" value="0-10" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="landsize" />
+                <option name="value" value="0-1000" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
         <RestClientRequest>
           <option name="biscuits">
             <list>
@@ -2017,6 +2332,8 @@
       <workItem from="1616433017842" duration="7012000" />
       <workItem from="1616821192166" duration="81000" />
       <workItem from="1616979933780" duration="77000" />
+      <workItem from="1617014801151" duration="12463000" />
+      <workItem from="1617028089539" duration="6704000" />
     </task>
     <task id="LOCAL-00001" summary="testbyxuejin20210311">
       <created>1615477847855</created>
@@ -2074,7 +2391,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616979988372</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="testbyxuejin20210329">
+      <created>1617014863844</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1617014863844</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -2118,10 +2442,10 @@
       <screen x="0" y="0" width="1280" height="690" />
     </state>
     <state x="270" y="0" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1280.690@0.0.1280.690" timestamp="1615639289071" />
-    <state x="391" y="42" key="#com.intellij.ide.util.MemberChooser" timestamp="1615839515347">
+    <state x="391" y="42" key="#com.intellij.ide.util.MemberChooser" timestamp="1617026034195">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state x="391" y="42" key="#com.intellij.ide.util.MemberChooser/0.0.1280.690@0.0.1280.690" timestamp="1615839515347" />
+    <state x="391" y="42" key="#com.intellij.ide.util.MemberChooser/0.0.1280.690@0.0.1280.690" timestamp="1617026034195" />
     <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1615830324478">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
@@ -2134,14 +2458,14 @@
       <screen x="0" y="0" width="1280" height="690" />
     </state>
     <state x="381" y="208" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.690@0.0.1280.690" timestamp="1615632928601" />
-    <state x="245" y="0" key="CommitChangelistDialog2" timestamp="1616979987013">
+    <state x="245" y="0" key="CommitChangelistDialog2" timestamp="1617014861989">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state x="245" y="0" key="CommitChangelistDialog2/0.0.1280.690@0.0.1280.690" timestamp="1616979987013" />
-    <state width="467" height="618" key="DebuggerActiveHint" timestamp="1616436605791">
+    <state x="245" y="0" key="CommitChangelistDialog2/0.0.1280.690@0.0.1280.690" timestamp="1617014861989" />
+    <state width="467" height="618" key="DebuggerActiveHint" timestamp="1617025227852">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state width="467" height="618" key="DebuggerActiveHint/0.0.1280.690@0.0.1280.690" timestamp="1616436605791" />
+    <state width="467" height="618" key="DebuggerActiveHint/0.0.1280.690@0.0.1280.690" timestamp="1617025227852" />
     <state x="93" y="93" width="1093" height="503" key="DiffContextDialog" timestamp="1615776062780">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
@@ -2150,54 +2474,54 @@
       <screen x="0" y="0" width="1280" height="690" />
     </state>
     <state x="422" y="102" key="FileChooserDialogImpl/0.0.1280.690@0.0.1280.690" timestamp="1616821222266" />
-    <state width="1238" height="382" key="GridCell.Tab.0.bottom" timestamp="1616440083692">
+    <state width="1238" height="412" key="GridCell.Tab.0.bottom" timestamp="1617034864858">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state width="1238" height="382" key="GridCell.Tab.0.bottom/0.0.1280.690@0.0.1280.690" timestamp="1616440083692" />
-    <state width="1238" height="382" key="GridCell.Tab.0.center" timestamp="1616440083692">
+    <state width="1238" height="412" key="GridCell.Tab.0.bottom/0.0.1280.690@0.0.1280.690" timestamp="1617034864858" />
+    <state width="1238" height="412" key="GridCell.Tab.0.center" timestamp="1617034864858">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state width="1238" height="382" key="GridCell.Tab.0.center/0.0.1280.690@0.0.1280.690" timestamp="1616440083692" />
-    <state width="1238" height="382" key="GridCell.Tab.0.left" timestamp="1616440083692">
+    <state width="1238" height="412" key="GridCell.Tab.0.center/0.0.1280.690@0.0.1280.690" timestamp="1617034864858" />
+    <state width="1238" height="412" key="GridCell.Tab.0.left" timestamp="1617034864858">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state width="1238" height="382" key="GridCell.Tab.0.left/0.0.1280.690@0.0.1280.690" timestamp="1616440083692" />
-    <state width="1238" height="382" key="GridCell.Tab.0.right" timestamp="1616440083692">
+    <state width="1238" height="412" key="GridCell.Tab.0.left/0.0.1280.690@0.0.1280.690" timestamp="1617034864858" />
+    <state width="1238" height="412" key="GridCell.Tab.0.right" timestamp="1617034864858">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state width="1238" height="382" key="GridCell.Tab.0.right/0.0.1280.690@0.0.1280.690" timestamp="1616440083692" />
-    <state width="1238" height="382" key="GridCell.Tab.1.bottom" timestamp="1616440083692">
+    <state width="1238" height="412" key="GridCell.Tab.0.right/0.0.1280.690@0.0.1280.690" timestamp="1617034864858" />
+    <state width="1238" height="412" key="GridCell.Tab.1.bottom" timestamp="1617034864858">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state width="1238" height="382" key="GridCell.Tab.1.bottom/0.0.1280.690@0.0.1280.690" timestamp="1616440083692" />
-    <state width="1238" height="382" key="GridCell.Tab.1.center" timestamp="1616440083692">
+    <state width="1238" height="412" key="GridCell.Tab.1.bottom/0.0.1280.690@0.0.1280.690" timestamp="1617034864858" />
+    <state width="1238" height="412" key="GridCell.Tab.1.center" timestamp="1617034864858">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state width="1238" height="382" key="GridCell.Tab.1.center/0.0.1280.690@0.0.1280.690" timestamp="1616440083692" />
-    <state width="1238" height="382" key="GridCell.Tab.1.left" timestamp="1616440083692">
+    <state width="1238" height="412" key="GridCell.Tab.1.center/0.0.1280.690@0.0.1280.690" timestamp="1617034864858" />
+    <state width="1238" height="412" key="GridCell.Tab.1.left" timestamp="1617034864858">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state width="1238" height="382" key="GridCell.Tab.1.left/0.0.1280.690@0.0.1280.690" timestamp="1616440083692" />
-    <state width="1238" height="382" key="GridCell.Tab.1.right" timestamp="1616440083692">
+    <state width="1238" height="412" key="GridCell.Tab.1.left/0.0.1280.690@0.0.1280.690" timestamp="1617034864858" />
+    <state width="1238" height="412" key="GridCell.Tab.1.right" timestamp="1617034864858">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state width="1238" height="382" key="GridCell.Tab.1.right/0.0.1280.690@0.0.1280.690" timestamp="1616440083692" />
-    <state width="1238" height="382" key="GridCell.Tab.2.bottom" timestamp="1616440083692">
+    <state width="1238" height="412" key="GridCell.Tab.1.right/0.0.1280.690@0.0.1280.690" timestamp="1617034864858" />
+    <state width="1238" height="412" key="GridCell.Tab.2.bottom" timestamp="1617034864858">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state width="1238" height="382" key="GridCell.Tab.2.bottom/0.0.1280.690@0.0.1280.690" timestamp="1616440083692" />
-    <state width="1238" height="382" key="GridCell.Tab.2.center" timestamp="1616440083692">
+    <state width="1238" height="412" key="GridCell.Tab.2.bottom/0.0.1280.690@0.0.1280.690" timestamp="1617034864858" />
+    <state width="1238" height="412" key="GridCell.Tab.2.center" timestamp="1617034864858">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state width="1238" height="382" key="GridCell.Tab.2.center/0.0.1280.690@0.0.1280.690" timestamp="1616440083692" />
-    <state width="1238" height="382" key="GridCell.Tab.2.left" timestamp="1616440083692">
+    <state width="1238" height="412" key="GridCell.Tab.2.center/0.0.1280.690@0.0.1280.690" timestamp="1617034864858" />
+    <state width="1238" height="412" key="GridCell.Tab.2.left" timestamp="1617034864858">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state width="1238" height="382" key="GridCell.Tab.2.left/0.0.1280.690@0.0.1280.690" timestamp="1616440083692" />
-    <state width="1238" height="382" key="GridCell.Tab.2.right" timestamp="1616440083692">
+    <state width="1238" height="412" key="GridCell.Tab.2.left/0.0.1280.690@0.0.1280.690" timestamp="1617034864858" />
+    <state width="1238" height="412" key="GridCell.Tab.2.right" timestamp="1617034864858">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state width="1238" height="382" key="GridCell.Tab.2.right/0.0.1280.690@0.0.1280.690" timestamp="1616440083692" />
+    <state width="1238" height="412" key="GridCell.Tab.2.right/0.0.1280.690@0.0.1280.690" timestamp="1617034864858" />
     <state x="221" y="80" key="IDE.errors.dialog" timestamp="1615832125569">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
@@ -2214,10 +2538,10 @@
       <screen x="0" y="0" width="1280" height="690" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.690@0.0.1280.690" timestamp="1615996826794" />
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1616979997930">
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1617014869656">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.690@0.0.1280.690" timestamp="1616979997930" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.690@0.0.1280.690" timestamp="1617014869656" />
     <state x="360" y="235" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1615478362012">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
@@ -2230,10 +2554,10 @@
       <screen x="0" y="0" width="1280" height="690" />
     </state>
     <state x="412" y="36" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.690@0.0.1280.690" timestamp="1615479265317" />
-    <state x="192" y="0" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1616012717290">
+    <state x="192" y="0" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1617034439862">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state x="192" y="0" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1280.690@0.0.1280.690" timestamp="1616012717290" />
+    <state x="192" y="0" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1280.690@0.0.1280.690" timestamp="1617034439862" />
     <state x="371" y="110" key="extract.method.dialog" timestamp="1615832203251">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
@@ -2250,10 +2574,10 @@
       <screen x="0" y="0" width="1280" height="690" />
     </state>
     <state x="299" y="155" key="run.anything.popup/0.0.1280.690@0.0.1280.690" timestamp="1615774129991" />
-    <state x="303" y="12" width="672" height="678" key="search.everywhere.popup" timestamp="1615713446974">
+    <state x="305" y="14" width="672" height="678" key="search.everywhere.popup" timestamp="1617024498684">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state x="303" y="12" width="672" height="678" key="search.everywhere.popup/0.0.1280.690@0.0.1280.690" timestamp="1615713446974" />
+    <state x="305" y="14" width="672" height="678" key="search.everywhere.popup/0.0.1280.690@0.0.1280.690" timestamp="1617024498684" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>

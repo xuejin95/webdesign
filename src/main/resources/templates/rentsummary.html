@@ -11,7 +11,7 @@
 </div>
 
 <div>
-    <form action="/getrent" method="get">
+    <form action="/getrent" method="get" >
         <div>
             <div><h3>Localities</h3></div>
             REGION:
@@ -42,79 +42,85 @@
                 <input name="propertyTypes" type="checkbox" value="Other">Other
             </div>
             <div><h3>Price</h3>
-                <input name="anyminprice" type="checkbox" value="anyminprice" checked>anyminprice
-                <input name="anymaxprice" type="checkbox" value="anymaxprice" checked>anymaxprice<br>
-                min:<input type="number" name="min">---max:<input type="number" name="max">
+<!--                <input name="anyminprice" type="checkbox" value="anyminprice" checked>anyminprice-->
+<!--                <input name="anymaxprice" type="checkbox" value="anymaxprice" checked>anymaxprice<br>-->
+                Min Price:<input type="number" name="minprice" th:value="${requestPara.minprice}">---Max Price:<input type="number" name="maxprice" th:value="${requestPara.maxprice}">
             </div>
-            <div><h3>Date Available</h3>
-                <input name="anydate" type="checkbox" value="anydate" checked>Any Date
-                <br>
-                <select name="datetype">
-                    <option value="before">before</option>
-                    <option value="after">after</option>
-                </select>
-                <font color="green">Pick Date After: </font><input type="text" onClick="WdatePicker()" readonly="readonly"
-                                                             name="date" placeholder="2021-03-03">
-            </div>
+<!--            <div><h3>Date Available</h3>-->
+<!--                <input name="anydate" type="checkbox" value="anydate" checked>Any Date-->
+<!--                <br>-->
+<!--                <select name="datetype">-->
+<!--                    <option value="before">before</option>-->
+<!--                    <option value="after">after</option>-->
+<!--                </select>-->
+<!--                <font color="green">Pick Date After: </font><input type="text" onClick="WdatePicker()" readonly="readonly"-->
+<!--                                                             name="date" placeholder="2021-03-03">-->
+<!--            </div>-->
             <div><h3>Bedrooms</h3>
-                <input name="bedrooms" type="checkbox" value="0" checked>Any Bedrooms
-                <br>
-                <input name="bedrooms" type="checkbox" value="1">1 Bedrooms
-                <input name="bedrooms" type="checkbox" value="2">2 Bedrooms
-                <input name="bedrooms" type="checkbox" value="3">3 Bedrooms
-                <input name="bedrooms" type="checkbox" value="4">4 Bedrooms
-                <input name="bedrooms" type="checkbox" value="5">5+ Bedrooms
+                Min Bedrooms:<input type="number" name="minbedrooms" th:value="${requestPara.minbedrooms}">---Max Bedrooms:<input type="number" name="maxbedrooms" th:value="${requestPara.maxbedrooms}">
+<!--                <input name="bedrooms" type="checkbox" value="0" checked>Any Bedrooms-->
+<!--                <br>-->
+<!--                <input name="bedrooms" type="checkbox" value="1">1 Bedrooms-->
+<!--                <input name="bedrooms" type="checkbox" value="2">2 Bedrooms-->
+<!--                <input name="bedrooms" type="checkbox" value="3">3 Bedrooms-->
+<!--                <input name="bedrooms" type="checkbox" value="4">4 Bedrooms-->
+<!--                <input name="bedrooms" type="checkbox" value="5">5+ Bedrooms-->
             </div>
             <div><h3>Bathrooms</h3>
-                <input name="bathrooms" type="checkbox" value="0" checked>Any Bathrooms
-                <br>
-                <input name="bathrooms" type="checkbox" value="1">1 Bathroom
-                <input name="bathrooms" type="checkbox" value="2">2 Bathrooms
-                <input name="bathrooms" type="checkbox" value="3">3 Bathrooms
-                <input name="bathrooms" type="checkbox" value="4">4 Bathrooms
-                <input name="bathrooms" type="checkbox" value="5">5+ Bathrooms
+                Min Bathrooms:<input type="number" name="minbathrooms" th:value="${requestPara.minbathrooms}">---Max Bathrooms:<input type="number" name="maxbathrooms" th:value="${requestPara.maxbathrooms}">
+
+<!--                <input name="bathrooms" type="checkbox" value="0" checked>Any Bathrooms-->
+<!--                <br>-->
+<!--                <input name="bathrooms" type="checkbox" value="1">1 Bathroom-->
+<!--                <input name="bathrooms" type="checkbox" value="2">2 Bathrooms-->
+<!--                <input name="bathrooms" type="checkbox" value="3">3 Bathrooms-->
+<!--                <input name="bathrooms" type="checkbox" value="4">4 Bathrooms-->
+<!--                <input name="bathrooms" type="checkbox" value="5">5+ Bathrooms-->
 
             </div>
             <div><h3>Parking</h3>
-                <input type="checkbox" name="parking" value="0" checked>Any Parking
-                <br>
-                <input type="checkbox" name="parking" value="1">1 Parking
-                <input type="checkbox" name="parking" value="2">2 Parking
-                <input type="checkbox" name="parking" value="3">3 Parking
-                <input type="checkbox" name="parking" value="4">4 Parking
-                <input type="checkbox" name="parking" value="5">5+ Parking
+                Min Parking:<input type="number" name="minparking" th:value="${requestPara.minparking}">---Max Parking:<input type="number" name="maxparking" th:value="${requestPara.maxparking}">
+
+
+<!--                <input type="checkbox" name="parking" value="0" checked>Any Parking-->
+<!--                <br>-->
+<!--                <input type="checkbox" name="parking" value="1">1 Parking-->
+<!--                <input type="checkbox" name="parking" value="2">2 Parking-->
+<!--                <input type="checkbox" name="parking" value="3">3 Parking-->
+<!--                <input type="checkbox" name="parking" value="4">4 Parking-->
+<!--                <input type="checkbox" name="parking" value="5">5+ Parking-->
             </div>
         </div>
         <div>
             <div>
                 <div><h3>Land Size</h3>
                     <div>
-                        <input name="minsize" type="number" placeholder="eg. 100">m<sup>2</sup>
+                        <input name="minlandsize" type="number" placeholder="0" th:value="${requestPara.minlandsize}">m<sup>2</sup>
                         ---
-                        <input name="maxsize" type="number" placeholder="eg. 500"> m<sup>2</sup>
+                        <input name="maxlandsize" type="number" placeholder="1000" th:value="${requestPara.maxlandsize}"> m<sup>2</sup>
                     </div>
                 </div>
             </div>
-            <div style="display: none"><h3>Features</h3>
-                <input type="checkbox" name="Pets allowed" value="1">Pets allowed
-                <input type="checkbox" name="Built in wardrobes" value="2">Built in wardrobes
-                <input type="checkbox" name="Gas" value="3">Gas
-                <input type="checkbox" name="Garden / courtyard" value="4">Garden / courtyard
-                <input type="checkbox" name="alcony / deck" value="5">Balcony / deck
-                <input type="checkbox" name="Internal laundry" value="5">Internal laundry
-                <input type="checkbox" name="Study" value="5">Study
-                <input type="checkbox" name="Furnished" value="5">Furnished
-                <input type="checkbox" name="Dishwasher" value="5">Dishwasher
-            </div>
+<!--            <div style="display: none"><h3>Features</h3>-->
+<!--                <input type="checkbox" name="Pets allowed" value="1">Pets allowed-->
+<!--                <input type="checkbox" name="Built in wardrobes" value="2">Built in wardrobes-->
+<!--                <input type="checkbox" name="Gas" value="3">Gas-->
+<!--                <input type="checkbox" name="Garden / courtyard" value="4">Garden / courtyard-->
+<!--                <input type="checkbox" name="alcony / deck" value="5">Balcony / deck-->
+<!--                <input type="checkbox" name="Internal laundry" value="5">Internal laundry-->
+<!--                <input type="checkbox" name="Study" value="5">Study-->
+<!--                <input type="checkbox" name="Furnished" value="5">Furnished-->
+<!--                <input type="checkbox" name="Dishwasher" value="5">Dishwasher-->
+<!--            </div>-->
 
         </div>
-        <div style="display: none"><h3>New/Established</h3>
-            <select name="newestablished">
-                <option value="0" checked>Any</option>
-                <option value="1">New</option>
-                <option value="2">established</option>
-            </select>
-        </div>
+<!--        <div style="display: none"><h3>New/Established</h3>-->
+<!--            <select name="newestablished">-->
+<!--                <option value="0" checked>Any</option>-->
+<!--                <option value="1">New</option>-->
+<!--                <option value="2">established</option>-->
+<!--            </select>-->
+<!--        </div>-->
         <div><h3>Keywords</h3>
             <div><input name="keywords" type="text" placeholder="e.g. waterfront, views, street name">
             </div>
@@ -229,22 +235,15 @@
 </div>
 
 <div>
-    <h3>www.zango.com.au查询数据</h3>
+    <h3>www.realestate.com.au查询数据</h3>
     <br>
-    <p th:text="${zango}"></p>
+    <p th:utext="${realestate}"></p>
 </div>
 
 <div>
-    <h3>www.realestate.com.au查询数据</h3>
+    <h3>www.zango.com.au查询数据</h3>
     <br>
-    <p th:text="${realestate}"></p>
-
+    <p th:utext="${zango}"></p>
 </div>
-
-
-<!--<div name="doamin" src="realestate.html" frameborder="0" align="left" width="100%" height="1000"-->
-<!--        scrolling="no">-->
-<!--</div>-->
-
 </body>
 </html>
